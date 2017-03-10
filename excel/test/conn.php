@@ -9,3 +9,5 @@
 $conn = mysql_connect("localhost","root","123456") or die("mysql连接错误");
 $db = mysql_select_db("mysql",$conn) or die("数据库连接失败！");
 $code = mysql_query("set names utf8");
+
+echo "测试ssh";
