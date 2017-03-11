@@ -1,0 +1,23 @@
+{
+	"VER":1,
+	"ID":110,
+	"NAME":"TXT_HERO_110",
+	"DES":"TXT_DES_HERO_110",
+	"ASND":16,
+	"ATK":90,
+	"DFS":90,
+	"FOCUS":0,
+	"HP":700,
+	"MSPD":110,
+	"PRC":100,
+	"PREF":6,
+	"QUA":1000,
+	"SHAWOD":[95, 32],
+	"SKL":[
+
+	],
+	"SPD":80,
+	"SPINE":"enemy_skeleton_b",
+	"TYPE":202,
+	"WIDTH":200
+}

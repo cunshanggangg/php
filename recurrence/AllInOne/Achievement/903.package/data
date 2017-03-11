@@ -1,0 +1,12 @@
+{
+	"VER":1,
+	"ID":903,
+	"NAME":"TXT_ACHIEVEMENT_903",
+	"DES":"TXT_DES_ACHIEVEMENT_903",
+	"ACT":"evo_weapon",
+	"DMND":30,
+	"EXP":110,
+	"ITEM":["9:3:1"],
+	"MAX":7,
+	"NXT":904
+}

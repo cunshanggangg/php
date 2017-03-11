@@ -1,0 +1,12 @@
+{
+	"VER":1,
+	"ID":2104,
+	"NAME":"TXT_ACHIEVEMENT_2104",
+	"DES":"TXT_DES_ACHIEVEMENT_2104",
+	"ACT":"win_2005",
+	"DMND":30,
+	"EXP":150,
+	"ITEM":["5:23:5"],
+	"MAX":200,
+	"NXT":2105
+}

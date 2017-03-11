@@ -1,0 +1,10 @@
+{
+	"VER":1,
+	"ID":5,
+	"NAME":"TXT_CONSUMABLE_5",
+	"DES":"TXT_DES_CONSUMABLE_5",
+	"CD":30,
+	"DUR":30,
+	"EFF":"mspd*1.15",
+	"PRECOND":"none"
+}

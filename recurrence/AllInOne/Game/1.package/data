@@ -1,0 +1,11 @@
+{
+	"VER":1,
+	"ID":1,
+	"NAME":"Avatar Fight",
+	"ANDROID_ID":"com.gamejoy.arenahd",
+	"ANDROID_SEQ":1,
+	"APPID":"af",
+	"IOS_ID":"gavatarfight",
+	"IOS_SEQ":1,
+	"IOS_URL":"http://itunes.apple.com/app/id435039432?mt=8"
+}

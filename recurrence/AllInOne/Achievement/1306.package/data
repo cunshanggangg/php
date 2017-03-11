@@ -1,0 +1,12 @@
+{
+	"VER":1,
+	"ID":1306,
+	"NAME":"TXT_ACHIEVEMENT_1306",
+	"DES":"TXT_DES_ACHIEVEMENT_1306",
+	"ACT":"evhan_weapon",
+	"DMND":35,
+	"EXP":140,
+	"ITEM":["5:12:5"],
+	"MAX":70,
+	"NXT":1307
+}

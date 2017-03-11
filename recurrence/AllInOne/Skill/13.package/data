@@ -1,0 +1,24 @@
+{
+	"VER":1,
+	"ID":13,
+	"NAME":"TXT_SKILL_13",
+	"DES":"TXT_DES_SKILL_13",
+	"ACT":["1_150"],
+	"AEFF":0,
+	"ASND":105,
+	"BLT":0,
+	"BUF":[
+
+	],
+	"CD":40000,
+	"DCD":0,
+	"DEFF":3,
+	"DSND":0,
+	"LV":1,
+	"MNL":1,
+	"RAD":-1,
+	"RANG":-1,
+	"REQLV":1,
+	"SCO":2,
+	"SHOW":1
+}

@@ -1,0 +1,24 @@
+{
+	"VER":1,
+	"ID":20,
+	"NAME":"TXT_SKILL_20",
+	"DES":"TXT_DES_SKILL_20",
+	"ACT":["1_200"],
+	"AEFF":5,
+	"ASND":112,
+	"BLT":4,
+	"BUF":[
+
+	],
+	"CD":23000,
+	"DCD":0,
+	"DEFF":1,
+	"DSND":0,
+	"LV":1,
+	"MNL":0,
+	"RAD":0,
+	"RANG":-1,
+	"REQLV":1,
+	"SCO":0,
+	"SHOW":1
+}

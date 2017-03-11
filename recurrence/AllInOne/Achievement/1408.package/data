@@ -1,0 +1,12 @@
+{
+	"VER":1,
+	"ID":1408,
+	"NAME":"TXT_ACHIEVEMENT_1408",
+	"DES":"TXT_DES_ACHIEVEMENT_1408",
+	"ACT":"evhan_equip",
+	"DMND":45,
+	"EXP":220,
+	"ITEM":["5:43:5"],
+	"MAX":90,
+	"NXT":1409
+}

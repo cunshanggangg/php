@@ -1,0 +1,10 @@
+{
+	"VER":1,
+	"ID":105,
+	"NAME":"TXT_ACHIEVEMENT_105",
+	"DES":"TXT_DES_ACHIEVEMENT_105",
+	"ACT":"pass_section_2_3",
+	"DMND":4,
+	"ITEM":["6:3:3"],
+	"NXT":106
+}

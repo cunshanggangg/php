@@ -1,0 +1,23 @@
+{
+	"VER":1,
+	"ID":111,
+	"NAME":"TXT_HERO_111",
+	"DES":"TXT_DES_HERO_111",
+	"ASND":17,
+	"ATK":120,
+	"DFS":100,
+	"FOCUS":0,
+	"HP":700,
+	"MSPD":110,
+	"PRC":100,
+	"PREF":1,
+	"QUA":1500,
+	"SHAWOD":[116, 39],
+	"SKL":[
+
+	],
+	"SPD":90,
+	"SPINE":"enemy_ghost",
+	"TYPE":701,
+	"WIDTH":170
+}

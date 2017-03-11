@@ -1,0 +1,22 @@
+{
+	"VER":1,
+	"ID":6,
+	"NAME":"TXT_SKILL_6",
+	"DES":"TXT_DES_SKILL_6",
+	"ACT":["2_40"],
+	"AEFF":0,
+	"ASND":100,
+	"BLT":0,
+	"BUF":["101_25_10_10:5000"],
+	"CD":20000,
+	"DCD":0,
+	"DEFF":2,
+	"DSND":0,
+	"LV":1,
+	"MNL":0,
+	"RAD":0,
+	"RANG":-1,
+	"REQLV":1,
+	"SCO":0,
+	"SHOW":1
+}

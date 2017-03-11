@@ -1,0 +1,12 @@
+{
+	"VER":1,
+	"ID":1702,
+	"NAME":"TXT_ACHIEVEMENT_1702",
+	"DES":"TXT_DES_ACHIEVEMENT_1702",
+	"ACT":"win_2001",
+	"DMND":15,
+	"EXP":40,
+	"ITEM":["5:2:5"],
+	"MAX":50,
+	"NXT":1703
+}

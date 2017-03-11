@@ -1,0 +1,23 @@
+{
+	"VER":1,
+	"ID":105,
+	"NAME":"TXT_HERO_105",
+	"DES":"TXT_DES_HERO_105",
+	"ASND":9,
+	"ATK":80,
+	"DFS":100,
+	"FOCUS":0,
+	"HP":700,
+	"MSPD":110,
+	"PRC":100,
+	"PREF":1,
+	"QUA":1000,
+	"SHAWOD":[123, 26],
+	"SKL":[
+
+	],
+	"SPD":80,
+	"SPINE":"enemy_boarmini",
+	"TYPE":701,
+	"WIDTH":112
+}

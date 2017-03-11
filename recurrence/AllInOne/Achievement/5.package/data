@@ -1,0 +1,12 @@
+{
+	"VER":1,
+	"ID":5,
+	"NAME":"TXT_ACHIEVEMENT_5",
+	"DES":"TXT_DES_ACHIEVEMENT_5",
+	"ACT":"reach_lv",
+	"DMND":25,
+	"EXP":80,
+	"ITEM":["9:1:1"],
+	"MAX":25,
+	"NXT":6
+}

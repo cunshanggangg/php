@@ -1,0 +1,23 @@
+{
+	"VER":1,
+	"ID":114,
+	"NAME":"TXT_HERO_114",
+	"DES":"TXT_DES_HERO_114",
+	"ASND":1,
+	"ATK":100,
+	"DFS":100,
+	"FOCUS":0,
+	"HP":700,
+	"MSPD":110,
+	"PRC":100,
+	"PREF":1,
+	"QUA":1500,
+	"SHAWOD":[112, 37],
+	"SKL":[
+
+	],
+	"SPD":60,
+	"SPINE":"enemy_slime_mini",
+	"TYPE":701,
+	"WIDTH":150
+}

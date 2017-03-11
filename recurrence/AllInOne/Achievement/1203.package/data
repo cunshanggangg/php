@@ -1,0 +1,12 @@
+{
+	"VER":1,
+	"ID":1203,
+	"NAME":"TXT_ACHIEVEMENT_1203",
+	"DES":"TXT_DES_ACHIEVEMENT_1203",
+	"ACT":"enhan_hero",
+	"DMND":20,
+	"EXP":50,
+	"ITEM":["5:61:5"],
+	"MAX":40,
+	"NXT":1204
+}

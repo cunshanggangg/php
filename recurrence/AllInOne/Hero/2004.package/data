@@ -1,0 +1,21 @@
+{
+	"VER":1,
+	"ID":2004,
+	"NAME":"TXT_HERO_2004",
+	"DES":"TXT_DES_HERO_2004",
+	"ALERT":50,
+	"ASND":11,
+	"ATK":130,
+	"DFS":130,
+	"FOCUS":0,
+	"HP":4000,
+	"MSPD":120,
+	"PREF":2,
+	"QUA":4000,
+	"SHAWOD":[181, 59],
+	"SKL":[10013, 10014],
+	"SPD":67,
+	"SPINE":"enemy_minotaur",
+	"TYPE":501,
+	"WIDTH":280
+}

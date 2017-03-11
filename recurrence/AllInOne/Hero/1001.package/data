@@ -1,0 +1,21 @@
+{
+	"VER":1,
+	"ID":1001,
+	"NAME":"TXT_HERO_1001",
+	"DES":"TXT_DES_HERO_1001",
+	"ASND":2,
+	"ATK":85,
+	"DFS":80,
+	"FOCUS":1,
+	"HP":900,
+	"MSPD":120,
+	"PRC":100,
+	"PREF":1,
+	"QUA":2500,
+	"SHAWOD":[100, 33],
+	"SKL":[10002, 10003],
+	"SPD":80,
+	"SPINE":"enemy_saman",
+	"TYPE":3,
+	"WIDTH":150
+}

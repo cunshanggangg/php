@@ -1,0 +1,13 @@
+{
+	"VER":1,
+	"ID":501,
+	"NAME":"TXT_ACHIEVEMENT_501",
+	"DES":"TXT_DES_ACHIEVEMENT_501",
+	"ACT":"3_pass_hard_2",
+	"DMND":15,
+	"EXP":20,
+	"ITEM":["9:1:1"],
+	"NXT":502,
+	"PRE":500,
+	"START":301
+}

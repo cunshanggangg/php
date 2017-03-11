@@ -1,0 +1,22 @@
+{
+	"VER":1,
+	"ID":29,
+	"NAME":"TXT_SKILL_29",
+	"DES":"TXT_DES_SKILL_29",
+	"ACT":["1_200"],
+	"AEFF":-1,
+	"ASND":8,
+	"BLT":0,
+	"BUF":["10005:5000"],
+	"CD":25000,
+	"DCD":0,
+	"DEFF":1,
+	"DSND":0,
+	"LV":5,
+	"MNL":0,
+	"RAD":0,
+	"RANG":-1,
+	"REQLV":1,
+	"SCO":0,
+	"SHOW":1
+}

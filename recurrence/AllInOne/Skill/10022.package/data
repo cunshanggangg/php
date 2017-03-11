@@ -1,0 +1,23 @@
+{
+	"VER":1,
+	"ID":10022,
+	"NAME":"chanrao2008",
+	"DES":"TXT_DES_SKILL_10022",
+	"ACT":["1_0"],
+	"AEFF":1401,
+	"ALERT":30101,
+	"ASND":126,
+	"BLT":500,
+	"BUF":["10006:5000"],
+	"CD":25000,
+	"DCD":0,
+	"DEFF":1,
+	"DSND":0,
+	"LV":5,
+	"MNL":1,
+	"RAD":100,
+	"RANG":-1,
+	"REQLV":1,
+	"SCO":1,
+	"SHOW":1
+}

@@ -1,0 +1,11 @@
+{
+	"VER":1,
+	"ID":204,
+	"NAME":"TXT_ACHIEVEMENT_204",
+	"DES":"TXT_DES_ACHIEVEMENT_204",
+	"ACT":"pass_normal_5",
+	"DMND":40,
+	"EXP":80,
+	"ITEM":["6:7:5"],
+	"NXT":205
+}

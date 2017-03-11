@@ -1,0 +1,12 @@
+{
+	"VER":1,
+	"ID":1103,
+	"NAME":"TXT_ACHIEVEMENT_1103",
+	"DES":"TXT_DES_ACHIEVEMENT_1103",
+	"ACT":"evo_jewelry",
+	"DMND":30,
+	"EXP":110,
+	"ITEM":["9:3:1"],
+	"MAX":7,
+	"NXT":1104
+}

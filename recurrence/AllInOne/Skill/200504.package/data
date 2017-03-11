@@ -1,0 +1,24 @@
+{
+	"VER":1,
+	"ID":200504,
+	"NAME":"TXT_SKILL_200504",
+	"DES":"TXT_DES_SKILL_200504",
+	"ACT":[
+
+	],
+	"AEFF":0,
+	"ASND":0,
+	"BLT":0,
+	"BUF":["1004:0:15"],
+	"CD":0,
+	"DCD":0,
+	"DEFF":0,
+	"DSND":0,
+	"LV":1,
+	"MNL":3,
+	"RAD":0,
+	"RANG":-1,
+	"REQLV":1,
+	"SCO":2,
+	"SHOW":1
+}

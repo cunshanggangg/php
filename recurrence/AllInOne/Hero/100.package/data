@@ -1,0 +1,23 @@
+{
+	"VER":1,
+	"ID":100,
+	"NAME":"TXT_HERO_100",
+	"DES":"TXT_DES_HERO_100",
+	"ASND":5,
+	"ATK":100,
+	"DFS":100,
+	"FOCUS":1,
+	"HP":700,
+	"MSPD":110,
+	"PRC":100,
+	"PREF":5,
+	"QUA":1000,
+	"SHAWOD":[85, 28],
+	"SKL":[
+
+	],
+	"SPD":80,
+	"SPINE":"enemy_orc_a",
+	"TYPE":401,
+	"WIDTH":135
+}

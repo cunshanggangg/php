@@ -1,0 +1,12 @@
+{
+	"VER":1,
+	"ID":704,
+	"NAME":"TXT_ACHIEVEMENT_704",
+	"DES":"TXT_DES_ACHIEVEMENT_704",
+	"ACT":"collect_jewelry",
+	"DMND":25,
+	"EXP":80,
+	"ITEM":["5:2004:5"],
+	"MAX":14,
+	"NXT":705
+}

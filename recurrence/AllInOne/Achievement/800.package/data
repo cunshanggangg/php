@@ -1,0 +1,13 @@
+{
+	"VER":1,
+	"ID":800,
+	"NAME":"TXT_ACHIEVEMENT_800",
+	"DES":"TXT_DES_ACHIEVEMENT_800",
+	"ACT":"evo_hero",
+	"DMND":10,
+	"EXP":10,
+	"ITEM":["9:2:1"],
+	"MAX":4,
+	"NXT":801,
+	"START":1
+}

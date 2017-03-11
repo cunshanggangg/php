@@ -1,0 +1,24 @@
+{
+	"VER":1,
+	"ID":10012,
+	"NAME":"feibiao1000",
+	"DES":"TXT_DES_SKILL_10012",
+	"ACT":["1_100"],
+	"AEFF":1001,
+	"ASND":104,
+	"BLT":101,
+	"BUF":[
+
+	],
+	"CD":30000,
+	"DCD":0,
+	"DEFF":1,
+	"DSND":0,
+	"LV":1,
+	"MNL":1,
+	"RAD":80,
+	"RANG":-1,
+	"REQLV":1,
+	"SCO":2,
+	"SHOW":1
+}

@@ -1,0 +1,21 @@
+{
+	"VER":1,
+	"ID":2008,
+	"NAME":"TXT_HERO_2008",
+	"DES":"TXT_DES_HERO_2008",
+	"ALERT":53,
+	"ASND":1,
+	"ATK":160,
+	"DFS":160,
+	"FOCUS":1,
+	"HP":7000,
+	"MSPD":150,
+	"PREF":1,
+	"QUA":4000,
+	"SHAWOD":[290, 93],
+	"SKL":[10021, 10022, 10033],
+	"SPD":67,
+	"SPINE":"enemy_spider",
+	"TYPE":701,
+	"WIDTH":320
+}

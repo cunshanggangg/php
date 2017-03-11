@@ -1,0 +1,21 @@
+{
+	"VER":1,
+	"ID":2007,
+	"NAME":"TXT_HERO_2007",
+	"DES":"TXT_DES_HERO_2007",
+	"ALERT":52,
+	"ASND":13,
+	"ATK":150,
+	"DFS":150,
+	"FOCUS":0,
+	"HP":6000,
+	"MSPD":140,
+	"PREF":1,
+	"QUA":4000,
+	"SHAWOD":[150, 49],
+	"SKL":[10019, 10020],
+	"SPD":67,
+	"SPINE":"enemy_golem",
+	"TYPE":701,
+	"WIDTH":240
+}
