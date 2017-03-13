@@ -11,5 +11,4 @@ $str = explode('.',$d);
 var_dump($str);
     if($str[1] == 'png') {
         echo 'png';
-
 }
