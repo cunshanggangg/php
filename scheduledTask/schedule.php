@@ -18,7 +18,7 @@ $str = "时间戳：".$time."\n"."北京时间：".$date."\n";
 //fputs($fp,$str);
 //fclose($fp);
 
-#3.fopen,fwrite,fclose
+#3.fopen,fwrite,fclose,,
 $fg = fopen("content.txt","a+");
 fwrite($fg,$str);
 fclose($fg);
