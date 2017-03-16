@@ -18,6 +18,10 @@ $str = "时间戳：".$time."\n"."北京时间：".$date."\n";
 //fputs($fp,$str);
 //fclose($fp);
 
+<<<<<<< Updated upstream
 //git stash save "保存进度"
+=======
+//测试使用 git stash
+>>>>>>> Stashed changes
 
 
