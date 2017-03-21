@@ -11,7 +11,7 @@
 //print_r($arr);
 
 $condition  = array();
-$condition['order_type'] = array('neq',5);  //  1无会员,3已分配会员  4多订单 5是附属商品订单 6,关闭与取消
+$condition['order_type'] = array('neq',5); //
 $condition['err_status'] = array('gt',0);
 echo "<pre>";
 print_r($condition);
