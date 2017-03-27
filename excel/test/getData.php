@@ -43,14 +43,19 @@ $data = array();
 for($rowIndex=1;$rowIndex<=$allRow;$rowIndex++){//循环读取每个单元格的内容。注意行从1开始，列从A开始
     for($colIndex='A';$colIndex<=$allColumn;$colIndex++){
         $addr = $colIndex.$rowIndex;
+//        echo $addr;
+//        echo "<hr>";
         $cell = $currentSheet->getCell($addr)->getValue();
+//        echo "<pre>";
+//        print_r($cell);
+//        echo "</pre>";//exit;
         if($cell instanceof PHPExcel_RichText){ //富文本转换字符串
             $cell = $cell->__toString();
         }
         $data[$rowIndex][$colIndex] = $cell;
     }
 }
-
+//
 echo "<pre>";
 print_r($data);
 echo "</pre>";
