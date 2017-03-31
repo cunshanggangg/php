@@ -5,27 +5,27 @@
  * Date: 2017/3/31
  * Time: 15:53
  */
-//直接输出
+//1.直接输出
 //include "class/phpqrcode.php";
 //$value="cunshanggang";
-//$errorCorrectionLevel = "L"; // 纠错级别：L、M、Q、H
-//$matrixPointSize = "4"; // 点的大小：1到10
+//$errorCorrectionLevel = "L";//纠错级别：L、M、Q、H
+//$matrixPointSize = "4";//点的大小：1到10
 //QRcode::png($value, false, $errorCorrectionLevel, $matrixPointSize);
 
-//以图片下载的形式
+//2.以图片下载的形式
 //include "class/phpqrcode.php";
 //$data = 'http://www.useryx.com';
-//$filename = 'useryx.png';  //  生成的文件名
-//$errorCorrectionLevel = 'L';  // 纠错级别：L、M、Q、H
-//$matrixPointSize = 4; // 点的大小：1到10
+//$filename = 'useryx.png';//生成的文件名
+//$errorCorrectionLevel = 'L';//纠错级别：L、M、Q、H
+//$matrixPointSize = 4;//点的大小：1到10
 //QRcode::png($data, $filename, $errorCorrectionLevel, $matrixPointSize, 2);
 
-//三： 生成中间带logo的二维码
+//3.生成中间带logo的二维码
 include "class/phpqrcode.php";
 $value='cunshanggang';
-$logo = 'logo.jpg'; // 中间的logo
-$QR = "base.png"; // 自定义生成的。结束后可以删除
-$last = "last.png"; // 最终生成的图片
+$logo = 'logo.jpg';//中间的logo
+$QR = "base.png";//自定义生成的,结束后可以删除
+$last = "last.png";//最终生成的图片
 $errorCorrectionLevel = 'L';
 $matrixPointSize = 10;
 QRcode::png($value, $QR, $errorCorrectionLevel, $matrixPointSize, 2);
@@ -42,5 +42,5 @@ if($logo !== FALSE){
     $from_width = ($QR_width - $logo_qr_width) / 2;
     imagecopyresampled($QR, $logo, $from_width, $from_width, 0, 0, $logo_qr_width, $logo_qr_height, $logo_width, $logo_height);
 }
-imagepng($QR,$last); // 生成最终的文件
+imagepng($QR,$last);//生成最终的文件
 
