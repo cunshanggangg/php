@@ -6,5 +6,10 @@
  * Time: 16:52
  */
 if($_REQUEST['act'] == "getInfo"){
-    echo "yaoMing";
+//    echo "yaoMing";
+    $re['userName'] = $_GET['userName'];
+    $re['password'] = $_GET['password'];
+
+    echo "dddddddddd";
+    return json_encode($re);
 }

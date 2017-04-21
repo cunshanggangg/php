@@ -14,6 +14,8 @@
 //                alert(password);
                 $.getJSON("getJson.php?act=getInfo",{username:userName,password:password},function(re) {
                     console.log(re);
+                    $("#userName").val(re.userName);
+                    $("#password").val(re.password);
                 });
 
             });
