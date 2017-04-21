@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取json格式数据并返回值</title>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            $(":submit").on('click',function() {
+                var userName = $("#userName").val();
+                var password = $("#password").val();
+//                alert(userName);
+//                alert(password);
+                $.getJSON("getJson.php?act=getInfo",{username:userName,password:password},function(re) {
+                    console.log(re);
+                });
+
+            });
+
+        })
+    </script>
+</head>
+<body>
+    <form id="myForm" name="myForm" action="#">
+        <fieldset>
+            <legend>用户注册</legend>
+            <label for="userName">用户名:</label>
+            <input type="text" id="userName" name="userName" value="">
+            <label for="password">密码:</label>
+            <input type="text" name="password" id="password">
+            <input type="submit" value="提交">
+        </fieldset>
+    </form>
+    <input type="text" name="showName" id="showName" value="">
+    <input type="text" name="showPWD" id="showPWD" value="">
+</body>
+</html>
