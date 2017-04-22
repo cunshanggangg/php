@@ -5,19 +5,22 @@
     <title>获取json格式数据并返回值</title>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript">
+        //1.使用$.getJSON表单提交按钮不能用submit,要用button或者其他，
+        //2.调试用火狐浏览器或者谷歌浏览器调试
+        //3.php回调函数返回数据时要用：exit($result) 或 die($result);
+        //4.返回的数据格式为：json
         $(function() {
-
-            $(":submit").on('click',function() {
+            $("#subBtn").on('click',function() {
                 var userName = $("#userName").val();
                 var password = $("#password").val();
 //                alert(userName);
 //                alert(password);
-                $.getJSON("getJson.php?act=getInfo",{username:userName,password:password},function(re) {
-                    console.log(re);
-                    $("#userName").val(re.userName);
-                    $("#password").val(re.password);
+//                console.log(userName);
+                $.getJSON('getJson.php?act=getInfo',{username:userName,password:password},function(re) {
+                    console.log(re);//在浏览器的控制台：console打印出结果
+                    $("#showName").val(re.userName);
+                    $("#showPWD").val(re.password);
                 });
-
             });
 
         })
@@ -30,8 +33,8 @@
             <label for="userName">用户名:</label>
             <input type="text" id="userName" name="userName" value="">
             <label for="password">密码:</label>
-            <input type="text" name="password" id="password">
-            <input type="submit" value="提交">
+            <input type="password" name="password" id="password">
+            <input type="button" value="提交" id="subBtn">
         </fieldset>
     </form>
     <input type="text" name="showName" id="showName" value="">
