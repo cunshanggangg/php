@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时器</title>
+    <style type="text/css">
+        .row{width:1268px;height:98px;margin:0 auto;border:1px dotted #cccccc;}
+        .col{width:316px;height:98px;background-color:orange;margin-left:1px;float:left;overflow:hidden;text-align:center;}
+        .item{display:inline-block;font-size:35px;font-weight:bold;}
+    </style>
+    <script type="text/javascript">
+        //创建ajax引擎
+        function getXmlHttpObject() {
+            var xmlHttpRequest;
+            //不同的浏览器获取对象xmlhttprequest对象方法不一样
+            if(window.ActionXObject) {
+                xmlHttpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+            }else{
+                xmlHttpRequest = new XMLHttpRequest("text/html")
+            }
+            return xmlHttpRequest;
+        }
+        //定时改变数据
+        function add(num) {
+//         return num + 10;
+//            var item1 = document.getElementsByClassName('item');
+//            item1[0].innerText = num+10;
+//            alert(num);
+//            alert('dddddddd');
+//            var items = document.getElementsByClassName("item");
+//            items[0].innerText = eval(items[0].innerText)+100;
+            //document.getElementById("chatRoom").innerHTML="你对<?php echo $username;?>说:"+document.getElementById("content").value+new Date().toLocaleString()+"\r\n";
+            //创建一个xmlHttpResquest对象
+            var myXmlHttpRequest = getXmlHttpObject();
+            if (myXmlHttpRequest) {
+                var url = "sendMessage.php";
+                //这里新的知识点，js中如何使用php数据
+                var data = "num="+num;
+                //window.alert(data);
+                //window.alert(url+" "+data);
+                //如何在这里获取发送者的名字,用session保存
+
+                myXmlHttpRequest.open("post",url,true);
+                myXmlHttpRequest.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+                //回调函数
+                myXmlHttpRequest.onreadystatechange = function () {
+                    if(myXmlHttpRequest.readyState==4) {
+                        if (myXmlHttpRequest.status == 200) {
+                            //这里要返回信息，这里不需要
+                            //alert(myXmlHttpRequest.responseText)
+                            //document.getElementById("chatRoom").innerHTML="111";
+                            //document.getElementById("chatRoom").innerHTML+="你对<?php echo $username;?>说:"+document.getElementById("content").value+new Date().toLocaleString()+"\r\n";
+                        }else{
+                            //socket
+                            //alert("页面有问题");
+                        }
+                    }
+                };
+                //发送
+                myXmlHttpRequest.send(data);
+                console.log(data);
+                //document.getElementById("chatRoom").innerHTML="你对<?php echo $username;?>说:"+document.getElementById("content").value+new Date().toLocaleString()+"\r\n";
+//                document.getElementById("sendRoom").value+="<?php echo $loginuser;?> 对  <?php echo $username;?> 说: "+document.getElementById("content").value+"   "+new Date().toLocaleString()+"\r\n";
+//                document.getElementById('content').value="";
+            }
+        }
+        window.onload = function() {
+
+//            alert(items.length);
+//            alert(eval(items[0].innerText)+100);
+            //eval(): 函数可计算某个字符串，并执行其中的的 JavaScript 代码。
+//            setTimeout(add(items.innerText),3000);
+
+            //setInterval("add()",360000);
+            //setInterval(function(){
+                var items = document.getElementsByClassName("item");
+                var val = eval(items[0].innerText);
+                var res;
+//                res = add(val);
+                add(val);
+                //items[0].innerText = res;
+            //},3000);
+
+        }
+
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div class="row">
+            <div class="col">
+                <h3>随机数1</h3>
+                <div class="item">
+                    4
+                </div>
+                <span class="no-newline">万</span>
+            </div>
+            <div class="col">
+                <h3>随机数2</h3>
+                <div class="item">
+                    4645424
+                </div>
+                <span class="no-newline">万</span>
+            </div>
+            <div class="col">
+                <h3>随机数3</h3>
+                <div class="item">
+                    4645424
+                </div>
+                <span class="no-newline">万</span>
+            </div>
+            <div class="col">
+                <h3>随机数4</h3>
+                <div class="item">
+                    4645424
+                </div>
+                <span class="no-newline">万</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
