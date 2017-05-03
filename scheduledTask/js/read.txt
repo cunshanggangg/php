@@ -1,0 +1,3 @@
+Hello Ajax.
+Hello yaoMing.
+你好！姚明.

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax读取txt文本</title>
+    <script type="text/javascript" src="ajax.js"></script>
+    <script type="text/javascript">
+        function show(){
+//            alert("read.txt?datetime=new Date.getTime");
+            //三个参数：Ajax(url,FnSuccess,FnFail)
+            Ajax('read.txt?datetime=new Date.getTime',
+                    function(str){
+                        var oDiv = document.getElementById("container");
+                        oDiv.innerText = str;
+//                        alert(str);
+            },
+                    function(){
+                        alert('失败了');
+            })
+        }
+    </script>
+</head>
+<body>
+    <button type="button"  onclick="show()">请求数据</button>
+    <div id="container">
+
+    </div>
+</body>
+</html>

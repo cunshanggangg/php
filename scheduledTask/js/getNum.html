@@ -6,9 +6,11 @@
     <style type="text/css">
         .row{width:1268px;height:98px;margin:0 auto;border:1px dotted #cccccc;}
         .col{width:316px;height:98px;background-color:orange;margin-left:1px;float:left;overflow:hidden;text-align:center;}
-        .item{display:inline-block;font-size:35px;font-weight:bold;}
+        .item{display:inline-block;font-size:25px;font-weight:bold;}
     </style>
     <script type="text/javascript">
+//        JSON.parse(jsonstr); //可以将json字符串转换成json对象
+//        JSON.stringify(jsonobj); //可以将json对象转换成json对符串
         //创建ajax引擎
         function getXmlHttpObject() {
             var xmlHttpRequest;
@@ -35,7 +37,7 @@
             if (myXmlHttpRequest) {
                 var url = "sendMessage.php";
                 //这里新的知识点，js中如何使用php数据
-                var data = "num="+num;
+                var data = "num="+num+"&name=yaoMing";
                 //window.alert(data);
                 //window.alert(url+" "+data);
                 //如何在这里获取发送者的名字,用session保存
@@ -47,7 +49,14 @@
                     if(myXmlHttpRequest.readyState==4) {
                         if (myXmlHttpRequest.status == 200) {
                             //这里要返回信息，这里不需要
-                            //alert(myXmlHttpRequest.responseText)
+//                            alert(eval(myXmlHttpRequest.responseText));
+                            var result;
+                            result = eval('('+myXmlHttpRequest.responseText+')');
+                            alert(typeof(result));
+                            alert(result.num);
+//                            alert(result);
+                            var items1 = document.getElementsByClassName("item");
+                            items1[0].innerText = result.num;
                             //document.getElementById("chatRoom").innerHTML="111";
                             //document.getElementById("chatRoom").innerHTML+="你对<?php echo $username;?>说:"+document.getElementById("content").value+new Date().toLocaleString()+"\r\n";
                         }else{
@@ -58,7 +67,7 @@
                 };
                 //发送
                 myXmlHttpRequest.send(data);
-                console.log(data);
+//                console.log(data);
                 //document.getElementById("chatRoom").innerHTML="你对<?php echo $username;?>说:"+document.getElementById("content").value+new Date().toLocaleString()+"\r\n";
 //                document.getElementById("sendRoom").value+="<?php echo $loginuser;?> 对  <?php echo $username;?> 说: "+document.getElementById("content").value+"   "+new Date().toLocaleString()+"\r\n";
 //                document.getElementById('content').value="";
@@ -72,15 +81,19 @@
 //            setTimeout(add(items.innerText),3000);
 
             //setInterval("add()",360000);
-            //setInterval(function(){
+//            setInterval(function(){
                 var items = document.getElementsByClassName("item");
                 var val = eval(items[0].innerText);
                 var res;
 //                res = add(val);
-                add(val);
-                //items[0].innerText = res;
-            //},3000);
-
+                //add(val);
+//            setInterval(add(val),3000);
+//                items[0].innerText = res;
+//            },5000);
+//            alert(new Date().toLocaleString());
+//            console.log(new Date().toLocaleString());
+//            alert(new Date().getTime());
+//            alert(Math.round(new Date().getTime()/1000).toString());
         }
 
     </script>
@@ -91,7 +104,7 @@
             <div class="col">
                 <h3>随机数1</h3>
                 <div class="item">
-                    4
+
                 </div>
                 <span class="no-newline">万</span>
             </div>
