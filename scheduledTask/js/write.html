@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>写入txt文件</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            var fso=new ActiveXObject("Scripting.FileSystemObject");
+            var f=fso.createtextfile("D:\\www\\htdocs\\php\\scheduledTask\\js\\a.txt",2,true);
+            f.writeLine("wo shi di yi hang");
+            f.close();
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
