@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax分页</title>
+    <script type="text/javascript">
+        //创建ajax引擎
+        /*
+        * 1. 创建ajax引擎
+        * 2. 连接服务器 open()
+        * 3. 发送请求 send()
+        * 4. 接收返回结果
+        * */
+        function  Ajax(url,fnSucc,fnFaild) {
+            //创建ajax引擎
+            var oAjax;
+            if(window.XMLHttpRequest) {
+                //FireFox，Chrome，IE6+
+                oAjax = new XMLHttpRequest();
+            }else{
+                //兼容IE6
+                oAjax = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+            //连接服务器
+            //open():三个参数：提交的方法（get，post），路径（url）,异步(true)或同步(false)
+            oAjax.open("post",url,true);
+
+            //发送数据
+            oAjax.send();
+
+            //接收返回结果
+            oAjax.onreadystatechange = function() {
+                if(oAjax.readyState == 4) {
+                    if(oAjax.status == 200) {
+                        //接收成功
+                        fnSucc(oAjax.responseText);
+                    }else{
+                        //接收失败
+                        fnFaild(oAjax.status);
+                    }
+                }
+            }
+        }
+
+        window.onload = function() {
+            Ajax("read.txt",
+                function(str) {
+//                    alert(str);
+                },
+                function(status) {
+//                    alert(status);
+                });
+            var btn = document.getElementsByTagName('a');
+            for(var i=0;i<btn.length;i++) {
+                btn[i].index = i;
+                btn[i].onclick = function() {
+//                    alert(this.index);
+                    var newLi = document.createElement('li');
+                    newLi.innerText = "这是新标签";
+                    var oDiv = document.getElementById("container");
+                    oDiv.appendChild(newLi);
+
+                }
+            }
+        }
+    </script>
+    <style type="text/css">
+        ul{list-style:none;}
+        #container ul li{float:left;margin-left:5px;}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <ul>
+            <li><a href="javascript:void(0);">1</a></li>
+            <li><a href="javascript:void(0);">2</a></li>
+            <li><a href="javascript:void(0);">3</a></li>
+        </ul>
+    </div>
+</body>
+</html>

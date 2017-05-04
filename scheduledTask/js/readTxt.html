@@ -8,7 +8,7 @@
         function show(){
 //            alert("read.txt?datetime=new Date.getTime");
             //三个参数：Ajax(url,FnSuccess,FnFail)
-            Ajax('read.txt?datetime=new Date.getTime',
+            Ajax('read.txt?datetime=new Date().getTime()',
                     function(str){
                         var oDiv = document.getElementById("container");
                         oDiv.innerText = str;
@@ -17,6 +17,7 @@
                     function(){
                         alert('失败了');
             })
+
         }
     </script>
 </head>

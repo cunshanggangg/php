@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js动态创建新标签</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            var items = document.getElementsByTagName('a');
+            for(var i=0;i<items.length;i++) {
+                items[i].index = i;
+                items[i].onclick = function() {
+                   // alert('ddddddddd');
+                    var newLi = document.createElement('li');
+                    newLi.innerText = "Hello World";
+//                    var oUl = document.getElementsByTagName('ul');
+                    var oUl = document.getElementsByTagName('ul');
+                    oUl[0].appendChild(newLi);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="container">
+    <ul id="oUl">
+        <li><a href="javascript:void(0);">1</a></li>
+        <li><a href="javascript:void(0);">2</a></li>
+        <li><a href="javascript:void(0);">3</a></li>
+        <li><a href="">4</a></li><!-- 如果href=""为空的话，文字一闪下就消失了 -->
+        <li><a href="#">5</a></li><!-- 加一个"#"就可以改变上面所说的情况 -->
+
+    </ul>
+</div>
+</body>
+</html>
