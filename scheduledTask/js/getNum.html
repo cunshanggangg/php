@@ -23,7 +23,7 @@
             return xmlHttpRequest;
         }
         //定时改变数据
-        function add(num) {
+        function add(num,fnSucc,fnFaild) {
 //         return num + 10;
 //            var item1 = document.getElementsByClassName('item');
 //            item1[0].innerText = num+10;
@@ -37,7 +37,7 @@
             if (myXmlHttpRequest) {
                 var url = "sendMessage.php";
                 //这里新的知识点，js中如何使用php数据
-                var data = "num="+num+"&name=yaoMing";
+                var data = "num="+num;
                 //window.alert(data);
                 //window.alert(url+" "+data);
                 //如何在这里获取发送者的名字,用session保存
@@ -48,20 +48,13 @@
                 myXmlHttpRequest.onreadystatechange = function () {
                     if(myXmlHttpRequest.readyState==4) {
                         if (myXmlHttpRequest.status == 200) {
-                            //这里要返回信息，这里不需要
-//                            alert(eval(myXmlHttpRequest.responseText));
-                            var result;
-                            result = eval('('+myXmlHttpRequest.responseText+')');
-                            alert(typeof(result));
-                            alert(result.num);
-//                            alert(result);
-                            var items1 = document.getElementsByClassName("item");
-                            items1[0].innerText = result.num;
-                            //document.getElementById("chatRoom").innerHTML="111";
-                            //document.getElementById("chatRoom").innerHTML+="你对<?php echo $username;?>说:"+document.getElementById("content").value+new Date().toLocaleString()+"\r\n";
+//                            var res = eval('('+myXmlHttpRequest.responseText+')');
+//                            alert(res.num);
+                            fnSucc(myXmlHttpRequest.responseText);
                         }else{
                             //socket
                             //alert("页面有问题");
+                            fnFaild(myXmlHttpRequest.status);
                         }
                     }
                 };
@@ -82,10 +75,29 @@
 
             //setInterval("add()",360000);
 //            setInterval(function(){
-                var items = document.getElementsByClassName("item");
-                var val = eval(items[0].innerText);
-                var res;
-//                res = add(val);
+
+//                var val = eval(items[0].innerText);
+                add('',
+                        function(str) {
+                           var res = eval('('+str+')');
+                           var items = document.getElementsByClassName("item");
+                           items[0].innerText = res.num;
+                },
+                        function() {
+
+                        });
+
+                setInterval(function () {
+                    var items = document.getElementsByClassName("item");
+                    var val = items[0].innerText;
+                    add(val,function(str) {var res = eval('('+str+')');items[0].innerText = res.num;}, function(){})
+                },5000);
+
+//            function aa() {
+//                alert(5);
+//            }
+//            setInterval(aa,5000);
+//                alert(val);
                 //add(val);
 //            setInterval(add(val),3000);
 //                items[0].innerText = res;
@@ -104,7 +116,6 @@
             <div class="col">
                 <h3>随机数1</h3>
                 <div class="item">
-
                 </div>
                 <span class="no-newline">万</span>
             </div>

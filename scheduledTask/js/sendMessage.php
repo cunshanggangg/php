@@ -23,10 +23,10 @@
 //if($_POST['num'] == '') {
 
 //}
-if($_POST){
-    $_POST['num'] = $_POST['num']+10;
-}else{
+if($_POST['num'] == ''){
     $_POST['num'] = 158;
+}else{
+    $_POST['num'] = $_POST['num']+10;
 }
 exit(json_encode($_POST));
 //exit(print_r($_POST));
