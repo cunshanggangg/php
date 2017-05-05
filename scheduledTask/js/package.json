@@ -2,4 +2,13 @@
 //  "name": "application-name",
 //  "version": "0.0.1"
 //}
-[{"name":"yaoMing","career":"basketball"},{"name":"liNa","career":"tennis"}]
+[
+  {"name":"yaoming","carrer":"basketball"},
+  {"name":"liNa","carrer":"tennis"},
+  {"name":"liuXiang","carrer":"Hurdling"},
+  {"name":"sunYang","carrer":"swimming"},
+  {"name":"heZi","carrer":"dive"},
+  {"name":"liNing","carrer":"tennis"},
+  {"name":"liNa","carrer":"gymnastic"},
+  {"name":"maLong","carrer":"ping-pong"}
+]
