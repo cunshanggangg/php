@@ -23,7 +23,7 @@
             return xmlHttpRequest;
         }
         //定时改变数据
-        function add(num,fnSucc,fnFaild) {
+        function add(num,fnSucc,fnFailed) {
 //         return num + 10;
 //            var item1 = document.getElementsByClassName('item');
 //            item1[0].innerText = num+10;
@@ -90,8 +90,8 @@
                 setInterval(function () {
                     var items = document.getElementsByClassName("item");
                     var val = items[0].innerText;
-                    add(val,function(str) {var res = eval('('+str+')');items[0].innerText = res.num;}, function(){})
-                },5000);
+                    add('',function(str) {var res = eval('('+str+')');items[0].innerText = res.num;}, function(){})
+                },60000);
 
 //            function aa() {
 //                alert(5);
