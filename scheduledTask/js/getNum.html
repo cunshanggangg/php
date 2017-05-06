@@ -46,7 +46,7 @@
                 myXmlHttpRequest.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
                 //回调函数
                 myXmlHttpRequest.onreadystatechange = function () {
-                    if(myXmlHttpRequest.readyState==4) {
+                    if(myXmlHttpRequest.readyState == 4) {
                         if (myXmlHttpRequest.status == 200) {
 //                            var res = eval('('+myXmlHttpRequest.responseText+')');
 //                            alert(res.num);
@@ -86,7 +86,7 @@
                         function() {
 
                         });
-
+                // 一秒 = 1000毫秒 一分 = 60000毫秒
                 setInterval(function () {
                     var items = document.getElementsByClassName("item");
                     var val = items[0].innerText;
