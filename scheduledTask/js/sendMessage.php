@@ -29,8 +29,7 @@ $db = mysql_select_db("ceshi",$conn) or die("数据库连接失败！");
 mysql_query("set names 'utf8'");
 
 $sql = "select * from `ecs_num` where id=1";
-$res = mysql_query($sql) or die(mysql_error());
-
+$res = mysql_query($sql) or die(mysql_error());//打印sql语句的错误：mysql_error();
 while($row = mysql_fetch_array($res)) {
 //    echo $row['id'];
 //    echo "<br />";
