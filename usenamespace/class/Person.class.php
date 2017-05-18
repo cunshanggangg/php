@@ -5,7 +5,7 @@
  * Date: 2017/5/18
  * Time: 11:10
  */
-//namespace people;
+namespace people;
 class Person{
 
     public function yaoMing() {
