@@ -32,7 +32,7 @@ class logs
             $this->FileName = $filename;
         */
         $this->FileName = date("Ymd",time());
-        $this->FilePath = TEMP_LOGS.'/'.date("Ymd",time())."/";
+        $this->FilePath = 'log'.'/'.date("Ymd",time())."/";
         $this->m_MaxLogFileNum = intval($maxlogfilenum);
         $this->m_RotaParam = intval($rotaparam);
         $this->m_RotaType = intval($rotatype);
@@ -127,9 +127,9 @@ class logs
             return <<<S
 Obj=>{$item['class']} act=>{$item['function']}
 S;
-
         }
     }
+
     private function RotaLog()
     {
         $file_path = $this->getLogFilePath($this->FilePath, $this->FileName).".log";
@@ -213,4 +213,5 @@ S;
     const NOTICE = 500;
     const INFO   = 600;
     const DEBUG  = 700;
+    const TEMP_LOGS = 'log';
 }
