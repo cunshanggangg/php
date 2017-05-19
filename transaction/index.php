@@ -20,8 +20,8 @@ SET AUTOCOMMIT=1 开启自动提交
 //开始定义事务
 mysqli_begin_transaction($conn);
 if(!mysqli_query($conn,"insert into `tp_student` (name,age,sex) VALUES('丁俊晖',25,1)")) {
-    mysqli_query($conn,"ROLLBACK");
+    mysqli_query($conn,"ROLLBACK");//判断执行失败时回滚
 }
 
-mysqli_commit($conn);
+mysqli_commit($conn);//执行事务
 mysqli_close($conn);
