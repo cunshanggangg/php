@@ -20,7 +20,7 @@
 //$matrixPointSize = 4;//点的大小：1到10
 //QRcode::png($data, $filename, $errorCorrectionLevel, $matrixPointSize, 2);
 
-//3.生成中间带logo的二维码
+//3.生成中间带logo的二维码 二维码的英文简称：Quick Response Code
 include "class/phpqrcode.php";
 $value='cunshanggang';
 $logo = 'logo.jpg';//中间的logo
