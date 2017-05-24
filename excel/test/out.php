@@ -25,7 +25,7 @@ while($row = mysql_fetch_array($result)) {
     $student[$i]['id'] = $row['id'];
     $student[$i]['name'] = $row['name'];
     $student[$i]['age'] = $row['age'];
-    $student[$i]['sex'] = $row['sex'];
+    $student[$i]['sex'] = ($row['sex'] == '0') ? '男' : '女';
     $i++;
 }
 //$data = array(array(1,2),array(1,3),array(5,7));
@@ -46,6 +46,13 @@ function getExcel($fileName,$headArr,$data)
     //创建新的PHPExcel对象
     $objPHPExcel = new PHPExcel();
     $objProps = $objPHPExcel->getProperties();
+    //设置font
+    $objPHPExcel->setActiveSheetIndex(0)->getStyle('A1')->getFont()->setSize(24);
+    $objPHPExcel->setActiveSheetIndex(0)->getStyle('A1')->getFont()->setBold(true);
+    $objPHPExcel->setActiveSheetIndex(0)->getStyle('A1')->getFont()->getColor()->setARGB(PHPExcel_Style_Color::COLOR_BLUE);
+    //水平居中===垂直居中
+    $objPHPExcel->setActiveSheetIndex(0)->getStyle('A1')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+    $objPHPExcel->setActiveSheetIndex(0)->getStyle('A1')->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
 
     //设置表头
     $key = ord("A");
