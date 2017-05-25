@@ -11,7 +11,7 @@ require_once '../Classes/PHPExcel/Cell.php';
 require_once '../Classes/PHPExcel/Writer/Excel2007.php';
 require_once '../Classes/PHPExcel/Writer/Excel5.php';
 include_once '../Classes/PHPExcel/IOFactory.php';
-
+//ini_set("memory_limit","700M");//设定内存的大小
 $fileName = "test_excel";
 $headArr = array("序号","姓名","年龄","性别");
 $conn = mysql_connect("localhost","root","") or die("MySQL连接不上！");
@@ -23,8 +23,8 @@ $result = mysql_query($sql) or die(mysql_error());
 $student = array();
 $i = 0;
 $row_keys = mysql_fetch_assoc($result);
-$k26 = array_keys($row_keys);
-$all_keys = array_splice($k26,0,30);
+$all_keys = array_keys($row_keys);
+//$all_keys = array_splice($k26,0,90);
 $student = array();
 $i = 0;
     while($row = mysql_fetch_array($result)) {
@@ -33,6 +33,7 @@ $i = 0;
 //        }
         for($j=0;$j<count($all_keys);$j++) {
             $student[$i][$all_keys[$j]] = $row[$all_keys[$j]];
+            $student[$i][$all_keys[$j]].= ' ';
         }
         $i++;
     }
@@ -75,14 +76,20 @@ function getExcel($fileName,$headArr,$data)
 //        ->getStartColor()->setARGB('0000000'); //设置标题背景颜色
 //    $objSheet->getStyle("A1:F1")->applyFromArray(getBorderStyle("#66FF99")); //设置标题边框
     //设置表头 超过26列
+
     $key = 0;
     foreach($headArr as $v){
         //注意，不能少了。将列数字转换为字母\
         $colum = PHPExcel_Cell::stringFromColumnIndex($key);
-        PHPExcel_Cell::columnIndexFromString('AA');
+//        $objPHPExcel->setActiveSheetIndex(0)->setCellValueExplicit(($key).'1', $v,PHPExcel_Cell_DataType::TYPE_STRING);
         $objPHPExcel->setActiveSheetIndex(0)->setCellValue($colum . '1', $v);
+        $objPHPExcel->getActiveSheet()->getStyle($key)->getNumberFormat()->setFormatCode(PHPExcel_Style_NumberFormat::FORMAT_TEXT);
         $key += 1;
     }
+
+    //J 列为文本
+//    $objPHPExcel->getActiveSheet()->getStyle('J')->getNumberFormat()->setFormatCode(PHPExcel_Style_NumberFormat::FORMAT_TEXT);
+
     /*
     //设置表头
     $key = ord("A");
@@ -92,6 +99,7 @@ function getExcel($fileName,$headArr,$data)
         $key += 1;
     }
     */
+    /*
     $column = 2;
     $objActSheet = $objPHPExcel->getActiveSheet();
     foreach ($data as $key => $rows) { //行写入
@@ -99,6 +107,20 @@ function getExcel($fileName,$headArr,$data)
         foreach ($rows as $keyName => $value) {// 列写入
             $j = chr($span);
             $objActSheet->setCellValue($j . $column, $value);
+            $span++;
+        }
+        $column++;
+    }
+    */
+    $column = 2;
+    $objActSheet = $objPHPExcel->getActiveSheet();
+    foreach($data as $key => $rows){ //行写入
+        $span = 0;
+        foreach($rows as $keyName=>$value){// 列写入
+            $j = PHPExcel_Cell::stringFromColumnIndex($span);
+            $objActSheet->setCellValue($j.$column, $value);
+//            $objPHPExcel->getActiveSheet()->setCellValueExplicit($j.$column,$value,PHPExcel_Cell_DataType::TYPE_STRING);
+//            $objPHPExcel->getActiveSheet()->getStyle('B'.$j)->getNumberFormat()->setFormatCode("@");
             $span++;
         }
         $column++;

@@ -16,18 +16,18 @@ $i = 0;
 $row = mysql_fetch_assoc($result);
 //echo "<pre>";
 //print_r(array_keys($row));
-//echo "</pre>";
+//echo "</pre>";exit;
 $res = array_keys($row);
 //$k26 = array_keys($row_keys);
-$all_keys = array_splice($res,0,25);
-echo "<pre>";
-print_r($all_keys);
-echo "</pre>";exit;
+$all_keys = array_splice($res,0,30);
+//echo "<pre>";
+//print_r($all_keys);
+//echo "</pre>";exit;
 foreach($res as $value) {
     echo $value;
     echo "<hr>";
 }
-exit;
+//exit;
 while($row = mysql_fetch_array($result)) {
     $student[$i]['id'] = $row['id'];
     $student[$i]['name'] = $row['name'];
