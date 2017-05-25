@@ -10,6 +10,11 @@ require_once '../Classes/PHPExcel/Cell.php';
 require_once '../Classes/PHPExcel/Writer/Excel2007.php';
 require_once '../Classes/PHPExcel/Writer/Excel5.php';
 include_once '../Classes/PHPExcel/IOFactory.php';
+//php导出excel表格应该注意的两个问题
+//-------------------------------------
+// 1.表格的列超出 26的，即大于A-Z
+// 2.表格的数据有一连串的数字并会迫使excel使用科学计数法
+//-------------------------------------
 //ini_set("memory_limit","700M");//设定内存的大小,但无效
 //文件名称
 $fileName = "test_excel";
