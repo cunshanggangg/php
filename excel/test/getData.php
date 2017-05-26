@@ -56,7 +56,7 @@ for($rowIndex=1;$rowIndex<=$allRow;$rowIndex++){//循环读取每个单元格的
     }
 }
 //
-array_shift($data);
+//array_shift($data);
 echo "<pre>";
 print_r($data);
 echo "</pre>";
