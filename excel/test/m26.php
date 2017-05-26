@@ -11,6 +11,11 @@ date_default_timezone_set('Asia/ShangHai');
 
 /** PHPExcel_IOFactory */
 require_once '../Classes/PHPExcel/IOFactory.php';
+//----------------------------------------------
+// 解决的问题
+// 1.导入的表格超过26列.
+// 2.导入的表格有空的列和行.
+//----------------------------------------------
 //echo "<pre>";
 //print_r($_FILES);
 //echo "</pre>";exit;
@@ -44,7 +49,7 @@ $arr=array();
 for($currentRow = 1;$currentRow <= $allRow;$currentRow++){
     /**从第A列开始输出*/
     $i=0;
-    for($currentColumn = 'A'; $currentColumn !=$allColumn; $currentColumn++){ //大于26列
+    for($currentColumn = 'A'; $currentColumn !=$allColumn; $currentColumn++){//大于26列
         if($i>25){
             $num =ord($currentColumn)+$i;
         }else{
@@ -61,25 +66,31 @@ for($currentRow = 1;$currentRow <= $allRow;$currentRow++){
         $i++;
     }
 }
-//删除全部为空的行
+//删除为空的列
+/*
 foreach ($arr as $key=>$vals){
     $tmp = '';
     foreach($vals as $key2 => $v){
-//        $tmp .= $v;
         trim($v);
-//        echo $key.'----------'.$v;
-//        echo "<br>";
         if(!$v) {
-            unset($vals[$key2]);
+            unset($arr[$key][$key2]);
         }
     }
-//    if(!$tmp) unset($arr[$key]);
 }
-//
+*/
+
+//删除全部为空的行
+/*
+foreach ($arr as $key=>$vals){
+    $tmp = '';
+    foreach($vals as $v){
+        $tmp .= $v;
+    }
+    if(!$tmp) unset($arr[$key]);
+}
+*/
 //array_shift($data);
 echo "<pre>";
 print_r($arr);
 echo "</pre>";
-//foreach($data as ) {}
-
 ?>
