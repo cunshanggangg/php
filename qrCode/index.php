@@ -23,7 +23,7 @@
 //3.生成中间带logo的二维码 二维码的英文简称：Quick Response Code
 include "class/phpqrcode.php";
 $value='cunshanggang';
-$logo = 'logo.jpg';//中间的logo
+$logo = '';//中间的logo
 $QR = "base.png";//自定义生成的,结束后可以删除
 $last = "last.png";//最终生成的图片
 $errorCorrectionLevel = 'L';
