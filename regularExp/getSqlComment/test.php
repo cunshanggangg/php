@@ -11,10 +11,20 @@ $str = file_get_contents('data/sql.txt');
 //echo "</pre>";
 
 //preg_match_all("/(?!COMMENT)'[^\r\n]+',/",$str,$result);
-preg_match_all("/(?!COMMENT)'(.+?)',/",$str,$result);
+preg_match_all("/(?!COMMENT)'(.+?)'/",$str,$result);
 echo "<pre>";
 print_r($result[0]);
 echo "</pre>";
+//echo $result[0][0];
+//echo "<br>";
+//echo str_replace("'",'',$result[0][0]);//将单引号去掉，
+
+//foreach($result[0] as $key => $value) {
+//    $result[0][$key] = str_replace("'",'',$result[0][$key]);
+//}
+//echo "<pre>";
+//print_r($result[0]);
+//echo "</pre>";
 //结果
 /*
 array
