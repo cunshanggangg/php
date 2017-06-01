@@ -114,12 +114,12 @@ class logs
         $this->RotaLog();
     }
 
-//1.结尾，如上例jb51;必须另起一行，否则出现错误。
-//2.定界符内的php变量一定要像这种{$a}模式，否则不会识别。
+// 1.结尾，如上例jb51;必须另起一行，否则出现错误。
+// 2.定界符内的php变量一定要像这种{$a}模式，否则不会识别。
 
     private function get_caller_info()
     {
-        $ret = debug_backtrace();//产生一条 PHP 的回溯跟踪
+        $ret = debug_backtrace();//产生一条 PHP的回溯跟踪
         foreach ($ret as $item)
         {
             if(isset($item['class']) && 'Logic_logs' == $item['class'])
@@ -130,7 +130,7 @@ class logs
             return <<<S
 Obj=>{$item['class']} act=>{$item['function']}
 S;
-//定界符需要顶格，否则报错
+// 定界符需要顶格，否则报错
         }
     }
 

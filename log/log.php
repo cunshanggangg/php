@@ -6,7 +6,7 @@
  * Time: 17:01
  */
 include('class/Log.class.php');
-$msg = "你好！姚明";
+$msg = "你好！王治郅";
 $log = new Logs();
 $log->setLog($msg);
-//echo ($log->Log('',$msg));
+//$log->LogDebug($msg);
