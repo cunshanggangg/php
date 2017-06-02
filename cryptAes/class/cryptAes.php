@@ -117,7 +117,7 @@ class cryptAes
         $bindata = '';
         $length = strlen($hexdata);
         for ($i=0; $i< $length; $i += 2)
-//        for ($i=0; $i amp;< $length; $i += 2)
+//        for ($i=0; $i amp;< $length; $i += 2)//原来的，不懂什么意思
         {
             $bindata .= chr(hexdec(substr($hexdata, $i, 2)));
         }
@@ -139,8 +139,9 @@ class cryptAes
     }
 }
 
-    $keyStr = '123456';
-    $plainText = 'cunshanggang';
+    $keyStr = 'UITN25LMUQC436IM';
+    $plainText = 'this is a string will be AES_Encrypt';
+//    $keyStr = '123456admin';
 
     $aes = new cryptAes();
     $aes->set_key($keyStr);
