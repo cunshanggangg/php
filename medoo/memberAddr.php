@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: Administrator
- * Date: 2017/6/2
- * Time: 9:29
+ * Date: 2017/6/3
+ * Time: 14:21
  */
 require_once 'class/medoo.php';
 $medoo = array(
@@ -26,7 +26,7 @@ $database = new medoo([
 ]);
 
 //$database->debug()->select("ypl_member","*",["addr[~]" => "%附近"]);
-$result = $database->select("ypl_member_copy","*",["addr[~]" => "%附近%"]);
+$result = $database->select("ypl_member","*",["addr[~]" => "%附近"]);
 //echo "<pre>";
 //print_r($result);
 //echo "<hr>";
