@@ -1,0 +1,140 @@
+56, Namdaemun-ro, Jung-gu,Seoul 04535
+300, Digital-ro, Guro-gu,Seoul 08379
+97 Saemunan-ro, Jongno-gu,Seoul 03183
+46, Teheran-ro 87-gil, Gangnam-gu,Seoul 06164
+13, Myeongdong 7-gil, Jung-gu,Seoul 04534
+240, Olympic-ro, Songpa-gu,Seoul 138-220
+137, Toegye-ro, Jung-gu,Seoul 04537
+9, Namdaemun-ro, Jung-gu,Seoul 04526
+7, Donghong-ro,Seogwipo 63590
+166, Cheonjeyeon-ro,Seogwipo 63546
+35, Jungmungwangwang-ro 72beon-gil,Seogwipo 697-808
+72beon-Gil,Seogwipo 697-807
+83, Doryeong-ro,Jeju 63127
+100, Noyeon-ro,Jeju 63133
+60, Jungmungwangwang-ro 72beon-gil,Seogwipo 697-807
+453-95, 1100-ro,Seogwipo 63551
+114, Jungmungwangwang-ro 72 beon-gil,Seogwipo 63535
+67, Jungmungwangwang-ro 72beon-gil,Seogwipo 63535
+772, Gaya-daero, Busanjin-gu,Busan 47285
+51, Marine city 1-ro, Haeundae-gu,Busan 48120
+620 Haeun-daero, Haeundae-gu,Busan 48094
+296, Haeundaehaebyeon-ro,,Busan 612-010
+217, Haeundaehaebyeon-ro, Haeundae-gu,Busan 48093
+8, Haeundaehaebyeon-ro 209beon-gil, Haeundae-gu,Busan 48093
+67, Dongbaek-ro, Haeundae-gu,Busan 48100
+777, Jungang-daero, Busanjin-gu,Busan 47251
+83, Doryeong-ro,Jeju 63127
+100, Noyeon-ro,Jeju 63133
+80, Noyeon-ro,Jeju 63132
+66, Tapdong-ro,Jeju 690-032
+74 Haean-ro, Tap-dong,Jeju 690-808
+27, Doryeong-ro,Jeju 63098
+48, Sammu-Ro,Jeju 63124
+15, Sammu-ro 1-gil,Jeju 63125
+14, Sammu-ro,Jeju 63129
+7, Donghong-ro,Seogwipo 63590
+166, Cheonjeyeon-ro,Seogwipo 63546
+35, Jungmungwangwang-ro 72beon-gil,Seogwipo 697-808
+72beon-Gil,Seogwipo 697-807
+60, Jungmungwangwang-ro 72beon-gil,Seogwipo 697-807
+453-95, 1100-ro,Seogwipo 63551
+114, Jungmungwangwang-ro 72 beon-gil,Seogwipo 63535
+67, Jungmungwangwang-ro 72beon-gil,Seogwipo 63535
+537, Minsokhaean-ro, Pyoseon-myeon,Seogwipo 63629
+14, Jungang-ro,Seogwipo 63595
+55, Seohojung-ro,Seogwipo 63568
+135, Namseongjung-ro,Seogwipo 63594
+3, Taepyeong-ro 431beon-gil,Seogwipo 
+222, Jungmungwangwang-ro,Seogwipo 63547
+542, Yeraehaean-ro,Seogwipo 63536
+198, Jungmungwangwang-ro,Seogwipo 63547
+14, Taepyeong-ro 353beon-gil,Seogwipo 63595
+424, Yerae-ro,Seogwipo 63538
+216, Nokchabunjae-ro, Andeok-myeon,Seogwipo 63521
+436, Taepyeong-ro,Seogwipo 63595
+863, Sallongnam-ro, Andeok-myeon,Seogwipo 63525
+12, Chilsimni-ro 91beon-gil,Seogwipo 63596
+53, Jungmungwangwang-ro 72beon-gil,Seogwipo 63535
+432, Taepyeong-ro,Seogwipo 63595
+23, Seomun-ro 41beon-gil,Seogwipo 63592
+28, Seongsandeungyong-ro, Seongsan-eup,Seogwipo 63643
+365, Hanchang-ro, Andeok-myeon,Seogwipo 63526
+15, Gimjeongmunhwa-ro,Seogwipo 63566
+165, Convensia-daero, Yeonsu-gu,Incheon 406-840
+200, Techno park-ro, Yeonsu-gu,Incheon 406-840
+208, Yeongjonghaeannam-ro 321beon-gil, Jung-gu,Incheon 22382
+153, Convensia-daero, Yeonsu-gu,Incheon 21998
+19-5, Yeongjonghaeannam-Ro, Jung-Gu, Incheon,Incheon 22382
+251, Incheon tower-daero, Yeonsu-gu,Incheon 406-840
+151, Techno park-ro, Yeonsu-gu,Incheon 22004
+10, Sindosinam-ro 150beon-gil, Jung-gu,Incheon 22371
+35, Eunhasu-ro, Jung-gu,Incheon 22410
+43, Hwaseong-gil 50beon-gil, Ganghwa-eup, Ganghwa-gun,Incheon 
+193, Techno park-ro, Yeonsu-gu,Incheon 406-840
+345, Gonghangseo-ro, Jung-gu,Incheon 22384
+7, Sindosinam-ro 149beon-gil, Jung-gu,Incheon 22371
+60, Gonghang-ro 424beon-gil, Jung-gu,Incheon 22382
+36, Soraeyeok-ro, Namdong-gu,Incheon 21673
+13, Seonnyeobawi-ro 55beon-gil, Jung-gu,Incheon 22383
+3, Sindosinam-ro 149beon-gil, Jung-gu,Incheon 22371
+11, Sindosinam-ro 149beon-gil, Jung-gu,Incheon 22371
+72, Gonghang-ro 424beon-gil, Jung-gu,Incheon 22382
+15, Sindosinam-ro 149beon-gil, Jung-gu,Incheon 22371
+30, Aenggogae-ro 934beon-gil, Namdong-gu,Incheon 21673
+217, Jemullyang-ro, Jung-gu,Incheon 22313
+266, Wolmi-ro, Jung-gu,Incheon 22303
+34, Masiran-ro, Jung-gu,Incheon 22385
+8, Sindosinam-ro 150beon-gil, Jung-gu,Incheon 22371
+186, Yeongjonghaeannam-ro 321beon-gil, Jung-gu,Incheon 22382
+874, Wondang-daero, Seo-gu,Incheon 22682
+33, Expo-ro 123beon-gil, Yuseong-gu,Daejeon 305-340
+23, Daedeok-daero 220beon-gil, Seo-gu,Daejeon 35233
+13, Dunsanjung-ro 134beon-gil, Seo-gu,Daejeon 35209
+92, Oncheon-ro, Yuseong-gu,Daejeon 
+57, Techno jungang-ro, Yuseong-gu,Daejeon 
+7, Oncheonseo-ro, Yuseong-gu,Daejeon 305-301
+中区大宗路505号街50,Daejeon 34839
+70, Dunsanjung-ro, Seo-gu,Daejeon 35240
+9, Oncheon-ro, Yuseong-gu,Daejeon 34169
+1700, Dongseo-daero, Dong-gu,Daejeon 
+88, Oncheon-ro, Yuseong-gu,Daejeon 305-301
+69, Techno jungang-ro, Yuseong-gu,Daejeon 34014
+29-20, Hanbat-daero 570beon-gil, Seo-gu,Daejeon 35222
+30, Oncheon-ro 101beon-gil, Yuseong-gu,Daejeon 305-301
+42, Dunsan-ro 51beon-gil, Seo-gu,Daejeon 35233
+12-13, Daedeok-daero 590beon-gil, Yuseong-gu,Daejeon 34121
+21, Gyeryong-ro 141beon-gil, Yuseong-gu,Daejeon 34187
+30-6, Oncheonseo-ro, Yuseong-gu,Daejeon 34168
+30-12, Gyeryong-ro 141beon-gil, Yuseong-gu,Daejeon 34187
+14, Oncheonbuk-ro, Yuseong-gu,Daejeon 34186
+538-13, Bongmyeong-Dong, Yuseong-Gu,Daejeon 305-301
+550-10 Bongmyeong-dong, Yusung-gu,Daejeon 305-301
+611, Gukchaebosang-ro, Jung-gu,Daegu 41913
+305, Dongdaegu-ro, Suseong-gu,Daegu 42117
+2033, Dalgubeol-daero, Jung-gu,Daegu 41931
+1121, Palgongsan-ro, Dong-gu,Daegu 41007
+106-7, Yonghak-ro, Suseong-gu,,Daegu 42217
+200, Dongchon-ro, Dong-gu,Daegu 41159
+27, Dongdaegu-ro, Suseong-gu,Daegu 42175
+148, Hyeonchung-ro, Nam-gu,Daegu 42419
+7, Igokdong-ro, Dalseo-gu,Daegu 42620
+221, Gonghang-ro, Dong-gu,Daegu 41052
+212, Palhyeon-gil, Suseong-gu,Daegu 42064
+45, Seodaegu-ro, Seo-gu,Daegu 41851
+80, Yutongdanji-ro, Buk-gu,Daegu 41515
+128-12, Dongcheon-ro, Buk-gu,Daegu 702-886
+11, Palgongsan-ro 185-gil,Daegu 41007
+150, Myeongdeok-ro, Nam-gu,Daegu 42409
+413, Seongseo-ro, Dalseo-gu,Daegu 42612
+1200-3 Igok-dong, Dalseo-gu,Daegu 704-140
+13, Icheon-ro, Nam-gu,Daegu 42447
+97, Duryugongwon-ro, Nam-gu,Daegu 42471
+193, Gyeongsanggamyeong-gil, Jung-gu,Daegu 41912
+164, Yuram-ro, Dong-gu,Daegu 41059
+1713 Daemyung 5-Dong, Nam-Gu,Daegu 705-035
+15-7, Horim-Dong, Dalseo-Gu,Daegu 704-240
+888-2, Doosan-dong, Suseong-gu,Daegu 706-802
+1-9 Taepyung-ro 2-ga, Jung-gu,Daegu 700-112
+5-2 Samdeok-Dong 1-ga, Jung-gu,Daegu 700-411
+3048-35, Daemyeong 4-Dong, Nam-Gu,Daegu 705-825

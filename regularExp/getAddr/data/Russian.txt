@@ -58,4 +58,55 @@ Medoveya st., 6,Sochi 354392
 Prosveshcheniya St., 36,Sochi 364340
 Kurortny Av., 103,Sochi 354024
 Triumfalny Dr., 3,Sochi 354340
+Novodanilovskaya emb., 6,Moscow 117105
+Novinskiy Blvd, 8/2,Moscow 121099
+Neglinnaya St., 4,Moscow 109012
+Okhotny Ryad St., 2,Moscow 109012
+Baumanskaya 54 bld.1,Moscow 105005
+Smolenskaya Sq., 6,Moscow 121099
+Nikolskaya St., 12,Moscow 109012
+Kosmodamianskaya Emb., 52/6,Moscow 115054
+Kutuzovskiy Av., 2/1, Bld. 1,Moscow 121248
+Ordzhonikidze Street 31,Novosibirsk 630099
+Kamenskaya St., 7/1,Novosibirsk 630099
+Lenina St., 21,Novosibirsk 630004
+Dobrolyubov St., 2,Novosibirsk 630009
+Dmitriya Shamshurina Street 37,Novosibirsk 630004
+Lenina St., 26,Novosibirsk 630004
+Nemirovicha-Danchenko St., 144а,Novosibirsk 630087
+Dobrolyubova St., 195,Novosibirsk 630039
+Vokzalnaya Hwy., 1,Novosibirsk 630004
+Karla Marksa Sq., 1/1,Novosibirsk 630048
+Krasnaya St., 25/2,Krasnodar 350000
+Fadeyeva St., 328 A,Krasnodar 350912
+Krasnoarmeyskaya st., 128,Krasnodar 350015
+Krasnaya St., 109,Krasnodar 350000
+Krasnykh Partizan St., 112,Krasnodar 350049
+Krasnykh Partizan St., 238,Krasnodar 350020
+Krylataya St., 3,Krasnodar 350040
+Oktyabrskaya St., 16,Krasnodar 350063
+Minskaya St., 64,Krasnodar 350004
+Energetikov St., 5,Krasnodar 350911
+Chernomorskaya St., 181,Vityazevo 157947
+Krasivy Dr., 8,Vityazevo 353417
+Zolotye Peski, 15,Vityazevo 157947
+Yuzhny Ave., 11,Vityazevo 353417
+Mira Street 211/3,Vityazevo 353417
+Aleksandriyskiy Proezd, 7,Vityazevo 353417
+Proezd Oriona 3,Vityazevo 353417
+Mira St., 211/6,Vityazevo 353450
+Yuzhny Prospekt 32,Vityazevo 353417
+Svetlaya St., 23,Vityazevo 353417
+Aleksandriyskiy Dr., 9/1,Vityazevo 353417
+Naberezhnaya St., 10,Vladivostok 690091
+Partizanskiy Ave., 44/6,Vladivostok 690106
+29, Semyonovskaya st.,Vladivostok 690091
+bukhta Yakornaya, 7,Vladivostok 690108
+Naberezhnaya St., 20,Vladivostok 690091
+Bestuzheva St., 29,Vladivostok 690003
+Posietskaya st., 16,Vladivostok 690000
+Posyetskaya St.,20,Vladivostok 690003
+8th (Vosmaya) St., 35,Vladivostok 690024
+Naberezhnaya St., 10,Vladivostok 690091
+Partizanskiy Ave., 44/6,Vladivostok 690106
 
