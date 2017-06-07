@@ -1,0 +1,87 @@
+53 boulevard Aristide Briand,LE CHESNAY,IL 78150
+37 Chemin Challet,LIMOGES,LI 87000
+72 rue Goya,LE PERREUX-SUR-MARNE,IL 94170
+23 rue Reine Elisabeth,METZ,LO 57000
+41 Place du Jeu de Paume,VIERZON,CE 18100
+85 Avenue des Pr,MONTIGNY-LÈS-METZ,LO 57158
+73 rue Pierre De Coubertin,TOULOUSE,MP 31200
+20 boulevard Aristide Briand,LE BOUSCAT,AQ 33110
+50 Rue Joseph Vernet,BAIE-MAHAULT,GD 97122
+93 Faubourg Saint Honoré,PARIS,IL 75116
+46 rue Cazade,DUNKERQUE,NP 59240
+48 rue Isambard,FRESNES,IL 94260
+42 Square de la Couronne,OZOIR-LA-FERRIÈRE,IL 77330
+48 rue Sébastopol,SAINTE-MARIE,MQ 97230
+76 rue de Groussay,ROCHEFORT,PC 17300
+78 avenue Jules Ferry,SOISSONS,PI 02200
+63 rue des Lacs,HOUILLES,IL 78800
+23 rue du Président Roosevelt,SCHILTIGHEIM,AL 67300
+69 Boulevard de Normandie,FONTAINE,RA 38600
+23 rue Reine Elisabeth,MELUN,IL 77000
+16 Chemin Du Lavarin Sud,CALAIS,NP 62100
+36 Place du Jeu de Paume,VILLEJUIF,IL 94800
+10 rue Ernest Renan,CHOLET,PL 49300
+83 rue Pierre Motte,SAINT-DENIS,IL 97400
+20 avenue Ferdinand de Lesseps,GRENOBLE,RA 38000
+82 rue Gustave Eiffel,ROANNE,RA 42300
+64 cours Franklin Roosevelt,MARSEILLE,PA 13007
+51 Rue Frédéric Chopin,VERSAILLES,IL 78000
+51 rue de Groussay,ROSNY-SOUS-BOIS,IL 93110
+6 rue du Fossé des Tanneurs,TOULON,PA 83200
+98 Chemin Challet,LILLE,NP 59800
+4 boulevard Albin Durand,CHAMBÉRY,RA 73000
+63 rue des Chaligny,NICE,PA 06000
+47 rue de Lille,ASNIÈRES-SUR-SEINE,IL 92600
+6 Rue Joseph Vernet,AVIGNON,PA 84000
+40 Boulevard de Normandie,FONTENAY-AUX-ROSES,IL 92260
+25 rue de l,RUEIL-MALMAISON,IL 92500
+94 Place de la Gare,COMBS-LA-VILLE,IL 77380
+36 rue Saint Germain,GENNEVILLIERS,IL 92230
+74 rue de Lille,ARMENTIÈRES,NP 59280
+72 place de Miremont,VILLEPINTE,IL 93420
+93 rue Michel Ange,LE KREMLIN-BICÊTRE,IL 94270
+68 rue La Boétie,PARIS,IL 75013
+60 rue de l,LA POSSESSION,LR 97419
+67 Rue de la Pompe,MARIGNANE,PA 13700
+73 rue de l,RUEIL-MALMAISON,IL 92500
+90 rue de l,LA PLAINE-SAINT-DENIS,IL 93210
+38 rue du Gue Jacquet,CHÂTEAUROUX,CE 36000
+58 rue Isambard,FORT-DE-FRANCE,MQ 97234
+27 rue du Clair Bocage,LA VALETTE-DU-VAR,PA 83160
+45 rue de la Boétie,PLAISIR,IL 78370
+58 rue de Lille,ARRAS,NP 62000
+84 rue Sadi Carnot,AUXERRE,BO 89000
+21 rue Isambard,FRÉJUS,PA 83600
+11 Faubourg Saint Honoré,PARIS,IL 75116
+5 Place du Jeu de Paume,VIENNE,RA 38200
+59 Rue Marie De Médicis,CALUIRE-ET-CUIRE,RA 69300
+38 quai Saint-Nicolas,TOURS,CE 37100
+19 Square de la Couronne,PALAISEAU,IL 91120
+51 rue des Lacs,HYÈRES,PA 83400
+88 avenue Voltaire,MAISONS-ALFORT,IL 64700
+75 avenue du Marechal Juin,SAINT-LOUIS,AL 68300
+82 Cours Marechal-Joffre,DÉCINES-CHARPIEU,RA 69150
+48 rue des six frères Ruellan,SAINT-SÉBASTIEN-SUR-LOIRE,PL 44230
+80 Cours Marechal-Joffre,DENAIN,NP 59220
+91 boulevard Albin Durand,CERGY,IL 95800
+79 Avenue des Tuileries,GRIGNY,IL 91350
+93 rue Gontier-Patin,AIX-EN-PROVENCE,PA 13100
+94 rue Lenotre,RAMBOUILLET,IL 78120
+1 rue des six frères Ruellan,SALON-DE-PROVENCE,PA 13300
+25 rue Grande Fusterie,BRIVE-LA-GAILLARDE,LI 19100
+10 rue Descartes,STRASBOURG,AL 67000
+93 rue du Fossé des Tanneurs,TOULON,PA 83000
+24 Place de la Gare,COMBS-LA-VILLE,IL 77380
+55 Cours Marechal-Joffre,DENAIN,NP 59220
+43 rue de la Mare aux Carats,MONTROUGE,IL 92120
+99 rue Marie de Médicis,BÉTHUNE,NP 62400
+40 Faubourg Saint Honoré,PARIS,IL 75020
+50 Rue de la Pompe,MARCQ-EN-BAROEUL,NP 59700
+57 rue des Nations Unies,SAINT-CHAMOND,RA 42400
+96 rue du Général Ailleret,LES ABYMES,GD 97139
+96 rue de la Hulotais,SAINT-QUENTIN,PI 02100
+71 rue de Lille,ATHIS-MONS,IL 91200
+27 Place Napoléon,LANESTER,BR 56600
+4 rue de la République,LYON,RA 69003
+96 rue Sébastopol,SAINTES,PC 17100
+23 Chemin Du Lavarin Sud,CAEN,BN 14000

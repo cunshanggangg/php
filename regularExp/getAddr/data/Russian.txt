@@ -1,0 +1,61 @@
+Kryukova Kanala Emb., 27,St. Petersburg 190068
+Reki Moiki Emb., 14,St. Petersburg 191186
+Voznesenskiy Ave., 1,St. Petersburg 190000
+Pravda St., 10,St. Petersburg 191119
+Chaikovskogo St., 17,St. Petersburg 191187
+Marata St., 11,St. Petersburg 191025
+Nevskiy Ave., Mikhailovskaya St., 1/7,St. Petersburg 191186
+Bolshaya Morskaya St., 39,St. Petersburg 190000
+11th Liniya V.O., 50,St. Petersburg 199178
+Emb. Reki Moiki, 99,St. Petersburg 190000
+Vosstaniya St., 19,St. Petersburg 191036
+Bolshaya Morskaya St., 25,St. Petersburg 190000
+Nevskiy Ave., 69,St. Petersburg 191025
+Sadovaya St., 22/2,St. Petersburg 191023
+Ligovsky Prospect, 61,St. Petersburg 191040
+Emb. Reki Moiki, 3,St. Petersburg 191186
+Reki Moiki Emb., 22,St. Petersburg 191186
+Ligovskiy Ave., 55/4,St. Petersburg 191119
+Voznesenskiy Ave., 6,St. Petersburg 190000
+Vladimirskiy Ave., 5,St. Petersburg 191005
+Nevskiy Ave., 22-24,St. Petersburg 191186
+Startovaya St., 6A,St. Petersburg 196210
+Moskovskiy Ave., 97B,St. Petersburg 196084
+Reki Fontanki Emb., 55,St. Petersburg 191023
+8 line of Vasilyevskiy Island, 11-13,St. Petersburg 199034
+Malaya Morskaya St., 14,St. Petersburg 190000
+Ligovskiy Ave., 65,St. Petersburg 191040
+Sadovaya, 22/2,St. Petersburg 191023
+Pochtamtskaya St., 4,St. Petersburg 190000
+Rasstannaya St., 2/1,St. Petersburg 192007
+Naberezhnaya St., 15,Sochi 354340
+89 Kurortny Prospect,Sochi 354002
+Ordzhonikidze St., 11a,Sochi 354000
+Ordzonikidze St, 17,Sochi 354000
+Ordzhonikidze St., 11a,Sochi 354000
+4, Lavanda Embankment,Sochi 354392
+1A Golubaya Street,Sochi 354350
+Olimpiyskiy Ave., 21,Sochi 354340
+65 Let Pobedy Street, 50,Sochi 354340
+Panorama Emb., 2,Sochi 354392
+,Sochi 354392
+56 Gorkogo Str,Sochi 354024
+1 Vremena Goda Emb,Sochi 354392
+Kirova St., 44,Sochi 354340
+Olimpiiskaya St., 35,Sochi 354392
+1 Fevralskaya st.,Sochi 354392
+3, Panorama Embankment,Sochi 354392
+Panorama Emb. 4,Sochi 354392
+Morskoi Blvd., 1,Sochi 354340
+Pikhtovaya Alley, 1,Sochi 354392
+Vremena Goda Emb., 11,Sochi 354392
+Kurortny Ave., 105A,Sochi 354024
+Chernomorskaya Street 4,Sochi 354002
+Achipsinskaya St., 16,Sochi 354392
+Kamenka St., 1,Sochi 354392
+Chernomorskaya St., 3,Sochi 354002
+Medoveya st., 6,Sochi 354392
+Prosveshcheniya St., 36,Sochi 364340
+Kurortny Av., 103,Sochi 354024
+Triumfalny Dr., 3,Sochi 354340
+

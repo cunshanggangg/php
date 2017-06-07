@@ -1,0 +1,79 @@
+Via Vipacco 95,Albisola Capo,SV 17011
+Via Sergente Maggiore 42,Calci,PI 56011
+Via Cavour 8,Giano Vetusto,CE 81042
+Via Croce Rossa 145,Silimini,NU 08020
+Corso Garibaldi 87,San Donato Val Di Comino,FR 03046
+Via Sacchi 47,Varmo,UD 33030
+Via Nazionale 38,Tanas,BZ 39020
+Via Scala 97,Buonconvento,SI 53022
+Via Partenope 126,Sorbano,FO 47027
+Viale Augusto 3,Santa Maria Infante,LT 04020
+Via Venezia 47,Mongrassano Stazione,CS 87010
+Via Roma 17,Castel Rocchero,AT 14044
+Via Francesco Del Giudice 48,Reno Centese,FE 44040
+Corso Garibaldi 60,Terelle,FR 03040
+Vicolo Cieco Fondachetto 145,Padula,SA 84034
+Piazza della Repubblica 128,Lido Di Squillace,CZ 88069
+Via Torricelli 21,Madruzzo,TN 38076
+Via Alessandro Farnese 100,Campo Di Trens,BZ 39040
+Vico Giganti 109,Roncaro,PV 27010
+Via Varrone 12,Caltagirone,CT 95041
+Via delle Azalee 74,Montalero,AL 15020
+Via Nicolai 62,Giralba,BL 32041
+Via Belviglieri 142,Roma,RM 00063
+Corso Alcide De Gasperi 120,Sannicandro Di Bari,BA 70028
+Via Firenze 121,Roverino,IM 18039
+Viale delle Province 32,Militello In Val Di Catania,CT 95043
+Via Genova 128,Palermo,PA 90138
+Piazza Garibaldi 135,Villavallelonga,AQ 67050
+Via Volto San Luca 135,Riclaretto,TO 10060
+Via Loreto 130,Poggio Di Bretta,AP 63100
+Via Santa Teresa degli Scalzi 29,Campofiorito,PA 90030
+Via Acrone 93,Stazzano,AL 15060
+Via delle Coste 61,Sesso,RE 42020
+Viale delle Province 53,Fiumefreddo Di Sicilia,CT 95013
+Via Bologna 42,Badia Pozzeveri,LU 55010
+Via Medina 68,Bagno Di Gavorrano,GR 58021
+Via Volto San Luca 3,Pianezza,TO 10044
+Piazza Principe Umberto 14,Firenze,FI 50122
+Via Nicola Mignogna 51,Fontaneto D,NO 28010
+Via dei Fiorentini 133,Napoli,NA 80138
+Vicolo Cieco Fondachetto 36,Positano,SA 84017
+Viale Augusto 90,Cannole,LE 73020
+Via Alessandro Farnese 87,Caldaro Sulla Strada Del Vino,BZ 39052
+Via Torino 93,Groppoducale,PC 29021
+Via San Domenico Soriano 72,Contesse,ME 98125
+Via Silvio Spaventa 19,Savelli Di Norcia,PG 06040
+Via Piccinni 110,San Salvatore Telesino,BN 82030
+Via del Pontiere 107,Torino,TO 10155
+Via Silvio Spaventa 62,Uppello,PG 06034
+Piazza Bovio 98,Fontanaluccia,MO 41040
+Via Licola Patria 132,Ioffredo,AV 83012
+Via Rocca de Baldi 110,Verona,VR 37126
+Via Venezia 135,Paludi,CS 87060
+Via delle Coste 63,Coltodino,RI 02030
+Vicolo Calcirelli 139,Scopello,TP 91014
+Viale Maria Cristina di Savoia 101,Chiesanuova Uzzanese,PT 51013
+Via Capo le Case 107,Bovezzo,BS 25073
+Piazza Garibaldi 82,Borgo Grappa,LT 04010
+Via Scala 72,Abbadia Di Montepulciano,SI 53040
+Strada Statale 60,Valdengo,BI 13855
+Largo Febo 137,Concesio,BS 25062
+Via Stadera 119,Sant,PG 61048
+Via Giotto 6,Palu,VR 37050
+Via Nicola Mignogna 138,Scisciano,NA 80030
+Via Genova 4,Valledolmo,PA 90029
+Via Zannoni 8,Spiazzo Rendena,TN 38088
+Via Nazionale 30,Stava,BZ 39020
+Via Scala 31,Pallare,SV 17043
+Via Goffredo Mameli 20,Vaccareccia,RI 02020
+Via Giulio Camuzzoni 66,Serrata,RC 89020
+Via degli Aldobrandeschi 32,Campobasso,CB 86100
+Corso Novara 51,Lula,NU 08020
+Via Palermo 105,Bienate,MI 20020
+Via Torricelli 149,Madrano,TN 38050
+Via Zannoni 103,Tregiovo,TN 38028
+Via Zannoni 27,Vigo Cavedine,TN 38073
+Via del Piave 55,San Biagio Platani,AG 92020
+Via Gaetano Donizetti 90,Lugagnano,VR 37060
+Vicolo Calcirelli 24,Capriana,TN 38030

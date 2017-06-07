@@ -1,0 +1,126 @@
+Fugger Strasse 8,Potsdam,Brandenburg 14416
+Mohrenstrasse 60,Aldingen,Baden-Württemberg 78554
+Budapester Strasse 86,Trappenkamp,Schleswig-Holstein 24604
+Prager Str 92,Gröbenzell,Freistaat Bayern 82194
+Park Str. 93,Köln Innenstadt,Nordrhein-Westfalen 50670
+Rathausstrasse 26,Fürth,Freistaat Bayern 90701
+Spresstrasse 40,Flensburg,Schleswig-Holstein 24903
+Ellmenreichstrasse 95,Creußen,Freistaat Bayern 95473
+Esplanade 12,Feldkirchen,Freistaat Bayern 85618
+Leopoldstraße 88,Berlin Friedrichsfelde,Berlin 10315
+Park Str. 90,Düsseldorf Urdenbach,Nordrhein-Westfalen 40595
+Genslerstraße 64,Berlin Wedding,Berlin 13355
+Flughafenstrasse 42,Windischeschenbach,Freistaat Bayern 92666
+Gubener Str. 66,Fischbachau,Freistaat Bayern 83728
+Stuttgarter Platz 64,Wadersloh,Nordrhein-Westfalen 59329
+Leipziger Strasse 13,Trier Kernscheid,Rheinland-Pfalz 54296
+Flughafenstrasse 79,Bärnau,Freistaat Bayern 95668
+Storkower Strasse 56,Wittgert,Rheinland-Pfalz 56237
+Brandenburgische Str 77,Bacharach,Rheinland-Pfalz 55422
+Guentzelstrasse 3,Weidenbach,Freistaat Bayern 91746
+Motzstr. 33,Gensingen,Rheinland-Pfalz 55457
+Fugger Strasse 41,Koblenz Rübenach,Rheinland-Pfalz 56072
+Gotthardstrasse 5,Chemnitz,Freistaat Sachsen 09032
+Gubener Str. 69,Rosenheim,Freistaat Bayern 83002
+Hedemannstasse 99,Herdwangen-Schönach,Baden-Württemberg 88634
+Motzstr. 22,Bingen am Rhein,Rheinland-Pfalz 55411
+Hermannstrasse 41,Waldsee,Rheinland-Pfalz 67165
+Kastanienallee 56,Baltrum,Niedersachsen 26579
+Rosenstrasse 25,München,Freistaat Bayern 81331
+Neuer Jungfernstieg 15,Dingolfing,Freistaat Bayern 84130
+Rosenstrasse 76,München,Freistaat Bayern 81455
+Kurfürstendamm 72,Rostock,Mecklenburg-Vorpommern 18087
+Kurfuerstendamm 80,Heilbronn Horkheim,Baden-Württemberg 74081
+Gotzkowskystraße 34,Eschenburg,Hessen 35713
+Hardenbergstraße 6,Haschbach am Remigiusberg,Rheinland-Pfalz 66871
+Rudower Strasse 33,Üttfeld,Rheinland-Pfalz 54619
+Rosenstrasse 45,München,Freistaat Bayern 81318
+Luetzowplatz 78,Geichlingen,Rheinland-Pfalz 54675
+Buelowstrasse 53,Großseifen,Rheinland-Pfalz 56472
+Gotthardstrasse 66,Gera,Freistaat Thüringen 07552
+Potsdamer Platz 19,Wasserburg,Freistaat Bayern 83502
+Schönwalder Allee 61,Blumenthal,Schleswig-Holstein 24241
+Leopoldstraße 77,Berlin Buckow,Berlin 12349
+Paul-Nevermann-Platz 59,Hammelburg,Freistaat Bayern 97755
+Alter Wall 85,Zellingen,Freistaat Bayern 97223
+Paderborner Strasse 59,Pfaffenhausen,Freistaat Bayern 87772
+Luetzowplatz 21,Geichlingen,Rheinland-Pfalz 54675
+Adenauerallee 97,Röbel,Mecklenburg-Vorpommern 17204
+Koepenicker Str. 37,Lierschied,Rheinland-Pfalz 56357
+Alt Reinickendorf 43,Immenstadt,Freistaat Bayern 87502
+Waßmannsdorfer Chaussee 97,Hamburg Alsterdorf,Hamburg 22337
+Oldesloer Strasse 83,Weida,Freistaat Thüringen 07565
+Paul-Nevermann-Platz 74,Stadtlauringen,Freistaat Bayern 97488
+Fasanenstrasse 42,Hamburg Langenhorn,Hamburg 22417
+Kurfürstenstraße 26,Besigheim,Baden-Württemberg 74354
+Meininger Strasse 40,Spiesen-Elversberg,Freistaat Thüringen 66583
+Koenigstrasse 20,Blankenburg,Sachsen-Anhalt 38883
+Stuttgarter Platz 91,Singhofen,Rheinland-Pfalz 56379
+Fontenay 59,Kulmain,Freistaat Bayern 95508
+Spresstrasse 34,Bielefeld Deppendorf,Nordrhein-Westfalen 33619
+Luebecker Strasse 28,Maroldsweisach,Freistaat Bayern 96124
+Gruenauer Strasse 31,Trittau,Schleswig-Holstein 22943
+Hedemannstasse 5,Rheinfelden,Baden-Württemberg 79618
+Oldesloer Strasse 24,Suhl,Freistaat Thüringen 98502
+Mühlenstrasse 55,Würzburg,Freistaat Bayern 97045
+Budapester Straße 76,Löhnberg,Hessen 35792
+Friedrichstrasse 20,Oberhausen Königshardt,Nordrhein-Westfalen 46145
+Anhalter Strasse 6,Obernheim-Kirchenarnbach,Rheinland-Pfalz 66919
+Knesebeckstraße 86,Heimbach,Nordrhein-Westfalen 52396
+Jenaer Strasse 99,Duisburg,Nordrhein-Westfalen 47229
+Marseiller Strasse 73,Garmisch-Partenkirchen,Freistaat Bayern 82452
+Gubener Str. 99,Rohrdorf,Baden-Württemberg 72229
+Mellingburgredder 5,Erlangen,Freistaat Bayern 91056
+Hoheluftchaussee 45,Schkeuditz,Freistaat Sachsen 04431
+Nuernbergerstrasse 49,Malente,Schleswig-Holstein 23711
+Knesebeckstraße 33,Hamm,Nordrhein-Westfalen 59065
+Hans-Grade-Allee 63,Kükels,Schleswig-Holstein 23829
+Neue Roßstr. 18,Esslingen Pliensauvorstadt,Baden-Württemberg 73734
+Brandenburgische Str 82,Bickenbach,Rheinland-Pfalz 56291
+Landsberger Allee 78,München,Freistaat Bayern 80083
+Kurfuerstendamm 5,Heilbronn Kirchhausen,Baden-Württemberg 74078
+Brandenburgische Str 29,Oberwesel,Rheinland-Pfalz 55430
+Eichendorffstr. 15,Haigerloch,Baden-Württemberg 72401
+Hermannstrasse 81,Großkarlbach,Rheinland-Pfalz 67229
+Heiligengeistbrücke 46,Dinkelsbühl,Freistaat Bayern 91543
+Flughafenstrasse 62,Pressath,Freistaat Bayern 92686
+Schoenebergerstrasse 88,Bockau,Freistaat Sachsen 08322
+Knesebeckstrasse 37,Asbach,Rheinland-Pfalz 53567
+Alt-Moabit 70,Machern,Freistaat Sachsen 04825
+An Der Urania 18,Albersdorf,Schleswig-Holstein 25765
+Brandenburgische Strasse 5,Rinnthal,Rheinland-Pfalz 76857
+Michaelkirchstr. 37,Preußisch Oldendorf,Nordrhein-Westfalen 32361
+Kurfuerstendamm 20,Heilbronn Böckingen,Baden-Württemberg 74080
+Reeperbahn 65,Karlshagen,Mecklenburg-Vorpommern 17445
+Kurfürstendamm 11,Zwickau,Freistaat Sachsen 08062
+Gotthardstrasse 78,Erfurt,Freistaat Thüringen 99041
+Unter den Linden 60,Schwerin,Mecklenburg-Vorpommern 19055
+Prager Str 71,Marzling,Freistaat Bayern 85417
+Michaelkirchstr. 54,Rätzlingen,Niedersachsen 29590
+Wallstrasse 9,Kettig,Rheinland-Pfalz 56220
+Gruenauer Strasse 33,Wulfsen,Niedersachsen 21445
+Landhausstraße 16,Eberswalde,Brandenburg 16207
+Bayreuther Strasse 5,Reutlingen Südstadt,Baden-Württemberg 72764
+Rankestraße 84,Brunnen,Freistaat Bayern 86564
+Potsdamer Platz 54,Prem,Freistaat Bayern 86984
+Kurfuerstendamm 61,München,Freistaat Bayern 80019
+Knesebeckstraße 88,Oer-Erkenschwick,Nordrhein-Westfalen 45739
+Albrechtstrasse 59,Kempten,Freistaat Bayern 87401
+Hoheluftchaussee 1,Bad Bibra,Sachsen-Anhalt 06647
+Park Str. 43,Köln Chorweiler,Nordrhein-Westfalen 50767
+Hermannstrasse 95,Monzernheim,Rheinland-Pfalz 55234
+Kieler Strasse 94,Reit im Winkl,Freistaat Bayern 83239
+Lietzensee-Ufer 96,Lauchhammer,Brandenburg 01973
+Heinrich Heine Platz 62,Zittau,Freistaat Sachsen 02753
+Knesebeckstraße 13,Fröndenberg,Nordrhein-Westfalen 58730
+Meinekestraße 65,Bühren,Niedersachsen 37127
+Prager Str 87,Starnberg,Freistaat Bayern 82312
+An der Alster 25,Saßnitz,Mecklenburg-Vorpommern 18541
+Augsburger Strasse 10,Bauler,Rheinland-Pfalz 54673
+Albrechtstrasse 5,Ingolstadt,Freistaat Bayern 85055
+Fischerinsel 15,Mönchengladbach Waldhausen,Nordrhein-Westfalen 41068
+Invalidenstrasse 92,Bad Dürkheim,Rheinland-Pfalz 67098
+Ziegelstr. 39,Hebertsfelden,Freistaat Bayern 84332
+Los-Angeles-Platz 3,Braunschweig,Niedersachsen 38122
+Kurfürstendamm 70,Rostock,Mecklenburg-Vorpommern 18073
+Park Str. 76,Köln Innenstadt,Nordrhein-Westfalen 50672

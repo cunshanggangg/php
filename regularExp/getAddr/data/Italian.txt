@@ -1,0 +1,116 @@
+Piazzetta Scalette Rubiani 24,Serramezzana,SA 84070
+Via Carlo Cattaneo 119,Palmadula,SS 07040
+Corso Vittorio Emanuele 5,Porto Ercole,GR 58018
+Via Venezia 67,Pedace,CS 87050
+Discesa Gaiola 33,Grumento Nova,PZ 85050
+Via del Carmine 10,Monticello Conte Otto,VI 36010
+Viale delle Province 106,San Nullo,CT 95123
+Viale Augusto 79,Sermoneta,LT 04013
+Via Duomo 15,Collesalvetti,LI 57014
+Via Piave 111,Frisa,CH 66030
+Via Giacinto Gigante 116,Tagliole,MO 41027
+Via Licola Patria 141,Pietradefusi,AV 83030
+Via Moiariello 76,Valloriate,CN 12010
+Via Leopardi 101,Ravoledo,SO 23030
+Via Giovanni Amendola 130,Belvedere Spinello,KR 88824
+Piazza Trieste e Trento 72,Roata Rossi,CN 12020
+Via del Mascherone 6,Cagliari,CA 09100
+Via San Domenico 122,Kastelbell Tschars,BZ 39020
+Via Raffaele Conforti 2,Assergi,AQ 67010
+Via Raffaele Conforti 92,Termo,SP 19136
+Via Sergente Maggiore 19,Ziano Piacentino,PC 29010
+Via Lagrange 149,Villaraspa,VI 36064
+Via Agostino Depretis 32,Valleluce,FR 03040
+Via Antonio Beccadelli 75,Ugento,LE 73059
+Via Rosmini 87,Giovi,SA 84134
+Via Donnalbina 144,Vaprio D,NO 28010
+Via Nuova Agnano 136,Sorgane,FI 50126
+Via Alessandro Farnese 132,Chiusa,BZ 39043
+Piazza Cardinale Riario Sforza 43,Selvena,GR 58030
+Via Sergente Maggiore 142,Luciana,PI 56043
+Vicolo Tre Marchetti 123,Cozzuolo,TV 31010
+Via San Domenico Soriano 145,Contemplazione,ME 98168
+Piazzetta Scalette Rubiani 42,San Nicola Di Centola,SA 84070
+Via Scuderlando 137,Teramo,TE 64100
+Via Melisurgo 13,Ponte All,LU 55055
+Via Giovanni Amendola 48,Gussola,CR 26040
+Via Zannoni 136,Tavon,TN 38010
+Via Adua 6,Borgofranco D,TO 10013
+Viale delle Province 100,Ramacca,CT 95040
+Via Paolo Gaidano 17,Prato Carnico,UD 33020
+Piazza Guglielmo Pepe 17,Camerino,MC 62032
+Corso Vittorio Emanuele 115,Castel Di Pietra,GR 58027
+Corso Vittorio Emanuale 44,Torri,PT 51020
+Corso Porta Nuova 142,Cerredolo,RE 42010
+Viale Ippocrate 65,Albidona,CS 87070
+Corso Novara 10,Meana Sardo,NU 08030
+Via Giulio Petroni 36,Peghera,BG 24010
+Vico Giganti 133,Retorbido,PV 27050
+Via Donnalbina 83,Cala Gonone,NU 08020
+Via Castelfidardo 56,Aprigliano,CS 87051
+Via Lagrange 16,Montalto Di Castro,VT 01014
+Via Donnalbina 61,Austis,NU 08030
+Corso Porta Borsari 17,Palu,TN 38050
+Via Stadera 105,Sant,PG 61020
+Corso Alcide De Gasperi 8,Dussoi,BL 32020
+Piazza Trieste e Trento 19,Niella Belbo,CN 12050
+Via Guantai Nuovi 26,Bonea,NA 80069
+Vicolo Cieco Fondachetto 89,Massa Della Lucania,SA 84050
+Via Adua 107,Brosso,TO 10080
+Via Lagrange 57,Fastello,VT 01020
+Via Silvio Spaventa 147,Chiaserna,PG 61044
+Via Antonio Beccadelli 39,Ugento,LE 73059
+Piazza Pilastri 138,Montevecchia,LC 23874
+Via Loreto 111,Ponzano Di Fermo,AP 63020
+Via Santa Maria di Costantinopoli 117,Massa,MS 54100
+Via San Pietro Ad Aram 137,Truccazzano,MI 20060
+Via Licola Patria 119,San Pietro Di Montoro Superiore,AV 83020
+Via Vico Ferrovia 103,Berra,FE 44033
+Strada Provinciale 65 106,Calcio,BG 24054
+Via delle Mura Gianicolensi 69,Capriati Al Volturno,CE 81014
+Vicolo Cieco Fondachetto 91,Pertosa,SA 84030
+Via Colonnello Galliano 46,Anticoli Corrado,RM 00022
+Via Alfredo Fusco 78,Castelleone,CR 26012
+Via Antonio Beccadelli 133,Scorrano,LE 73020
+Via Sedile di Porto 36,Montagnana,PD 35044
+Via Callicratide 40,Verrand,AO 11010
+Via San Pietro Ad Aram 73,Vaprio D,MI 20069
+Via San Pietro Ad Aram 130,Bastiglia,MO 41030
+Via Firenze 134,Poggio Sannita,IS 86086
+Via Vico Ferrovia 14,Francolino,FE 44036
+Via Giacinto Gigante 125,Rubbiano,MO 41045
+Via Corio 137,Gornate Olona,VA 21040
+Viale Ippocrate 35,Ponte Chiasso,CO 22100
+Via San Pietro Ad Aram 38,Seggiano,MI 20096
+Via del Piave 58,Sant,AG 92020
+Corso Porta Borsari 48,Mestriago,TN 38020
+Via di Santa Melania 125,San Martino In Casies,BZ 39030
+Via A.G. Alaimo 125,Montecarotto,AN 60036
+Via Bologna 91,Secugnago,LO 26826
+Via Alessandro Manzoni 54,Ceranova,PV 27010
+Via Donnalbina 25,Bircolovo,NU 08020
+Via San Pietro Ad Aram 130,Valera,MI 20039
+Lungodora Napoli 1,Bassano Del Grappa,VI 36061
+Via Francesco Del Giudice 68,Cancelli,FI 50066
+Via Spalato 147,Cazzago Di Pianiga,VE 30030
+Via San Pietro Ad Aram 3,Villaggio Die Giovi,MI 20051
+Strada Statale 19,Quaregna,BI 13854
+Stradone Antonio Provolo 77,Collelungo,TR 05010
+Via Leopardi 108,Nuova Olonio,SO 23020
+Via Pisanelli 125,Barritteri,RC 89010
+Piazzetta Concordia 107,Casanova Lonati,PV 27041
+Via Foria 31,Ordona,FG 71040
+Via Torre di Mezzavia 96,Taverna Di Schiavi Di Abruzzo,CH 66040
+Via Volto San Luca 33,Rivodora,TO 10099
+Via Matteo Schilizzi 39,Genova,GE 16155
+Via Raffaele Conforti 34,Colli Di Montebove,AQ 67060
+Vicolo Calcirelli 110,Partanna,TP 91028
+Via Nicola Mignogna 2,Torre Annunziata,NA 80058
+Via Giberti 66,Chiaverano,TO 10010
+Via Vico Ferrovia 23,Monestirolo,FE 44040
+Via Giacinto Gigante 33,Rubbiano,MO 41045
+Via Licola Patria 89,Pagliara,AV 83040
+Via Alessandro Farnese 140,Bronzolo,BZ 39051
+Via Matteo Schilizzi 106,Genova,GE 16163
+Piazza San Carlo 24,Cappuccini,VC 13100
+Via Corio 6,Gerenzano,VA 21040
