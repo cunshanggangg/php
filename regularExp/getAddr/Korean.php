@@ -13,8 +13,9 @@ set_time_limit(0);
 //$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g297892-Seogwipo_Jeju_Island-Hotels.html");
 //$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g297889-Incheon-Hotels.html");
 //$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g297887-Daejeon-Hotels.html");
-$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g297886-Daegu-Hotels.html");
-
+//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g297886-Daegu-Hotels.html");
+//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g297888-Gyeongju_Gyeongsangbuk_do-Hotels.html");
+$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g424960-Suwon_Gyeonggi_do-Hotels.html");
 //echo  $str;
 //file_put_contents("data/Russian.txt",$str);
 //$preg = '/href="(.*)"/';

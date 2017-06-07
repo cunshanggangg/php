@@ -138,3 +138,47 @@
 1-9 Taepyung-ro 2-ga, Jung-gu,Daegu 700-112
 5-2 Samdeok-Dong 1-ga, Jung-gu,Daegu 700-411
 3048-35, Daemyeong 4-Dong, Nam-Gu,Daegu 705-825
+484-7, Bomun-ro,Gyeongju 38117
+280-12, Bomun-ro,Gyeongju 38117
+141, Wonhyo-ro,Gyeongju 
+338, Bomun-ro,Gyeongju 38117
+3, Taejong-ro 699beon-gil,Gyeongju 38157
+422, Bomun-ro,Gyeongju 38117
+289-17, Bulguk-ro,Gyeongju 780-410
+465-37, Bomun-ro,Gyeongju 38116
+45 Expo-ro,Gyeongju 38116
+465-28, Bomun-ro,Gyeongju 38116
+207, Yeongbul-ro,Gyeongju 38127
+850-1, Jinhyeon-Dong,Gyeongju 780-400
+452-1, Sinpyeong-Dong,Gyeongju 780-290
+476-2 Gampo-ri, Gampo-eup,Gyeongju 780-831
+595 Oryu-ri, Gampo-eup,Gyeongju 780-832
+200 Gangbyeon-ro,Gyeongju 38157
+410 Shinpyung-dong,Gyeongju 780-290
+383, Bomun-ro,Gyeongju 38116
+150, Jungbu-daero, Paldal-gu,Suwon 16483
+902, Deogyeong-daero, Paldal-gu,Suwon 16622
+132, Gwongwang-ro, Paldal-gu,Suwon 16491
+299, Hyowon-ro, Paldal-gu,Suwon 442-702
+12, Gyeongsu-daero 335beon-gil, Gwonseon-gu,Suwon 16565
+203, Jungbu-daero, Paldal-gu,Suwon 16498
+27-19, Ingye-ro 94beon-gil, Paldal-gu,Suwon 16489
+17-10, Geumgok-ro 197beon-gil, Gwonseon-gu,Suwon 16391
+26, Gwonseon-ro 669beon-gil, Gwonseon-gu,Suwon 441-822
+46-14, Hyowon-ro 219beon-gil, Paldal-gu,Suwon 16490
+39-21, Ingye-ro 108beon-gil, Paldal-gu,Suwon 442-834
+1591, Bongyeong-ro, Yeongtong-gu,Suwon 16703
+46-24, Hyowon-ro 219beon-gil, Paldal-gu,Suwon 442-701
+42, Seobu-ro 1934beon-gil, Gwonseon-gu,Suwon 16405
+52, Hyanggyo-ro, Paldal-gu,Suwon 16456
+55, Gyeongsu-daero 446beon-gil, Paldal-gu,Suwon 16489
+62, Gwongwang-ro 175beon-gil, Paldal-gu,Suwon 16490
+23, Gyeongsu-daero 384beon-gil, Gwonseon-gu,Suwon 16571
+46-13, Hyowon-ro 235beon-gil, Paldal-gu,Suwon 16490
+23, Gwongwang-ro 207beon-gil, Paldal-gu,Suwon 16489
+44-11, Gwongwang-ro 134beon-gil, Paldal-gu,Suwon 16491
+27, Gyeongsu-daero 466beon-gil, Paldal-gu,Suwon 16489
+22, Hyowon-ro 220beon-gil, Gwonseon-gu,Suwon 16571
+54, Gyeongsu-daero 466beon-gil, Paldal-gu,Suwon 16489
+32, Gwongwang-ro 142beon-gil, Paldal-gu,Suwon 16491
+38, Hyowon-ro 235beon-gil, Paldal-gu,Suwon 16490
