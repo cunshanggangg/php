@@ -7,9 +7,9 @@
  */
 $str = file_get_contents("http://haoweichi.com/More/xi_ban_ya_ren_shen_fen_sheng_cheng");
 //file_put_contents("data.txt",$str);
-echo "<pre>";
-print_r($str);
-echo "</pre>";
+//echo "<pre>";
+//print_r($str);
+//echo "</pre>";
 //preg_match_all("|value='(.*)'|isU",$str,$result);
 //$preg = "<input type=\"text\" value='(.*)'/>";
 $preg = "|value='(.*)'|isU";
@@ -19,6 +19,6 @@ print_r($result);
 echo "</pre>";
 //拼装西班牙的地址：街道,市,州,邮编
 $address = $result[1][9].','.$result[1][10].','.$result[1][8].' '.$result[1][12];
-echo $address;
-//file_put_contents("data/Spanish.txt",$address.PHP_EOL,FILE_APPEND);
-//echo "<script>window.location.reload();</script>";
+//echo $address;
+file_put_contents("data/Spanish.txt",$address.PHP_EOL,FILE_APPEND);
+echo "<script>window.location.reload();</script>";
