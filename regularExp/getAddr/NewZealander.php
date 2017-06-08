@@ -6,19 +6,14 @@
  * Time: 15:20
  */
 set_time_limit(0);
-//吕宋岛酒店
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294248-Luzon-Hotels.html");
-//民答那峨岛酒店 Mindanao
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294252-Mindanao-Hotels.html");
-//班乃岛酒店 Panay Island
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g298465-Panay_Island_Visayas-Hotels.html");
-//宿雾酒店 Cebu Island
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294261-Cebu_Island_Visayas-Hotels.html");
-//巴拉望岛酒店 Palawan Island
-$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294255-Palawan_Island_Palawan_Province_Mimaropa-Hotels.html");
-
-
-
+//基督城酒店 Christchurch
+//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g255118-Christchurch_Canterbury_Region_South_Island-Hotels.html");
+//奥克兰中心地区酒店 Auckland
+//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g255106-Auckland_North_Island-Hotels.html");
+//罗托鲁瓦酒店 Rotorua
+//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g255111-Rotorua_Rotorua_District_Bay_of_Plenty_Region_North_Island-Hotels.html");
+//皇后镇公园精品酒店 Queenstown Park Boutique Hotel
+$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g255122-Queenstown_Otago_Region_South_Island-Hotels.html");
 
 
 
@@ -53,5 +48,5 @@ foreach($result[1] as $key => $value) {
 
     $address = $result1[1][0].','.$result2[1][0].' '.$result3[1][0];
 //echo $address;
-    file_put_contents("data/Filipino.txt",$address.PHP_EOL,FILE_APPEND);
+    file_put_contents("data/NewZealander.txt",$address.PHP_EOL,FILE_APPEND);
 }

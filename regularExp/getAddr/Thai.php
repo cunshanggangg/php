@@ -6,21 +6,12 @@
  * Time: 15:20
  */
 set_time_limit(0);
-//吕宋岛酒店
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294248-Luzon-Hotels.html");
-//民答那峨岛酒店 Mindanao
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294252-Mindanao-Hotels.html");
-//班乃岛酒店 Panay Island
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g298465-Panay_Island_Visayas-Hotels.html");
-//宿雾酒店 Cebu Island
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294261-Cebu_Island_Visayas-Hotels.html");
-//巴拉望岛酒店 Palawan Island
-$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294255-Palawan_Island_Palawan_Province_Mimaropa-Hotels.html");
-
-
-
-
-
+//曼谷酒店 Bangkok
+//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g293916-Bangkok-Hotels.html");
+//普吉岛酒店 Phuket
+//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g293920-Phuket-Hotels.html");
+//罂粟花苏梅酒店 Poppies Samui
+$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g293918-Ko_Samui_Surat_Thani_Province-Hotels.html");
 
 //echo  $str;
 //file_put_contents("data/Russian.txt",$str);
@@ -53,5 +44,5 @@ foreach($result[1] as $key => $value) {
 
     $address = $result1[1][0].','.$result2[1][0].' '.$result3[1][0];
 //echo $address;
-    file_put_contents("data/Filipino.txt",$address.PHP_EOL,FILE_APPEND);
+    file_put_contents("data/Thai.txt",$address.PHP_EOL,FILE_APPEND);
 }
