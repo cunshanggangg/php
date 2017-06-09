@@ -1,0 +1,252 @@
+C/ Libertad 43,Madrigal de las Altas Torres,AV 05220
+Calle Proc. San Sebastián 85,Santa Magdalena de Pulpis,CS 12597
+Antonio Vázquez 21,Fuencaliente de la Palma,TF 38740
+C/ Andalucía 50,Taberno,AL 04692
+Av. Zumalakarregi 10,Catral,A 03158
+Calvo Sotelo 50,Matapozuelos,VA 47230
+Enxertos 14,Ituero de Azaba,SA 37551
+Av. Santiago Lapuente 50,San Mateo de Gállego,Z 50840
+Comandante Izarduy 65,Burgos,BU 09000
+C/ Arana 63,Yeste,AB 02480
+Alvaro Cunqueiro 55,Alcalá del Río,SE 41200
+Cruce Casa de Postas 52,Cijuela,GR 18339
+C/ Libertad 66,Serón,AL 04890
+Castelao 90,Alonsotegi,BB 48810
+José matía 19,Amurrio,VI 01470
+C/ Arana 14,Montalvos,AB 02638
+Estrela 27,Reinosa,S 39200
+Pza. Fuensanta 58,Gomesende,OR 32212
+Ctra. Beas-Cortijos Nuevos 96,Entrena,LO 26375
+Prolongacion San Sebastian 86,Zufre,H 21210
+Avendaño 98,Muro de Alcoy,A 03830
+Quevedo 14,Noia,C 15200
+Avendaño 85,Los Gallardos,AL 04280
+Salzillo 89,Verín,OR 32600
+Zumalakarregi etorbidea 56,Estellenchs,PM 07192
+La Fontanilla 9,Espiel,CO 14220
+Quevedo 88,Valdoviño,C 15552
+Maestro Puig Valera 6,San Martín de Oscos,O 33777
+Paseo Junquera 58,Benafer,CS 12449
+Visitación de la Encina 76,Vallejera de Riofrío,SA 37717
+C/ Angosto 71,Pozo Alcón,J 23485
+C/ Cuevas de Ambrosio 82,Andújar,J 23740
+Prolongacion San Sebastian 85,Santa Ana la Real,H 21359
+Celso Emilio Ferreiro 39,Caspe,Z 50700
+Pza. Fuensanta 24,O Carballiño,OR 32500
+Avda. de Andalucía 17,Teba,MA 29327
+Avda. Explanada Barnuevo 41,Haría,GC 35520
+Calle Carril de la Fuente 67,Picón,CR 13196
+C/ Libertad 74,Fontiveros,AV 05310
+Calle Proc. San Sebastián 96,Almenara,CS 12590
+C/ Los Herrán 1,San Vicente de Alcántara,BA 06500
+C/ Domingo Beltrán 61,Hellín,AB 02400
+C/ Los Herrán 16,Quintana de la Serena,BA 06450
+C/ Libertad 37,Burgohondo,AV 05113
+Outid de Arriba 42,Bellvei,T 43719
+Cartagena 57,Jumilla,MU 30520
+Pascual Yunquera 61,Benamaurel,GR 18817
+Prolongacion San Sebastian 38,Los Marines,H 21293
+Alvaro Cunqueiro 65,Nava de la Asunción,SG 40450
+Urzáiz 97,Alcorisa,TE 44550
+Ctra. Beas-Cortijos Nuevos 6,El Villar de Arnedo,LO 26511
+Avenida Cervantes 35,Mundaka,BB 48360
+Ctra. de Siles 94,Samos,LU 27620
+Cercas Bajas 33,Parets del Vallès,B 08150
+Outid de Arriba 64,Ulldecona,T 43550
+Ctra. Beas-Cortijos Nuevos 55,Navarrete,LO 26370
+Plazuela do Porto 28,La Orotava,TF 38300
+Pl. Virgen Blanca 92,Cardedeu,B 08440
+Ctra. Villena 31,Alar del Rey,P 34480
+C/ Cañada del Rosal 85,Cartaya,H 21450
+Reiseñor 39,la Pobla de Farnals,V 46137
+El Roqueo 8,L,GI 17130
+C/ Arana 87,El Ballestero,AB 02614
+Valadouro 84,Arantzazu,BB 48140
+Ctra. Bailén-Motril 50,Hornos,J 23292
+Avendaño 72,Almería,AL 04000
+C/ Angosto 50,Albánchez de Úbeda,J 23538
+C/ Rosa de los Vientos 81,Barbate,CA 11160
+Visitación de la Encina 16,La Calzada de Béjar,SA 37714
+Avda. Rio Nalon 78,Cabrales,O 33554
+Estrela 68,Reinosa,S 39200
+Estrela 97,Los Corrales de Buelna,S 39400
+Inglaterra 52,Alhendín,GR 18620
+Cádiz 27,Valle del Zalabí,GR 18511
+Visitación de la Encina 91,Cereceda de la Sierra,SA 37693
+Avda. de la Estación 99,Villaviciosa de Odón,M 28670
+Puerto Lugar 18,Casares,MA 29690
+Paseo Junquera 55,Viver,CS 12460
+Pza. Fuensanta 74,Padrenda,OR 32226
+Avda. Rio Nalon 15,Llanes,O 33500
+Carretera Cádiz-Málaga 22,Azpeitia,SS 20730
+Lamas Carbajal 49,Lebrija,SE 41740
+C/ Amoladera 72,Torrejón de Ardoz,M 28850
+Ctra. Bailén-Motril 84,Torres de Albánchez,J 23391
+C/ Henan Cortes 7,Móstoles,M 28930
+Calle Aduana 73,Navaridas,VI 01309
+Bouciña 15,Móra la Nova,T 43770
+Puerta Nueva 1,Vilaboa,PO 36140
+Avda. Andalucía 14,Soto en Cameros,LO 26132
+Rosa de los Vientos 33,Carrizosa,CR 13329
+C/ Eras 6,Redueña,M 28721
+Fuente del Gallo 89,Laxe,C 15117
+Maestro Puig Valera 9,Taramundi,O 33775
+C/ Los Herrán 39,Campanario,BA 06460
+Cañadilla 27,Palos de la Frontera,H 21810
+C/ Pablo Iglesias 81,Villavelayo,LO 26329
+Atamaria 39,Fornelos de Montes,PO 36847
+Cruce Casa de Postas 20,Soportújar,GR 18410
+Cádiz 42,Beas de Guadix,GR 18516
+Plaza Colón 72,La Robla,LE 24640
+Avda. Los llanos 6,San Torcuato,LO 26291
+Avda. Alameda Sundheim 19,Monzón,HU 22400
+Prolongacion San Sebastian 31,Aljaraque,H 21110
+Salzillo 39,Calvos de Randín,OR 32644
+Ctra. Hornos 58,Galbárruli,LO 26212
+C/ Pablo Iglesias 68,Villavelayo,LO 26329
+Calle Aduana 78,Elciego,VI 01340
+Pascual Yunquera 99,Gor,GR 18870
+C/ Henan Cortes 34,Alfarnatejo,MA 29194
+Ctra. de la Puerta 79,Santa Eulalia Bajera,LO 26585
+San Andrés 30,El Milano,SA 37256
+Socampo 23,Valdefuentes de Sangusín,SA 37680
+Ourense 18,Vallmoll,T 43144
+Castelao 48,Balmaseda,BB 48800
+Calle Proc. San Sebastián 10,Horcajo de los Montes,CR 13110
+Avda. Explanada Barnuevo 56,Cervera de Pisuerga,P 34840
+Enxertos 45,La Alamedilla,SA 37554
+Carretera 98,Montalbán de Córdoba,CO 14548
+Avda. Generalísimo 37,Mendavia,NA 31587
+Camiño Ancho 18,La Sierpe,SA 37762
+Av. Santiago Lapuente 38,Quinto,Z 50770
+La Fontanilla 61,El Guijo,CO 14413
+Ventanilla de Beas 93,Talamanca de Jarama,M 28160
+Bellavista 38,Toro,ZA 49800
+C/ Henan Cortes 10,Leganés,M 28910
+Avda. Rio Nalon 25,Avilés,O 33400
+Avendaño 79,Canjáyar,AL 04450
+C/ Benito Guinea 72,Santpedor,B 08251
+Castelao 40,Galende,ZA 49360
+Avda. Generalísimo 88,Azagra,NA 31560
+C/ Hijuela de Lojo 98,Baliarrain,SS 20259
+Inglaterra 19,Lújar,GR 18614
+Avda. Rio Nalon 24,Llanes,O 33500
+Extramuros 48,Carabaña,M 28560
+Eusebio Dávila 46,Cantillana,SE 41320
+Inglaterra 55,Molvízar,GR 18611
+Padre Caro 98,Las Labores,CR 13660
+Cartagena 71,Ceutí,MU 30562
+Puerto Lugar 26,Canillas de Aceituno,MA 29716
+Fuente del Gallo 57,Laxe,C 15117
+C/ Rosa de los Vientos 94,Sanlúcar de Barrameda,CA 11540
+Rúa Olmos 1,Salmoral,SA 37314
+La Fontanilla 82,Fuente la Lancha,CO 14260
+Avenida Cervantes 58,Guizaburuaga,BB 48289
+Celso Emilio Ferreiro 56,Épila,Z 50290
+Celso Emilio Ferreiro 44,Boquiñeni,Z 50641
+Escuadro 70,Simancas,VA 47130
+Ctra. de Siles 79,O Saviñao,LU 27540
+Paraguay 75,Hondón de los Frailes,A 03689
+Zumalakarregi etorbidea 91,Costitx,PM 07144
+Outid de Arriba 76,Albinyana,T 43716
+Extramuros 57,Nuevo Baztán,M 28514
+Puerta Nueva 18,Cerdedo,PO 36130
+Ctra. Beas-Cortijos Nuevos 77,Ausejo,LO 26513
+Plaza Maior 67,Valsalabroso,SA 37213
+Carretera 56,Montilla,CO 14550
+Calvo Sotelo 70,Tudela de Duero,VA 47320
+C/ Fernández de Leceta 24,Bigastro,A 03380
+Av. Zumalakarregi 30,Algorfa,A 03169
+Bouciña 11,L,T 43860
+Rúa de San Pedro 14,Garcihernández,SA 37810
+Escuadro 31,Mislata,V 46920
+C/ Cuevas de Ambrosio 26,Arjonilla,J 23750
+C/ Arana 66,Fuente-Álamo,AB 02651
+Ctra. Bailén-Motril 82,Torreperogil,J 23320
+C/ Rosa de los Vientos 38,Algeciras,CA 11200
+Cádiz 45,Lobras,GR 18449
+Avendaño 74,Níjar,AL 04100
+Visitación de la Encina 88,Pinedas,SA 37712
+C/ Andalucía 63,Zurgena,AL 04650
+Plaza de España 62,Negreira,C 15830
+Bouciña 33,Móra la Nova,T 43770
+Ctra. Bailén-Motril 84,La Carolina,J 23200
+Cercas Bajas 95,Terrassa,B 08220
+C/ Amoladera 64,Coslada,M 28820
+La Fontanilla 13,Villaharta,CO 14210
+Avda. Enrique Peinador 54,Morille,SA 37183
+Pza. Fuensanta 43,Nogueira de Ramuín,OR 32160
+Enxertos 31,Zamarra,SA 37591
+Ctra. de Fuentenueva 49,Valdemorillo,M 28210
+C/ Amoladera 27,Camarma de Esteruelas,M 28816
+Alvaro Cunqueiro 72,Riaza,SG 40500
+Outid de Arriba 42,Deltebre,T 43580
+Comandante Izarduy 72,Santa Coloma de Gramenet,B 08920
+Fuente del Gallo 65,Luque,CO 14880
+Calle Proc. San Sebastián 84,Chilches,CS 12592
+C/ Manuel Iradier 45,Vall de Ebo,A 03789
+Comandante Izarduy 98,Sant Feliu de Llobregat,B 08980
+Cruce Casa de Postas 10,Algarinejo,GR 18280
+Socampo 52,Sepulcro-Hilario,SA 37638
+Paraguay 10,Salinas,A 03638
+Plazuela do Porto 26,Santa Marta de Tormes,SA 37900
+Pl. Virgen Blanca 30,Corbera de Llobregat,B 08757
+Carretera 76,Montoro,CO 14600
+Canónigo Valiño 45,Puçol,V 46530
+Atamaria 95,Tomiño,PO 36740
+C/ Los Herrán 77,Almendralejo,BA 06200
+Bouciña 65,Salou,T 43840
+C/ Amoladera 40,Coslada,M 28820
+C/ Hijuela de Lojo 80,Legorreta,SS 20250
+Plaza de España 12,Cabanas,C 15621
+Cañadilla 36,Villarrasa,H 21850
+C/ Hijuela de Lojo 99,Lizartza,SS 20490
+C/ Arana 47,Elche de la Sierra,AB 02430
+C/ Benito Guinea 60,Cerdanyola del Vallès,B 08290
+Outid de Arriba 33,Falset,T 43730
+C/ Benito Guinea 74,Sant Fruitós de Bages,B 08272
+C/ Canarias 19,Astigarraga,SS 20115
+Pl. Virgen Blanca 16,Igualada,B 08700
+Rio Segura 84,Falces,NA 31370
+Puerta Nueva 9,Agolada,PO 36520
+Caño 49,Toén,OR 32930
+Lamas Carbajal 25,Los Palacios y Villafranca,SE 41720
+C/ Benito Guinea 14,Navarcles,B 08270
+Av. Zumalakarregi 45,Mutxamel,A 03110
+Atamaria 85,Caldas de Reis,PO 36650
+Reyes Católicos 47,Miajadas,CC 10100
+Outid de Arriba 68,L,T 43440
+Constitución 5,Villaseco de los Gamitos,SA 37114
+Prolongacion San Sebastian 39,El Cerro de Andévalo,H 21320
+Calle Aduana 22,Labastida,VI 01330
+Boriñaur enparantza 83,Campos,PM 07630
+Canónigo Valiño 83,Picanya,V 46210
+Ctra. Bailén-Motril 71,Siles,J 23380
+Escuadro 17,Benetússer,V 46910
+Puerto Lugar 12,Salares,MA 29714
+Ctra. Villena 6,Yernes y Tameza,O 33826
+Bouciña 99,Torredembarra,T 43830
+Quevedo 1,Cee,C 15270
+Maestro Puig Valera 80,Lena,O 33630
+Estrela 6,Agulo,TF 38830
+Ctra. Beas-Cortijos Nuevos 80,Hornos de Moncalvillo,LO 26372
+Extramuros 16,Olmeda de las Fuentes,M 28515
+Visitación de la Encina 58,Valdelageve,SA 37725
+Reyes Católicos 15,Oña,BU 09530
+Rúa Olmos 69,Aldealengua,SA 37350
+Fuente del Gallo 62,Luque,CO 14880
+Cartagena 5,Calasparra,MU 30420
+Caño 82,Quintela de Leirado,OR 32814
+Calvo Sotelo 29,Olmedo,VA 47410
+Paraguay 32,Llíber,A 03729
+Puerto Lugar 54,Macharaviaya,MA 29791
+Rúa de San Pedro 80,Coca de Alba,SA 37830
+C/ Libertad 38,Purchena,AL 04870
+Av. Zumalakarregi 90,Jacarilla,A 03310
+Plaza Maior 89,Lumbrales,SA 37240
+Socampo 85,Tejeda y Segoyuela,SA 37608
+Rio Segura 17,Santacara,NA 31314
+Ctra. de la Puerta 14,Muro de Aguas,LO 26587
+Paraguay 59,Benimeli,A 03769
+Ctra. Villena 53,Laviana,O 33980
+Ctra. de Siles 95,O Incio,LU 27346

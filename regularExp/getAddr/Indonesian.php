@@ -6,17 +6,14 @@
  * Time: 15:20
  */
 set_time_limit(0);
-//吕宋岛酒店
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294248-Luzon-Hotels.html");
-//民答那峨岛酒店 Mindanao
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294252-Mindanao-Hotels.html");
-//班乃岛酒店 Panay Island
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g298465-Panay_Island_Visayas-Hotels.html");
-//宿雾酒店 Cebu Island
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294261-Cebu_Island_Visayas-Hotels.html");
-//巴拉望岛酒店 Palawan Island
-$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294255-Palawan_Island_Palawan_Province_Mimaropa-Hotels.html");
-
+//龙目岛酒店 Lombok
+//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g297733-Lombok_West_Nusa_Tenggara-Hotels.html");
+//乌布酒店 Ubud
+//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g297701-Ubud_Bali-Hotels.html");
+//雅加达来福士酒店
+//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294229-Jakarta_Java-Hotels.html");
+//日惹酒店 Yogyakarta
+$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294230-Yogyakarta_Java-Hotels.html");
 
 
 
@@ -39,8 +36,8 @@ foreach($result[1] as $key => $value) {
 //print_r($str1);
 //echo "</pre>";
     $preg1 = "/<span class=\"street-address\" property=\"v:street-address\">(.*)<\/span>/isU";
-//    $preg2 = "/<span property=\"v:municipality\">(.*)<\/span>/isU";
-    $preg2 = "/<span property=\"v:locality\">(.*)<\/span>/isU";
+    $preg2 = "/<span property=\"v:municipality\">(.*)<\/span>/isU";
+//    $preg2 = "/<span property=\"v:locality\">(.*)<\/span>/isU";
     $preg3 = "/<span property=\"v:postal-code\">(.*)<\/span>/isU";
     preg_match_all($preg1,$str1,$result1);
     preg_match_all($preg2,$str1,$result2);
@@ -53,5 +50,5 @@ foreach($result[1] as $key => $value) {
 
     $address = $result1[1][0].','.$result2[1][0].' '.$result3[1][0];
 //echo $address;
-    file_put_contents("data/Filipino.txt",$address.PHP_EOL,FILE_APPEND);
+    file_put_contents("data/Indonesian.txt",$address.PHP_EOL,FILE_APPEND);
 }

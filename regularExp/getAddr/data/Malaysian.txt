@@ -1,0 +1,303 @@
+No. 8, Pesiaran Madge,Kuala Lumpur 55000
+12 Jalan Pinang,Kuala Lumpur 50450
+10 Jalan Ceylon,Kuala Lumpur 50200
+Kuala Lumpur City Centre,Kuala Lumpur 50088
+11 Jalan Sultan Ismail,Kuala Lumpur 50250
+The Ritz-Carlton Kuala Lumpur 168 Jalan Imbi,Kuala Lumpur 55100
+1020 Jalan Sultan Ismail,Kuala Lumpur 50250
+No 5, Jalan Sultan Hishamuddin,Kuala Lumpur 50000
+Kuala Lumpur City Centre,Kuala Lumpur 50088
+183 Jalan Bukit Bintang,Kuala Lumpur 55100
+165 Jalan Ampang,Kuala Lumpur 50450
+3 Jalan Stesen Sentral,Kuala Lumpur 50470
+The Ascott Kuala Lumpur No 9 Jalan Pinang,Kuala Lumpur 50450
+No 5 Jalan Kerinchi,Kuala Lumpur 59200
+No 5, Jalan Stesen Sentral,Kuala Lumpur 50470
+No.2 Jalan Stesen Sentral,Kuala Lumpur 50470
+No 187 Jalan Ampang,Kuala Lumpur 50450
+No. 1, Jalan Nagasari,Kuala Lumpur 50200
+348 Jalan Tun Razak,Kuala Lumpur 50400
+73 Jalan Raja Chulan,Kuala Lumpur 50200
+Lot 163 No 10 Jalan Perak,Kuala Lumpur 50450
+No. 211 Jalan Tun Sambanthan,Kuala Lumpur 50470
+No 30 Jalan Beremi,Kuala Lumpur 50200
+5 Jalan Conlay,Kuala Lumpur 50450
+No 1, Lorong Ceylon,Kuala Lumpur 50200
+No. 6 Jalan Stesen Sentral 2,Kuala Lumpur 50470
+6 Changkat Raja Chulan,Kuala Lumpur 50200
+Jalan Sultan Ismail,Kuala Lumpur 50250
+The Westin Kuala Lumpur Jalan Bukit Bintang,Kuala Lumpur 55100
+10 Jalan Cendana,Kuala Lumpur 50250
+2-16 Lorong Stewart,George Town 10200
+15 Lebuh Leith,George Town 10200
+139 Jalan Pintal Tali,George Town 10100
+153 Hutton Lane,George Town 10050
+77 Lebuh Muntri,George Town 10200
+14 Lebuh Leith,George Town 10200
+127 Lebuh Muntri,George Town 10200
+362 & 366 Chulia Street,George Town 10200
+No. 74 Jalan A.S Mansoor,George Town 10050
+10 Farquhar Street,George Town 10200
+17 Cintra Street,George Town 10100
+2 Persiaran Maktab,George Town 10250
+413 Lebuh Chulia,George Town 10200
+Batu Ferringhi Beach,Batu Ferringhi 11100
+47 - 55 Lorong Stewart,George Town 10200
+Clarke Street,George Town 10050
+168A Persiaran Gurney,George Town 10250
+No 1 & 2 Pengkalan Weld,George Town 10300
+No 139, Lebuh Carnarvon,George Town 10200
+1 Jalan Bukit Jambul,Bayan Lepas 11900
+183 Jalan Magazine,George Town 10300
+72 Batu Ferringhi,Batu Ferringhi 11100
+66 Jalan Penang,George Town 10000
+Lone Pine Hotel 97 Jalan Batu Ferringhi,Batu Ferringhi 11100
+No 5 Lorong Lumut,George Town 10200
+101 Macalister,George Town 10400
+68 Jalan Gurdwara,George Town 10300
+88, Jalan Kota Laksamana,Melaka 75200
+188 Jalan Bunga Raya,Melaka 75100
+212 Jalan Parameswara,Melaka 75000
+No 63 Jalan Ujong Pasir,Melaka 75050
+91 Jalan Tun Tan Cheng Lock (Heeren St.),Melaka 75200
+84 Jalan Tokong,Melaka 75200
+Jalan Syed Abdul Aziz,Melaka 75000
+Jalan Bendahara,Melaka 75100
+33 Jalan Tun,Melaka 75300
+Jalan Merdeka,Melaka 75000
+Hotel Puri Jalan Tun Tan Cheng Lock,Melaka 75200
+Hatten Square, Jalan Merdeka, Bandar Hilir,Melaka 75000
+Jalan Bandar Hilir,Melaka 75000
+2 Jalan Melaka Raya,Melaka 75000
+No 36 Jalan Kampong Pantai,Melaka 75200
+No.53 Jalan KLJ 10,Melaka 75200
+No 13 Jalan Tun Tan,Melaka 75200
+156 Jalan Merdeka,Melaka 75000
+No. 28 Jalan Tun,Melaka 75300
+31 Jalan Hang Kasturi,Melaka 75200
+no 2 Jalan Pelanduk Putih,Melaka 75300
+No. 43 Jalan Temenggong,Melaka 75100
+No 1-B Jalan Melaka Raya 2,Melaka 75000
+168 Jalan Tan,Melaka 75200
+5 Jalan Tun Tan,Melaka 75200
+1 Jalan Merdeka,Melaka 75000
+No 57 Jalan Pj 1,Melaka 75050
+Mimosa Hotel 108 Jalan Bunga Raya,Melaka 75100
+26 Jalan Kubu,Melaka 75300
+27 Jalan Kota,Melaka 75000
+Jalan Pantai Kok,Pantai Kok 07000
+Jalan Teluk Datai,Datai 07000
+Jalan Pantai Cenang, Mukim Kedawang,Pantai Cenang 07000
+Jalan Pantai Beringin, 07000
+Jalan Tanjung Rhu,Tanjung Rhu 07000
+Jalan Teluk Datai,Datai 07000
+Jalan Pantai Dato Syed Omar, 07000
+Jalan Teluk Baru,Pantai Tengah 07000
+Jalan Pantai Cenang,Pantai Cenang 07000
+Lot 977, Pantai Cenang, 07000
+Lot 119, Mukim Padang Mat Sirat Jalan Pantai Tengah, 07000
+2338, Kg. Tanjung Mali, Kedah 2338,Pantai Cenang 07000
+Lot 511, Jalan Pantai Cenang, 07000
+2-16 Lorong Stewart,George Town 10200
+15 Lebuh Leith,George Town 10200
+139 Jalan Pintal Tali,George Town 10100
+153 Hutton Lane,George Town 10050
+77 Lebuh Muntri,George Town 10200
+14 Lebuh Leith,George Town 10200
+127 Lebuh Muntri,George Town 10200
+362 & 366 Chulia Street,George Town 10200
+No. 74 Jalan A.S Mansoor,George Town 10050
+10 Farquhar Street,George Town 10200
+17 Cintra Street,George Town 10100
+2 Persiaran Maktab,George Town 10250
+413 Lebuh Chulia,George Town 10200
+47 - 55 Lorong Stewart,George Town 10200
+Clarke Street,George Town 10050
+168A Persiaran Gurney,George Town 10250
+No 1 & 2 Pengkalan Weld,George Town 10300
+No 139, Lebuh Carnarvon,George Town 10200
+183 Jalan Magazine,George Town 10300
+66 Jalan Penang,George Town 10000
+No 5 Lorong Lumut,George Town 10200
+101 Macalister,George Town 10400
+68 Jalan Gurdwara,George Town 10300
+33 New Lane (Off Macalister,George Town 10400
+Magazine Road,George Town 10300
+Bayview Hotel Georgetown Penang 25A Lebuh Farquhar,George Town 10200
+Evergreen Laurel Hotel 53 Persiaran Gurney,George Town 10250
+18 Lorong Kinta,George Town 10400
+228 Macalister,George Town 10400
+63 Jalan Gaya,Kota Kinabalu 88000
+Jalan Tunku Abdul Rahman,Kota Kinabalu 88000
+54 Jalan Gaya,Kota Kinabalu 88000
+Hyatt Regency Kinabalu Jalan Datuk Salleh Sulong,Kota Kinabalu 88991
+20 Jalan Aru, Tanjung Aru,Kota Kinabalu 88100
+Le Meridien Kota Kinabalu Jalan Tun Fuad Stephens,Kota Kinabalu 88000
+Suria Sabah Shopping Mall 1, Jalan Tun Fuad Stephens,Kota Kinabalu 88000
+Jalan Pantai,Kota Kinabalu 88999
+1 Sutera Harbour Blvd,Kota Kinabalu 88100
+69 Gaya Street,Kota Kinabalu 88000
+5 Jalan Padang,Kota Kinabalu 88000
+Hotel Shangri-La 75 Lorong Bandaran Berjaya,Kota Kinabalu 88000
+Ground Floor, Block D - Warisan Square,Kota Kinabalu 88000
+Nexus Resort Karambunai 100 Jalan Sepangar Bay,Kota Kinabalu 88993
+No. 138 Gaya Street,Kota Kinabalu 88809
+Capital Hotel 23 Jalan Haji Saman,Kota Kinabalu 88000
+Promenade Hotel No. 4 Lorong Api-Api 3,Kota Kinabalu 88000
+Lorong Mangga,Kota Kinabalu 88000
+No. 1 Jalan Singgah Mata,Kota Kinabalu 88000
+Jalan Tun Fuad Stephens,Kota Kinabalu 88843
+Jalan Metro 2,Kota Kinabalu 88300
+No. 1 Jalan Pintas,Kota Kinabalu 89500
+Lot 60-64, Sadong Jaya, Sabah 5 Jalan Ikan Juara,Kota Kinabalu 88100
+Lorong Kemajuan,Kota Kinabalu 88000
+1 Jalan Istiadat,Kota Kinabalu 88400
+1st Floor, Lot 52, Jalan Gaya,Kota Kinabalu 88000
+Lot 1 Block B, Ground Floor,Kota Kinabalu 88000
+G-803, 1Borneo Hypermall,Kota Kinabalu 88450
+Lot 32 Ground Floor, Block D,Kota Kinabalu 88200
+12 Jalan Ngee Heng,Johor Bahru 80000
+Iskandar Puteri, 7,Johor Bahru 79250
+Persiaran Puteri Selatan,Johor Bahru 79000
+2 Jalan Permas 11,Johor Bahru 81750
+Persiaran Puteri Selatan,Johor Bahru 79000
+No. 260, Jalan Dato Sulaiman,Johor Bahru 80350
+21 Jalan Meldrum,Johor Bahru 80000
+33 Jalan Seladang,Johor Bahru 80250
+55 Jalan Indah 15/2,Johor Bahru 81200
+KB No. 779 Jalan Dato Sulaiman,Johor Bahru 80990
+Jalan Sungai Chat,Johor Bahru 80100
+20 km Jalan Pontian,Johor Bahru 81110
+Lot PTB22819,Johor Bahru 80200
+Lot No 512, Swiss-Inn Johor Bahru Jalan Bukit Meldrum,Johor Bahru 80300
+50 Jalan Jaya,Johor Bahru 80400
+PO Box 293 Jalan Abdullah Ibrahim,Johor Bahru 80000
+Jalan Bestari 15/2,Johor Bahru 81300
+No. 35 Persisiran Perling,Johor Bahru 81200
+18 Jalan Harimau,Johor Bahru 80250
+82C, Jalan Trus,Johor Bahru 80000
+2 Jalan Jati 2,Johor Bahru 81300
+16 Jalan Harimau,Johor Bahru 80250
+M Suites Hotel 16 Jalan Skudai,Johor Bahru 80200
+# 01-14 Block D, Tebrau City Residences, Jalan Harmonium 24/6,Johor Bahru 81100
+No. 47 Jalan Indah,Johor Bahru 81200
+18, Jalan Pendekar 13,Johor Bahru 81300
+41 Jalan Rosmerah 2/16,Johor Bahru 81100
+No 1 Jalan Bayu Puteri 2/1,Johor Bahru 80150
+2 Jalan Sutera Tanjung 8/3,Johor Bahru 81300
+153 Jalan Lumba Kuda,Johor Bahru 80300
+No 6 & 7 Main Bazaar,Kuching 93000
+Lot 317 Jalan Abell,Kuching 93100
+Hilton Kuching Hotel Jalan Tunku Abdul Rahman,Kuching 93100
+No 55 Jalan Spg,Kuching 93300
+68, Jalan Tun Abang Haji Openg,Kuching 93000
+No. 1A Jalan Mathies,Kuching 93100
+Jalan Datuk Tawi Sli,Kuching 93250
+Teluk Penyu,Kuching 93050
+Jalan Tunku Abdul Rahman,Kuching 93100
+No 22 Jalan Tunku Abdul Rahman,Kuching 93100
+Jalan Tun Ahmad Zaidi Adruce,Kuching 93200
+Jalan Ban Hock,Kuching 93100
+Lot 10 Jalan Central,Kuching 93100
+Off Jalan Tunku Abdul Rahman Jalan Borneo,Kuching 93100
+Lot 2874 & 2895 Block 16 Kuching Central Land District Jalan Tun Jugah,Kuching 93350
+No. 15 Main,Kuching 93000
+Teluk Bandung,Kuching 93756
+Lorong Temple,Kuching 93100
+Ban Hock Road,Kuching 93748
+Wisma Phoenix Jalan Song Thian Cheok,Kuching 93100
+Lot 315, 92-94 Jalan Padungan,Kuching 93100
+Lot 2228 & 2229 Section 64 KTLD Jalan Tun Jugah,Kuching 93350
+Jalan Borneo,Kuching 93100
+No 9 Jalan Bukit Mata,Kuching 93100
+Jalan Datuk Abang Abdul Rahim,Kuching 93450
+No. 5438 Jalan Tun Razak,Kuching 93300
+Lot 5442-5443, Block F, RH Plaza, Jalan Lapangan Terbang Baru,Kuching 93350
+Sublot 30 Ground Floor, Lot 9683, Block 11, MTLD Tabuan Stutong Commercial Centre, Jalan Setiaraja,Kuching 93350
+1 Persiaran Lagun Sunway 3,Ipoh 31150
+41396 Persiaran Halaman,Ipoh 31400
+Hotel French 60 - 62 Jalan Dato Onn Jaafar,Ipoh 30300
+2 Hala Datuk 5,Ipoh 31650
+292 Jalan Sultan Idris Shah,Ipoh 30000
+15 - 23 Jalan Pengkalan barat 35,Ipoh 31650
+18 Jalan Chung On Siew,Ipoh 30250
+12A Lorong Cheah Cheang Lim,Ipoh 30350
+13-15, Jalan Che Tak,Ipoh 30300
+89-91 Jalan Sultan Yussuf,Ipoh 30000
+Regalodge 131 Jalan Raja Ekram,Ipoh 30450
+41 Jalan Lapanganterbang,Ipoh 31350
+2 Jalan S P Seenivasagam,Ipoh 30000
+Hotel Excelsior 43 Jalan Sultan Abdul Jalil,Ipoh 30300
+(Brewster No 210 Jalan Sultan Idris Shah,Ipoh 30000
+No. 1-C, Jalan Meru Casuarina, Bandar Meru Raya,Ipoh 30020
+No 2 Persiaran Lagun Sunway 1,Ipoh 31150
+No. 31, Jalan Dato Maharajalela,Ipoh 30000
+Jalan Lim Bo Seng,Ipoh 30000
+2 Regat Dato Mahmud,Ipoh 31650
+Pt212695b Jalan Medan Ipoh 1,Ipoh 31400
+No. 23 & 25, Jalan Lapangan Symphony,Ipoh 31350
+Bandar Siber 18 - 22 Jalan Lapangan Terbang,Ipoh 31350
+Jalan Dato Lau Pak Khuan,Ipoh 31400
+75 Medan Soon Choon 1,Ipoh 31350
+14 Jalan Raja Di Hilir,Ipoh 30350
+2 Jalan Verasamy,Ipoh 30300
+88 Jalan Yang Kalsom,Ipoh 30250
+Hotel Fair Park 85 Jalan Kamaruddin Isa,Ipoh 31400
+Jalan Mahmood,Kota Bharu 15200
+Crystal Lodge 124 Jalan Che Su,Kota Bharu 15000
+Jalan Sri Kota,Kota Bharu 15100
+Jalan Post Office,Kota Bharu 15000
+No. A-01-05 Jalan Post Office Lama,Kota Bharu 15000
+Lot 385 Jalan Kandis Melawi,Kota Bharu 16310
+Kbcc Jalan Hamzah,Kota Bharu 15050
+Lot A-05-01, Pelangi Mall Jalan Post Office Lama,Kota Bharu 15000
+Lot 1159-1162,Kota Bharu 15000
+Lot 2992 Viana Court Service Apartment,Kota Bharu 15150
+Lot 202 Jalan Kebun Sultan,Kota Bharu 15350
+PT 1603, Tingkat 1 & 2, Jalan KK 6/2, Bandar Baru Kubang Kerian, Bandar Kota Bharu,Kota Bharu 16150
+PT 302 & 303, Jalan Kebun Sultan,Kota Bharu 15300
+Sutera Inn Prima Jalan Dusun Muda,Kota Bharu 15200
+Pt 968 Jalan Kuala Krai,Kota Bharu 15100
+Kg Dusun Raja Seksyen 27 Jalan Sri Cemerlang,Kota Bharu 15300
+Hotel Ansar Jalan Maju,Kota Bharu 15000
+Jalan Padang Garong,Kota Bharu 15000
+Perdana Resort Jalan Kuala Pa Amat,Kota Bharu 15350
+2865-D E Jalan Sultanah Zainab,Kota Bharu 15050
+Pt 398 399, Jalan Sultan Yahya Petra,Kota Bharu 15050
+Lot 66 & 67 Jalan Pantai Cahaya Bulan,Kota Bharu 15350
+1972-1973 Jalan Dato Pati,Kota Bharu 15000
+233 Jalan Sultanah Zainab,Kota Bharu 15000
+Lot 1561 Jalan Pengkalan Chepa,Kota Bharu 15400
+3180-A Jalan Sultan Ibrahim,Kota Bharu 15050
+New Pacific Hotel Jalan Pengkalan Chepa,Kota Bharu 15400
+Jalan Pengkalan Chepa,Kota Bharu 15200
+6 Jalan Putra Square,Kuantan 25300
+Jalan Telok Sisek,Kuantan 25000
+A41/3 Lorong Tun Ismail 5,Kuantan 25000
+Lot 567, Hotel Megaview Jalan Besar,Kuantan 25000
+B2-B10, Lorong Tun Ismail 8,Kuantan 25000
+45P Jalan Besar,Kuantan 25000
+Jalan Sungai Ular Damai 1,Kuantan 26080
+12, Jalan Tanjung Lumpur 7,Kuantan 26060
+152 Sungai Karang,Kuantan 26100
+Jalan Gambang,Kuantan 25150
+A22 Lorong Haji Abdul Rahman 1,Kuantan 25000
+B2-34, Jalan IM 7/1, Bandar Indera Mahkota,Kuantan 25200
+Lot 746 Lorong Cempaka 1,Kuantan 26060
+Jalan Kuantan-Kemaman,Kuantan 26100
+E2324 - 2326 Jalan Dato Wong Ah Jang,Kuantan 25100
+55-57 Jalan Haji Abdul Aziz,Kuantan 25000
+Off Jalan Tengku Mohamed Lorong Pelindung 76,Kuantan 25250
+Lot 1303,Kuantan 26080
+B50, Jalan Dato Lim Hoe Lek,Kuantan 25200
+Lot 1303, Mukim Sungai Karang, Cherating,Kuantan 26080
+Hotel Greenlast Jalan Air Putih,Kuantan 25300
+No 41 Ground and Mezzanine Floor Jalan,Kuantan 25000
+Lot 4566, Jalan Kuantan-Kemaman,Kuantan 26080
+Bukit Gambang Resort,Kuantan 26300
+Lot PT 240, Jalan Bukit Ubi/Jalan Masjid,Kuantan 25000
+Jalan Gambut,Kuantan 25000
+Lot 1290 Jalan Sungai Karang Pantai,Kuantan 25529
+Lot 5 & 10 Lorong Gambut,Kuantan 25300
+Jalan Telok Sisek,Kuantan 25000
+Jalan Tls 1,Kuantan 25150
