@@ -6,10 +6,8 @@
  * Time: 15:20
  */
 set_time_limit(0);
-//阿姆斯特丹酒店
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g424934-Bhaktapur_Kathmandu_Valley_Bagmati_Zone_Central_Region-Hotels.html");
-//海牙酒店 The Hague
-$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g188633-The_Hague_South_Holland_Province-Hotels.html");
+//墨西哥城酒店 Mexico City
+$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g150800-Mexico_City_Central_Mexico_and_Gulf_Coast-Hotels.html");
 
 //echo  $str;
 //file_put_contents("data/Russian.txt",$str);
@@ -28,22 +26,22 @@ foreach($result[1] as $key => $value) {
 //print_r($str1);
 //echo "</pre>";
     $preg1 = "/<span class=\"street-address\" property=\"v:street-address\">(.*)<\/span>/isU";
-//    $preg4 = "/<span class=\"extended-address\">(.*)<\/span>/isU";
-    $preg2 = "/<span property=\"v:municipality\">(.*)<\/span>/isU";
-//    $preg2 = "/<span property=\"v:locality\">(.*)<\/span>/isU";
+    $preg4 = "/<span class=\"extended-address\">(.*)<\/span>/isU";
+//    $preg2 = "/<span property=\"v:municipality\">(.*)<\/span>/isU";
+    $preg2 = "/<span property=\"v:locality\">(.*)<\/span>/isU";
     $preg3 = "/<span property=\"v:postal-code\">(.*)<\/span>/isU";
     preg_match_all($preg1,$str1,$result1);
     preg_match_all($preg2,$str1,$result2);
     preg_match_all($preg3,$str1,$result3);
-//    preg_match_all($preg4,$str1,$result4);
+    preg_match_all($preg4,$str1,$result4);
 //echo "<pre>";
 //print_r($result1);
 //print_r($result2);
 //print_r($result3);
 //echo "</pre>";
-    $address = $result1[1][0].','.$result2[1][0].' '.$result3[1][0];
-//    $address = $result1[1][0].'|'.$result4[1][0].','.$result2[1][0].' '.$result3[1][0];
+//    $address = $result1[1][0].','.$result2[1][0].' '.$result3[1][0];
+    $address = $result1[1][0].'|'.$result4[1][0].','.$result2[1][0].' '.$result3[1][0];
 //echo $address;
-    file_put_contents("data/Dutch.txt",$address.PHP_EOL,FILE_APPEND);
+    file_put_contents("data/Mexican.txt",$address.PHP_EOL,FILE_APPEND);
 }
 
