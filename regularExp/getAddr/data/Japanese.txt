@@ -8,7 +8,6 @@
 206-1175, Marunochi Gurantokyo Nosutawa(20-kai), Chiyoda-ku, Tokyo 100-6720
 444-1023, Kitami, Setagaya-ku, Tokyo 157-0067
 1-1, Osaki 2-chome, Shinagawa-ku, Tokyo 141-6006
-447-1240, Takahata, Hachimantai-shi, Iwate 028-7542
 3-1, Akasaka 5-chome, Minato-ku, Tokyo 107-6332
 377-1106, Sakaidacho, Morioka-shi, Iwate 020-0041
 115-1113, Terashita, Yokohama-machi Kamikita-gun, Aomori 039-4145
@@ -32,7 +31,6 @@
 276-1207, Ishizawasakai, Gonohe-machi Sannohe-gun, Aomori 039-1539
 356-1122, Utorokagawa, Shari-cho Shari-gun, Hokkaido 099-4351
 1191-14, Kanda Jinbo-cho 1-chome, Chiyoda-ku, Tokyo 101-0051
-459-1226, Nangoku Ichinosawa, Hachinohe-shi, Aomori 031-0111
 222-1234, Osaki Shinkupakutawa(8-kai), Shinagawa-ku, Tokyo 141-6008
 209-1049, Higashi 12-jominami, Nakashibetsu-cho Shibetsu-gun, Hokkaido 086-1012
 6-6, Hiroo 5-chome, Shibuya-ku, Tokyo 150-0012
@@ -107,7 +105,6 @@
 219-1261, Kitabibaicho, Bibai-shi, Hokkaido 079-0274
 452-1168, Kasahara, Ogawa-machi Hiki-gun, Saitama 355-0334
 334-1134, Kakunodatemachi Kamisugazawa, Semboku-shi, Akita 014-0369
-459-1226, Nangoku Ichinosawa, Hachinohe-shi, Aomori 031-0111
 303-1178, Takaramachi, Urahoro-cho Tokachi-gun, Hokkaido 089-5601
 369-1123, Higashi 36-jokita, Nakashibetsu-cho Shibetsu-gun, Hokkaido 086-1076
 205-1291, Nishikamikawara, Shichinohe-machi Kamikita-gun, Aomori 039-2582
@@ -144,7 +141,6 @@
 498-1297, Uwaya, Togane-shi, Chiba 283-0046
 11-go, Higashikagura-cho Kamikawa-gun, Hokkaido 071-1541
 190-1251, Kaminokicho, Kanagawa-ku Yokohama-shi, Kanagawa 221-0015
-459-1226, Nangoku Ichinosawa, Hachinohe-shi, Aomori 031-0111
 138-1068, Nishishinjuku Shinjuku Erutawa(4-kai), Shinjuku-ku, Tokyo 163-1504
 492-1116, Hinuma Sumomoda, Hirakawa-shi, Aomori 036-0233
 403-1217, Kamiginya, Yoshimi-machi Hiki-gun, Saitama 355-0115
@@ -588,7 +584,6 @@
 129-1203, Kitamura Onegai, Iwamizawa-shi, Hokkaido 068-1203
 495-1181, Kamirenjaku, Mitaka-shi, Tokyo 181-0012
 225-1243, Koyogaoka, Abashiri-shi, Hokkaido 093-0084
-459-1226, Nangoku Ichinosawa, Hachinohe-shi, Aomori 031-0111
 449-1101, Sakaimori, Inakadate-mura Minamitsugaru-gun, Aomori 038-1143
 280-1219, Maesawaku Ozakura, Oshu-shi, Iwate 029-4207
 425-1134, Mizusawaku Hanazonocho, Oshu-shi, Iwate 023-0829
