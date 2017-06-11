@@ -1,0 +1,29 @@
+Dzerzhinskoho 1 E,Minsk 220036
+Pritytskoho 2,Minsk 220073
+Tolstoho 8,Minsk 220007
+Pobeditelei Ave., 9,Minsk 220004
+Pobediteley 20,Minsk 220020
+Kirilla I Mefodya 6,Minsk 220030
+Kirova 18,Minsk 220030
+Storozhovskaya Str, 15,Minsk 220002
+Narochanskaya 6,Minsk 220020
+Nezavisimosti 11,Minsk 220030
+Pobediteley 103,Minsk 220020
+Krasnoarmeyskaya 36,Minsk 220030
+Myasnikova 7,Minsk 220030
+Kirova 13,Minsk 220030
+Internatsionalnaya St., 28,Minsk 220030
+Pushkina 39,Minsk 220092
+Pobediteley 59A,Minsk 220035
+Internatsional'naya 11,Minsk 220030
+59, Pobediteley Ave,Minsk 220035
+Pritytskogo st. 156,Minsk 223050
+Schorsa Street 1,Minsk 220014
+Pobediteley 31,Minsk 220126
+Osvobozhdeniya 9,Minsk 220004
+Pobediteley 19,Minsk 220004
+Brilevskaya 2,Minsk 220039
+Partizanskiy 81,Minsk 220026
+Vtoroi Velosipedny Lane, 5,Minsk 220020
+Tashkentskaya 15,Minsk 220077
+Myastrovskaya 2,Minsk 220020

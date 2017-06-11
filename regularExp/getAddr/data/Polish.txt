@@ -1,0 +1,60 @@
+ul. Topolowa 27,Krakow 31-506
+ul. Rynek Glowny 44,Krakow 31-017
+Jozefa Dietla 60,Krakow 31-039
+ul. Berka Joselewicza 19,Krakow 31-031
+ul. Jana Kochanowskiego 6,Krakow 31-127
+ul. Pawia 18 B,Krakow 31-154
+ul. Sw. Filipa 18,Krakow 31-150
+ul. Rynek Glowny 19,Krakow 31-008
+ul. Starowislna 57,Krakow 31-038
+ul. Grodzka 51,Krakow 31-001
+ul. Wielopole 3,Krakow 31-072
+Rynek Glowny 11,Krakow 31-042
+pl. Juliusza Kossaka 1,Krakow 31-106
+ul. Wroclawska 5A,Krakow 30-006
+ul. Lubelska 12,Krakow 30-003
+ul. Pawia 3,Krakow 31-154
+Ul. Garbarska 8/10,Krakow 31-131
+ul. Dominikanska 1,Krakow 31-043
+ul. Kurniki 3,Krakow 31-156
+Straszewskiego 17,Krakow 31-109
+ul. Krowoderska 71,Krakow 31-158
+ul. Poselska 22,Krakow 31-002
+ul. Ogrodowa 10,Krakow 31-155
+ul. Marii Konopnickiej 33,Krakow 30-302
+ul. Ciemna 15,Krakow 31-053
+ul. Wygoda 8,Krakow 31-106
+ul. Kanonicza 16,Krakow 31-022
+ul. Pijarska 13,Krakow 31-015
+ul. Gesia 22a,Krakow 31-535
+Karmelicka 36,Krakow 31-128
+ul. Tadeusza Kosciuszki 19,Zakopane 34-500
+Szymaszkowa St. bn,Zakopane 34-500
+ul. Droga do Bialego 3,Zakopane 34-500
+Zab 48 E,Zakopane 34-521
+ul. Bogdanskiego 5,Zakopane 34-500
+ul. Krupowki 40,Zakopane 34-500
+ul. Oswalda Balzera 21d,Zakopane 34-500
+ul. Oswalda Balzera 21,Zakopane 34-500
+ul. Pardalowka 3B,Zakopane 34-500
+ul. Stara Pardalowka 6,Zakopane 34-500
+ul. Krupowki 11,Zakopane 34-500
+ul. Tytusa Chalubinskiego 40,Zakopane 34-500
+ul. Cyrhla 34,Zakopane 34-500
+ul. Przewodnikow Tatrzanskich 6,Zakopane 34-500
+Tetmajera Street 20,Zakopane 34-500
+ul. Seweryna Goszczynskiego 7,Zakopane 34-500
+ul. Grunwaldzka 10,Zakopane 34-500
+ul. Oswalda Balzera 21D,Zakopane 34-500
+ul. Chlabowka 1,Zakopane 34-500
+ul. Kazimierza Przerwy Tetmajera 14a,Zakopane 34-500
+ul. Pardalowka 3d,Zakopane 34-500
+ul. Heleny Modrzejewskiej 7,Zakopane 34-500
+ul. Oswalda Balzera 21d,Zakopane 34-500
+ul. Sloneczna 2A,Zakopane 34-500
+ul. Tytusa Chalubinskiego 28,Zakopane 34-500
+ul. Nowotarska 8,Zakopane 34-500
+ul. Ogrodowa 6,Zakopane 34-500
+ul. Wierchowa 2,Zakopane 34-500
+ul. Kornela Makuszynskiego 11d,Zakopane 34-500
+Krupowski 50 b Street,Zakopane 34-500

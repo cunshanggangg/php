@@ -1,0 +1,30 @@
+5 Hercegprimas Street,Budapest 1051
+Andrassy ut 8.,Budapest 1061
+Szechenyi Istvan ter 5 - 6,Budapest 1051
+Lorinc pap ter 2,Budapest 1088
+Kalman Imre utca 19,Budapest 1054
+Orszaghaz utca 31.,Budapest 1014
+Vigyazo Ferenc utca 5,Budapest 1051
+Bem rakpart 11,Budapest 1011
+Paulay Ede utca 31.,Budapest 1061
+Erzsebet ter 9-10,Budapest 1051
+Hajos utca 24,Budapest 1065
+Jozsef körút 4.,Budapest 1088
+Kiralyi Pal utca 4,Budapest 1053
+Szoevetseg utca 33,Budapest 1074
+V. district 35., Molnar street,Budapest 1056
+Nagytemplom utca 31.,Budapest 1082
+Asboth utca 9,Budapest 1075
+Erzsébet krt. 43-49.,Budapest 1073
+Hess András tér 1-3.,Budapest 1014
+Vajdahunyad utca 18., district VIII.,Budapest 1082
+Oktober 6. utca 26.,Budapest 1051
+Erzsebet ter 7-8,Budapest 1051
+Szechenyi Istvan Ter 2,Budapest 1051
+Andrássy út 111.,Budapest 1062
+Apaczai Csere Janos utca 12-14,Budapest 1051
+Erzsebet korut 9-11.,Budapest 1073
+Apaczai Csere Janos utca 7.,Budapest 1051
+Uri utca 39,Budapest 1014
+Revay utca 12,Budapest 1065
+Apaczai Csere Janos utca 4,Budapest 1051

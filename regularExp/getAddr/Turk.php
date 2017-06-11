@@ -6,10 +6,10 @@
  * Time: 15:20
  */
 set_time_limit(0);
-//墨西哥城酒店 Mexico City
-//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g150800-Mexico_City_Central_Mexico_and_Gulf_Coast-Hotels.html");
-//普拉亚德尔卡曼酒店 Playa del Carmen
-$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g150812-Playa_del_Carmen_Yucatan_Peninsula-Hotels.html");
+//伊斯坦布尔酒店 Istanbul
+//$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g293974-Istanbul-Hotels.html");
+//阿兰亚酒店 Alanya
+$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g297961-Alanya_Turkish_Mediterranean_Coast-Hotels.html");
 
 //echo  $str;
 //file_put_contents("data/Russian.txt",$str);
@@ -44,6 +44,6 @@ foreach($result[1] as $key => $value) {
     $address = $result1[1][0].','.$result2[1][0].' '.$result3[1][0];
 //    $address = $result1[1][0].'|'.$result4[1][0].','.$result2[1][0].' '.$result3[1][0];
 //echo $address;
-    file_put_contents("data/Mexican.txt",$address.PHP_EOL,FILE_APPEND);
+    file_put_contents("data/Turk.txt",$address.PHP_EOL,FILE_APPEND);
 }
 

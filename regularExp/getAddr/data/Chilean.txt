@@ -1,0 +1,30 @@
+Eduardo Hyatt 527|Santa Isabel Subway Station (Line 5 - Green),Santiago 7501500
+Maria Luisa Santander 0292,Santiago 7500845
+Orrego Luco 023|Providencia,Santiago 8320000
+Constitucion 317|Bellavista,Santiago 7530137
+Agustinas 2149|Plaza Brasil,Santiago 8340463
+Merced 84|Lastarria,Santiago 8320119
+Avenida Presidente Kennedy 5601|Las Condes,Santiago 7560356
+Avenida Presidente Kennedy 4700|Vitacura,Santiago 7630454
+Monsenor Nuncio Sotero Sanz 115|Providencia,Santiago 7500007
+Merced 294|Barrio Lastarria,Santiago 8320128
+Constitucion 195|Barrio Bellavista, Providencia,Santiago 8320000
+Ismael Valdes Vergara 312,Santiago 8320089
+Avenida Vitacura 2727,Santiago 7550168
+Santo Domingo 526,Santiago 8320069
+Calle El Alcalde No. 15|Las Condes,Santiago 8360482
+Coronel Santiago Bueras 188,Santiago 8320135
+Jose Victorino Lastarria 299,Santiago 8320126
+Loreto 170|Barrio Bellavista,Santiago 8320000
+Coronel Santiago Bueras 121|Merced 120,Santiago 
+Av. Libertador Bernardo O'Higgins 816,Santiago 8330097
+Calle Antonia Lopez de Bello 040|Providencia,Santiago 8320000
+Avenida Vitacura 3600|Vitacura,Santiago 6670172
+Avenida Vitacura 3201,Santiago 7630578
+Avenida Manquehue Norte 656,Santiago 8320000
+Avenida Pedro de Valdivia 027|Providencia,Santiago 
+Avenida Apoquindo 5680,Santiago 6761749
+Avenida Presidente Kennedy 5741,Santiago 6772208
+Avenida Nueva Costanera 3736|Vitacura,Santiago 8320000
+San Sebastian 2800|Las Condes,Santiago 7550091
+Ebro 2828|Las Condes,Santiago 7550091
