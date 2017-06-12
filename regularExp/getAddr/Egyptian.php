@@ -6,8 +6,8 @@
  * Time: 15:20
  */
 set_time_limit(0);
-//库斯科酒店 Cusco
-$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294314-Cusco_Cusco_Region-Hotels.html");
+//开罗酒店 Cairo
+$str = file_get_contents("https://www.tripadvisor.cn/Hotels-g294201-Cairo_Cairo_Governorate-Hotels.html");
 
 //echo  $str;
 //file_put_contents("data/Russian.txt",$str);
@@ -33,15 +33,15 @@ foreach($result[1] as $key => $value) {
     preg_match_all($preg1,$str1,$result1);
     preg_match_all($preg2,$str1,$result2);
     preg_match_all($preg3,$str1,$result3);
-    preg_match_all($preg4,$str1,$result4);
+//    preg_match_all($preg4,$str1,$result4);
 //echo "<pre>";
 //print_r($result1);
 //print_r($result2);
 //print_r($result3);
 //echo "</pre>";
-//    $address = $result1[1][0].','.$result2[1][0].' '.$result3[1][0];
-    $address = $result1[1][0].'|'.$result4[1][0].','.$result2[1][0].' '.$result3[1][0];
+    $address = $result1[1][0].','.$result2[1][0].' '.$result3[1][0];
+//    $address = $result1[1][0].'|'.$result4[1][0].','.$result2[1][0].' '.$result3[1][0];
 //echo $address;
-    file_put_contents("data/Peruvian.txt",$address.PHP_EOL,FILE_APPEND);
+    file_put_contents("data/Egyptian.txt",$address.PHP_EOL,FILE_APPEND);
 }
 
