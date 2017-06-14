@@ -13,6 +13,11 @@ $str = file_get_contents("http://haoweichi.com/Index/random");
 //preg_match_all("|value='(.*)'|isU",$str,$result);
 //$preg = "<input type=\"text\" value='(.*)' class='color5'/>";
 $preg1 = "<input type=\"text\" value='(.*?)'>";#可用
+//$preg1 = "<input type=\"text\" value='(.*?)'.*class='color3'/>";# 可用
+//$preg1 = "<input type=\"text\" value='(.*?)'  class='color3'/>";# 可用
+/*
+ * 透过以上的正则表达式比较：一个空格在正则表达式中也起至关重要的
+ * */
 //$preg1 = "{<input(\s+(name|type|value)=\"(.*)\")+\s*/>}";
 //$preg1= "";
 //preg_match_all($preg,$str,$result);
