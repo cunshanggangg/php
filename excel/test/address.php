@@ -60,7 +60,7 @@ array_shift($data);
 array_pop($data);
 echo "<pre>";
 print_r($data);
-echo "</pre>";
+echo "</pre>";exit;
 //foreach($data as ) {}
 
 $conn = mysql_connect("localhost","root","") or die("MySQL连接失败!");
