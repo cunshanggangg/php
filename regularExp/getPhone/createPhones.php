@@ -76,7 +76,7 @@
 //南非电话号码：00 27 87 550 5410
 //$phone = '00 27 87 550 '.rand(4400,5410);
 //阿富汗电话号码：00932572911183
-$phone = '00 93 '.rand(2572900000,2572911183) ;
+$phone = '00 93 '.rand(2572900000,2572911183);
 echo $phone;
 //file_put_contents("data/Afrikander.txt",$phone.PHP_EOL,8);
 //echo "<script>window.location.reload();</script>";
