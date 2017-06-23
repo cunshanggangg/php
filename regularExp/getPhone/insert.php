@@ -44,8 +44,30 @@ function repeat($array) {
 //$str = file_get_contents("data/Brazilian.txt");//巴西
 //$str = file_get_contents("data/Irani.txt");//伊朗
 //$str = file_get_contents("data/Dutchman.txt");//荷兰
-$str = file_get_contents("data/Mexican.txt");//墨西哥
+//$str = file_get_contents("data/Mexican.txt");//墨西哥
 //$str = file_get_contents("data/Burmese.txt");//缅甸
+//$str = file_get_contents("data/Pole.txt");//波兰
+//$str = file_get_contents("data/Turk.txt");//土耳其
+//$str = file_get_contents("data/Pakistani.txt");//巴基斯坦
+//$str = file_get_contents("data/Panamanian.txt");//巴拿马
+//$str = file_get_contents("data/Swiss.txt");//瑞士
+//$str = file_get_contents("data/Portuguese.txt");//葡萄牙
+//$str = file_get_contents("data/Belgian.txt");//比利时
+//$str = file_get_contents("data/Chilean.txt");//智利
+//$str = file_get_contents("data/Kampuchean.txt");//柬埔寨
+//$str = file_get_contents("data/Byelorussian.txt");//白俄罗斯
+//$str = file_get_contents("data/Hungarian.txt");//匈牙利
+//$str = file_get_contents("data/Argentinean.txt");//阿根廷
+//$str = file_get_contents("data/Peruvian.txt");//秘鲁
+//$str = file_get_contents("data/Australian.txt");//奥地利
+//$str = file_get_contents("data/SriLankan.txt");//斯里兰卡
+//$str = file_get_contents("data/Egyptian.txt");//埃及
+$str = file_get_contents("data/Kenyan.txt");//肯尼亚
+
+
+
+
+
 
 
 
@@ -59,7 +81,7 @@ preg_match_all($preg,$str,$result);
 //echo "<pre>";
 //print_r($result[1]);
 //$res = array_slice($result[1],0,445);//日本：获取393条
-//$res = array_slice($result[1],0,350);//美国：获取300条
+//$res = array_slice($result[1],0,300);//美国：获取300条
 //$res = array_slice($result[1],0,186);//马来西亚：获取186条
 //$res = array_slice($result[1],0,139);//韩国：获取139条
 //$res = array_slice($result[1],0,137);//澳大利亚：获取137条
@@ -82,8 +104,29 @@ preg_match_all($preg,$str,$result);
 //$res = array_slice($result[1],0,24);//巴西：获取24条
 //$res = array_slice($result[1],0,19);//伊朗：获取19条
 //$res = array_slice($result[1],0,19);//荷兰：获取19条
-$res = array_slice($result[1],0,17);//墨西哥：获取17条
+//$res = array_slice($result[1],0,17);//墨西哥：获取17条
 //$res = array_slice($result[1],0,16);//缅甸：获取16条
+//$res = array_slice($result[1],0,14);//波兰：获取14条
+//$res = array_slice($result[1],0,10);//土耳其：获取10条
+//$res = array_slice($result[1],0,9);//巴基斯坦：获取9条
+//$res = array_slice($result[1],0,8);//巴拿马：获取8条
+//$res = array_slice($result[1],0,8);//瑞士：获取8条
+//$res = array_slice($result[1],0,7);//葡萄牙：获取7条
+//$res = array_slice($result[1],0,7);//比利时：获取7条
+//$res = array_slice($result[1],0,7);//智利：获取7条
+//$res = array_slice($result[1],0,7);//柬埔寨：获取7条
+//$res = array_slice($result[1],0,6);//白俄罗斯：获取6条
+//$res = array_slice($result[1],0,6);//匈牙利：获取6条
+//$res = array_slice($result[1],0,6);//阿根廷：获取6条
+//$res = array_slice($result[1],0,5);//秘鲁：获取5条
+//$res = array_slice($result[1],0,5);//奥地利：获取5条
+//$res = array_slice($result[1],0,4);//斯里兰卡：获取4条
+//$res = array_slice($result[1],0,4);//埃及：获取4条
+$res = array_slice($result[1],0,4);//肯尼亚：获取4条
+
+
+
+
 
 //echo "<pre>";
 //print_r($res);
@@ -149,8 +192,28 @@ $database = new medoo([
 //$country = $database->select("member",array("user_id"),array("country" => "巴西"));
 //$country = $database->select("member",array("user_id"),array("country" => "伊朗"));
 //$country = $database->select("member",array("user_id"),array("country" => "荷兰"));
-$country = $database->select("member",array("user_id"),array("country" => "墨西哥"));
+//$country = $database->select("member",array("user_id"),array("country" => "墨西哥"));
 //$country = $database->select("member",array("user_id"),array("country" => "缅甸"));
+//$country = $database->select("member",array("user_id"),array("country" => "波兰"));
+//$country = $database->select("member",array("user_id"),array("country" => "土耳其"));
+//$country = $database->select("member",array("user_id"),array("country" => "巴基斯坦"));
+//$country = $database->select("member",array("user_id"),array("country" => "巴拿马"));
+//$country = $database->select("member",array("user_id"),array("country" => "瑞士"));
+//$country = $database->select("member",array("user_id"),array("country" => "葡萄牙"));
+//$country = $database->select("member",array("user_id"),array("country" => "比利时"));
+//$country = $database->select("member",array("user_id"),array("country" => "智利"));
+//$country = $database->select("member",array("user_id"),array("country" => "柬埔寨"));
+//$country = $database->select("member",array("user_id"),array("country" => "白俄罗斯"));
+//$country = $database->select("member",array("user_id"),array("country" => "匈牙利"));
+//$country = $database->select("member",array("user_id"),array("country" => "阿根廷"));
+//$country = $database->select("member",array("user_id"),array("country" => "秘鲁"));
+//$country = $database->select("member",array("user_id"),array("country" => "奥地利"));
+//$country = $database->select("member",array("user_id"),array("country" => "斯里兰卡"));
+//$country = $database->select("member",array("user_id"),array("country" => "埃及"));
+$country = $database->select("member",array("user_id"),array("country" => "肯尼亚"));
+
+
+
 
 
 echo "<pre>";
