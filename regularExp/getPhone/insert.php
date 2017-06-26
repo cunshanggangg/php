@@ -62,8 +62,11 @@ function repeat($array) {
 //$str = file_get_contents("data/Australian.txt");//奥地利
 //$str = file_get_contents("data/SriLankan.txt");//斯里兰卡
 //$str = file_get_contents("data/Egyptian.txt");//埃及
-$str = file_get_contents("data/Kenyan.txt");//肯尼亚
-
+//$str = file_get_contents("data/Kenyan.txt");//肯尼亚
+//$str = file_get_contents("data/SaudiArabian.txt");//沙特阿拉伯
+//$str = file_get_contents("data/Norwegian.txt");//挪威
+//$str = file_get_contents("data/Zambian.txt");//赞比亚
+$str = file_get_contents("data/Afrikander.txt");//南非
 
 
 
@@ -122,7 +125,12 @@ preg_match_all($preg,$str,$result);
 //$res = array_slice($result[1],0,5);//奥地利：获取5条
 //$res = array_slice($result[1],0,4);//斯里兰卡：获取4条
 //$res = array_slice($result[1],0,4);//埃及：获取4条
-$res = array_slice($result[1],0,4);//肯尼亚：获取4条
+//$res = array_slice($result[1],0,4);//肯尼亚：获取4条
+//$res = array_slice($result[1],0,4);//沙特阿拉伯：获取4条
+//$res = array_slice($result[1],0,3);//挪威：获取3条
+//$res = array_slice($result[1],0,3);//挪威：获取3条
+$res = array_slice($result[1],0,3);//南非：获取3条
+
 
 
 
@@ -210,7 +218,12 @@ $database = new medoo([
 //$country = $database->select("member",array("user_id"),array("country" => "奥地利"));
 //$country = $database->select("member",array("user_id"),array("country" => "斯里兰卡"));
 //$country = $database->select("member",array("user_id"),array("country" => "埃及"));
-$country = $database->select("member",array("user_id"),array("country" => "肯尼亚"));
+//$country = $database->select("member",array("user_id"),array("country" => "肯尼亚"));
+//$country = $database->select("member",array("user_id"),array("country" => "沙特阿拉伯"));
+//$country = $database->select("member",array("user_id"),array("country" => "挪威"));
+//$country = $database->select("member",array("user_id"),array("country" => "赞比亚"));
+//$country = $database->select("member",array("user_id"),array("country" => "南非"));
+
 
 
 
@@ -223,5 +236,5 @@ print_r($country);
 //    echo "<hr>";
 //}
 foreach($country as $key => $value) {
-       $database->update("member",array("phone" => $res2[$key]),array("user_id" => $value['user_id']));
+    $database->update("member",array("phone" => $res2[$key]),array("user_id" => $value['user_id']));
 }
