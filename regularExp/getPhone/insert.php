@@ -57,7 +57,7 @@ function repeat($array) {
 //$str = file_get_contents("data/Kampuchean.txt");//柬埔寨
 //$str = file_get_contents("data/Byelorussian.txt");//白俄罗斯
 //$str = file_get_contents("data/Hungarian.txt");//匈牙利
-//$str = file_get_contents("data/Argentinean.txt");//阿根廷
+$str = file_get_contents("data/Argentinean.txt");//阿根廷
 //$str = file_get_contents("data/Peruvian.txt");//秘鲁
 //$str = file_get_contents("data/Australian.txt");//奥地利
 //$str = file_get_contents("data/SriLankan.txt");//斯里兰卡
@@ -66,7 +66,7 @@ function repeat($array) {
 //$str = file_get_contents("data/SaudiArabian.txt");//沙特阿拉伯
 //$str = file_get_contents("data/Norwegian.txt");//挪威
 //$str = file_get_contents("data/Zambian.txt");//赞比亚
-$str = file_get_contents("data/Afrikander.txt");//南非
+//$str = file_get_contents("data/Afrikander.txt");//南非
 
 
 
@@ -120,7 +120,7 @@ preg_match_all($preg,$str,$result);
 //$res = array_slice($result[1],0,7);//柬埔寨：获取7条
 //$res = array_slice($result[1],0,6);//白俄罗斯：获取6条
 //$res = array_slice($result[1],0,6);//匈牙利：获取6条
-//$res = array_slice($result[1],0,6);//阿根廷：获取6条
+$res = array_slice($result[1],0,6);//阿根廷：获取6条
 //$res = array_slice($result[1],0,5);//秘鲁：获取5条
 //$res = array_slice($result[1],0,5);//奥地利：获取5条
 //$res = array_slice($result[1],0,4);//斯里兰卡：获取4条
@@ -129,7 +129,7 @@ preg_match_all($preg,$str,$result);
 //$res = array_slice($result[1],0,4);//沙特阿拉伯：获取4条
 //$res = array_slice($result[1],0,3);//挪威：获取3条
 //$res = array_slice($result[1],0,3);//挪威：获取3条
-$res = array_slice($result[1],0,3);//南非：获取3条
+//$res = array_slice($result[1],0,3);//南非：获取3条
 
 
 

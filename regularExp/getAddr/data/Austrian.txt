@@ -1,0 +1,30 @@
+Burggasse 2,Vienna 1070,  Austria
+Fuehrichgasse 10,Vienna 1010,  Austria
+Mariahilfer Strasse 15,Vienna 1060,  Austria
+Koellnerhofgasse 6,Vienna 1010,  Austria
+Philharmonikerstrasse 4,Vienna 1010,  Austria
+Frankenberggasse 10,Vienna 1040,  Austria
+Kirchengasse 41,Vienna 1070,  Austria
+Lange Gasse 13,Vienna 1080,  Austria
+Am Hof 2,Vienna 1010,  Austria
+Schottenring 24,Vienna 1010,  Austria
+Hackengasse 20,Vienna 1150,  Austria
+Harmoniegasse 5-7,Vienna 1090,  Austria
+Schubertring 5-7,Vienna 1010,  Austria
+Papagenogasse 6,Vienna 1060,  Austria
+Kaerntner Ring 16,Vienna 1010,  Austria
+Praterstrasse 44-46,Vienna 1020,  Austria
+Schulerstrasse 10,Vienna 1010,  Austria
+Kaerntner Ring 1,Vienna 1010,  Austria
+Rilkeplatz 7,Vienna 1040,  Austria
+Fleischmarkt 20/Wolfengasse 3,Vienna 1010,  Austria
+Parkring 12,Vienna 1010,  Austria
+Mariahilfer Strasse 120,Vienna 1070,  Austria
+Kaerntner Ring 8,Vienna 1010,  Austria
+Kaerntner Ring 9,Vienna 1010,  Austria
+Praterstrasse 72,Vienna 1020,  Austria
+Herrengasse 10,Vienna 1010,  Austria
+Praterstrasse 1,Vienna 1020,  Austria
+Kleine Stadtgutgasse 4,Vienna 1020,  Austria
+Schottenfeldgasse 39,Vienna 1070,  Austria
+Weihburggasse 3,Vienna 1010,  Austria

@@ -24,6 +24,7 @@ foreach($result[1] as $key => $value) {
 //echo "<pre>";
 //print_r($str1);
 //echo "</pre>";
+    /*
     $preg1 = "/<span class=\"street-address\" property=\"v:street-address\">(.*)<\/span>/isU";
 //    $preg4 = "/<span class=\"extended-address\">(.*)<\/span>/isU";
 //    $preg2 = "/<span property=\"v:municipality\">(.*)<\/span>/isU";
@@ -33,6 +34,19 @@ foreach($result[1] as $key => $value) {
     preg_match_all($preg2,$str1,$result2);
     preg_match_all($preg3,$str1,$result3);
 //    preg_match_all($preg4,$str1,$result4);
+    */
+
+    $preg1 = "/<span class=\"street-address\">(.*)<\/span>/isU";
+//    $preg4 = "/<span class=\"extended-address\">(.*)<\/span>/isU";
+//    $preg2 = "/<span property=\"v:municipality\">(.*)<\/span>/isU";
+    $preg2 = "/<span class=\"locality\">(.*)<\/span>/isU";
+    $preg3 = "/<span class=\"country-name\">(.*)<\/span>/isU";
+
+//    $preg3 = "/<span class=\"postal-code\">(.*)<\/span>/isU";
+
+    preg_match_all($preg1,$str1,$result1);
+    preg_match_all($preg2,$str1,$result2);
+    preg_match_all($preg3,$str1,$result3);
 //echo "<pre>";
 //print_r($result1);
 //print_r($result2);

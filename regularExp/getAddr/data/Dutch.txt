@@ -55,3 +55,63 @@ Zwolsestraat 17,The Hague 2587 TX
 Gevers Deynootweg 63,The Hague 2586 BJ
 Gevers Deynootweg 15,The Hague 2586 BB
 Laan Van Meerdervoort 108,The Hague 2517 AS
+Gelderseplein 50,3011 WZ Rotterdam,  
+Leuvehaven 77,3011 EA Rotterdam,  
+Wilhelminakade 137,3072 AP Rotterdam,  
+Wijnhaven 12,3011 WP Rotterdam,  
+3E Katendrechtsehoofd 25,3072 AM Rotterdam,  
+KP Van Der Mandelelaan 150,3062 MB Rotterdam,  
+Westersingel 70,3015 LB Rotterdam,  
+Weena 121,3013 CK Rotterdam,  
+Rotterdam Airportplein 55,3045 AP Rotterdam,  
+Leuvehaven 80,3011EA Rotterdam,  
+Hoogstraat 81,3011 PJ Rotterdam,  
+Wijnhaven 20a,3011 WR Rotterdam,  
+Coolsingel - Aert van Nesstraat 4,3012 CA Rotterdam,  
+Mathenesserlaan 199-201,3014 HC Rotterdam,  
+Willemsplein 1,3016 DN Rotterdam,  
+Vliegveldweg 59-61,3043 NT Rotterdam,  
+Schiekade 658,3032 AK Rotterdam,  
+Van Vollenhovenstraat 48-50,3016 BJ Rotterdam,  
+Westblaak 67,3012 KE Rotterdam,  
+Hoofdweg 40,3067 GH Rotterdam,  
+Van Der Waalsweg 27,2991 XN Rotterdam,  
+Driemanssteeweg 5,3084 CA Rotterdam,  
+Koningslaan 2,3067 TG Rotterdam,  
+Mijnsherenlaan 9,3081 GA Rotterdam,  
+'s-Gravendijkwal 7,3021 EA Rotterdam,  
+Rochussenstraat 345,3023 DH Rotterdam,  
+Baan 14-20,3011 CB Rotterdam,  
+Kruiskade 12,3012 EH Rotterdam,  
+Kanaalweg 84/3041 JE,3041 JE Rotterdam,  
+Mauritsweg 29b,3012 JS Rotterdam,  
+Gelderseplein 50,3011 WZ Rotterdam,  The Netherlands
+Leuvehaven 77,3011 EA Rotterdam,  The Netherlands
+Wilhelminakade 137,3072 AP Rotterdam,  The Netherlands
+Wijnhaven 12,3011 WP Rotterdam,  The Netherlands
+3E Katendrechtsehoofd 25,3072 AM Rotterdam,  The Netherlands
+KP Van Der Mandelelaan 150,3062 MB Rotterdam,  The Netherlands
+Westersingel 70,3015 LB Rotterdam,  The Netherlands
+Weena 121,3013 CK Rotterdam,  The Netherlands
+Rotterdam Airportplein 55,3045 AP Rotterdam,  The Netherlands
+Leuvehaven 80,3011EA Rotterdam,  The Netherlands
+Hoogstraat 81,3011 PJ Rotterdam,  The Netherlands
+Wijnhaven 20a,3011 WR Rotterdam,  The Netherlands
+Coolsingel - Aert van Nesstraat 4,3012 CA Rotterdam,  The Netherlands
+Mathenesserlaan 199-201,3014 HC Rotterdam,  The Netherlands
+Willemsplein 1,3016 DN Rotterdam,  The Netherlands
+Vliegveldweg 59-61,3043 NT Rotterdam,  The Netherlands
+Schiekade 658,3032 AK Rotterdam,  The Netherlands
+Van Vollenhovenstraat 48-50,3016 BJ Rotterdam,  The Netherlands
+Westblaak 67,3012 KE Rotterdam,  The Netherlands
+Hoofdweg 40,3067 GH Rotterdam,  The Netherlands
+Van Der Waalsweg 27,2991 XN Rotterdam,  The Netherlands
+Driemanssteeweg 5,3084 CA Rotterdam,  The Netherlands
+Koningslaan 2,3067 TG Rotterdam,  The Netherlands
+Mijnsherenlaan 9,3081 GA Rotterdam,  The Netherlands
+'s-Gravendijkwal 7,3021 EA Rotterdam,  The Netherlands
+Rochussenstraat 345,3023 DH Rotterdam,  The Netherlands
+Baan 14-20,3011 CB Rotterdam,  The Netherlands
+Kruiskade 12,3012 EH Rotterdam,  The Netherlands
+Kanaalweg 84/3041 JE,3041 JE Rotterdam,  The Netherlands
+Mauritsweg 29b,3012 JS Rotterdam,  The Netherlands
