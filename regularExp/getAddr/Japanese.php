@@ -22,3 +22,4 @@ preg_match_all($preg1,$str,$result1);
 $address = $result[1][0].' '.$result1[1][4];
 file_put_contents("data/Japanese.txt",$address.PHP_EOL,FILE_APPEND);
 echo "<script>window.location.reload();</script>";
+
