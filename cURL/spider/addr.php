@@ -12,6 +12,7 @@ $curl = curl_init();
 curl_setopt($curl, CURLOPT_URL, $szUrl);
 curl_setopt($curl, CURLOPT_HEADER, 1);  //0表示不输出Header，1表示输出
 curl_setopt($curl, CURLOPT_HTTPHEADER, $header);
+curl_setopt($curl, CURLOPT_COOKIEJAR, 'data/cookie.txt'); //连接结束后保存cookie信息的文件。
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
