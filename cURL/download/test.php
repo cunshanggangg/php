@@ -6,7 +6,8 @@
  * Time: 14:48
  */
 $ch=curl_init();
-$url="http://localhost/php/cURL/download/data/test.txt";
+//$url="http://localhost/php/cURL/download/data/test.txt";
+$url = "http://192.168.17.39/csg/test.txt";//测试 success
   curl_setopt($ch,CURLOPT_URL, $url);
   curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
   $content=curl_exec($ch);
