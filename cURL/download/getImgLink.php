@@ -7,10 +7,13 @@
  */
 
 //$str = file_get_contents('http://www.sd020.com/shop/item-105231.html');
-////echo $str;
-//preg_match_all("<img src=\"(.*?)\" alt=\"image\">",$str,$result);
+//$str = file_get_contents('http://www.sd020.com/shop/item-100279.html');
+//$str = file_get_contents('http://www.sd020.com/shop/item-105374.html');
+//echo $str;
+//preg_match_all("<img alt=\"image\" src=\"(.*?)\">",$str,$result);
+//preg_match_all("<img src=\"(.*?)\" class=\"img-ks-lazyload\" alt=\"image\">",$str,$result);
 //echo "<pre>";
-//print_r($result[1]);
+//print_r($result);
 //$r = explode('/',$result[1][0]);
 //echo "<pre>";
 //print_r(end($r));
@@ -19,7 +22,7 @@
 $str1 = file_get_contents('http://www.sd020.com/shop/index.php?act=search&op=index&keyword=&is_collect=1');
 preg_match_all("<a href=\"(.*?)\" target=\"_blank\" title=\"(.*?)\">",$str1,$result1);
 //echo "<pre>";
-//print_r($result);
+//print_r($result1);
 //echo "<pre>";
 //print_r(array_values(array_unique($result1[1])));
 //echo "</pre>";
@@ -36,9 +39,15 @@ foreach($fileName as $k => $v) {
 
 foreach($fileName as $k1 => $v1) {
     $str = file_get_contents($v1);
-    preg_match_all("<img src=\"(.*?)\" alt=\"image\">",$str,$result);
+//    preg_match_all("<img src=\"(.*?)\" alt=\"image\">",$str,$result);
+//    preg_match_all("<img src=\"(.*?)\" class=\"img-ks-lazyload\" alt=\"image\">",$str,$result);
+//    preg_match_all("<img alt=\"image\" src=\"(.*?)\">",$str,$result);
+//    preg_match_all("<img class=\"blogimg\" src=\"(.*?)\" alt=\"image\">",$str,$result);
+     preg_match_all("<img src=\"(.*?)\" class=\"img-ks-lazyload\" alt=\"image\">",$str,$result);
+
+
     foreach($result[1] as $k2 => $v2) {
-        $r = explode('/',$result[1][0]);
+        $r = explode('/',$v2);
         $file = end($r);
         if(!file_exists($arr[$k1])) {
             mkdir($arr[$k1],0777,true);
@@ -65,3 +74,4 @@ function download_img($url = "", $dir = "", $filename = "")
     fclose($hd); //关闭句柄
     return true;
 }
+
