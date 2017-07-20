@@ -58,6 +58,8 @@ for($rowIndex=1;$rowIndex<=$allRow;$rowIndex++){//循环读取每个单元格的
     }
 }
 //
+echo "<pre>";
+print_r($data);exit;
 array_shift($data);
 array_pop($data);
 //echo "<pre>";
