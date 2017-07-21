@@ -9,6 +9,13 @@
 
 date_default_timezone_set('Asia/ShangHai');
 
+/* 注意：如果文件的大小超过了8M需要改php.ini文件
+ * 以下是默认值：
+ * post_max_size = 8M
+ * upload_max_filesize = 2M
+ * memory_limit = 128M
+ * 修改对应的大小，最后需要重启apache或者nginx服务器
+ * */
 /** PHPExcel_IOFactory */
 require_once '../Classes/PHPExcel/IOFactory.php';
 require_once '../class/medoo.php';
@@ -19,7 +26,6 @@ require_once '../class/medoo.php';
 
 //$filePath = 'tp_info_resource.xlsx';
 $filePath = $_FILES['excelData']['tmp_name'];
-
 $PHPExcel = new PHPExcel();
 
 /**默认用excel2007读取excel，若格式不对，则用之前的版本进行读取*/
