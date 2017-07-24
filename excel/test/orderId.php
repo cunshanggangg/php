@@ -23,8 +23,8 @@ require_once '../class/medoo.php';
 //echo "<pre>";
 //print_r($_FILES);
 //echo "</pre>";exit;
-
 //$filePath = 'tp_info_resource.xlsx';
+//$filePath = 'payment.xlsx';
 $filePath = $_FILES['excelData']['tmp_name'];
 $PHPExcel = new PHPExcel();
 
@@ -96,7 +96,7 @@ $database = new medoo([
 $result = array();
 foreach ($data as $k=>$v){
     //!$database->has("order_import",array("im_order_sn"=>$v['B']))
-    if(!$database->has("ypl_orders",array("order_sn"=>$v['B']))){
+    if(!$database->has("ypl_orders",array("order_sn"=>$v['B'])) && !$database->has("order_import",array("im_order_sn"=>$v['B']))){
         $result[]=$data[$k];
     }
 }
