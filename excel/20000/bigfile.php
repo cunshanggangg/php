@@ -35,7 +35,7 @@ class PHPExcelReadFilter implements PHPExcel_Reader_IReadFilter {
 
 $startRow  = 1;
 $endRow    = null;
-$excelFile = __DIR__ . '/data/payment2.xlsx';
+$excelFile = __DIR__ . '/data/6.xlsx';
 
 $data = readFromExcel($excelFile, null, $startRow, $endRow);
 //echo "<pre>";
@@ -46,8 +46,8 @@ $data = readFromExcel($excelFile, null, $startRow, $endRow);
 //echo "<pre>";
 //print_r(array_shift($data));
 //echo "</pre>";//exit;
-echo "<pre>";
-print_r($data);
+//echo "<pre>";
+//print_r($data);
 
 require_once '../class/medoo.php';
 //连接数据库
