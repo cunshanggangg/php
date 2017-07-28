@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>檢驗地址</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+    <style>
+        .wd{width:80%;}
+        .ct{margin:0 auto;}
+        .mg{margin:20px 0;}
+        /*#myModal{display:none;}*/
+    </style>
+    <script type="text/javascript">
+        window.onload = function() {
+            var chk = document.getElementById("chk");
+            var myForm = document.getElementById("myForm").submit;
+            chk.onclick = function() {
+//                alert("dd");
+                var start = document.getElementById("start").value;
+                var end = document.getElementById("end").value;
+
+                //初始化開始時間和結束時間
+                var oDateStart = new Date(start);
+                var oDateEnd = new Date(end);
+//                alert(oDateStart<oDateEnd);
+                //比較開始時間與結束時間
+                if((start == '' || end == '') || (oDateStart>oDateEnd)) {
+                    alert("請正確填寫！");
+                }else{
+                    var data = "start="+start+"&end="+end;
+//                    alert(data);
+                    var url = "http://localhost/php/medoo/chkAddr/chkAddr.php?t="+new Date().getTime();
+                    alert(url);
+                    Ajax(url,data,
+                            function(str){
+                                var result;
+                                result = eval('('+str+')');
+                                alert(result);
+                            },
+                            function(msg){
+                                alert(msg);
+//                                alert("失敗了！");
+                    });
+                }
+
+            }
+
+        };
+        function Ajax(url,data,fnSucc,fnFaild) {
+            //1.创建ajax对象
+            if(window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+                var oAjax=new XMLHttpRequest();
+            }else{// code for IE6, IE5
+                var oAjax=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            oAjax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+            //2.链接服务器（打开服务器的连接）
+            //open(方法，文件名，异步传输)
+            // oAjax.open('GET',url,true);
+            oAjax.open('POST',url,true);
+            //3.发送
+            oAjax.send(data);
+            //4.接收返回
+            oAjax.onreadystatechange=function() {
+                if (oAjax.readyState==4) {
+                    if(oAjax.status==200) {
+                        fnSucc(oAjax.responseText);
+                    }else{
+                        fnFaild(oAjax.status);
+                    }
+                };
+            };
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <form class="form-inline wd ct mg" id="myForm" method="post">
+            <div class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                <div class="input-group-addon">開始時間</div>
+                <input class="form-control" size="16" type="text" id="start" value="" readonly>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+            </div>
+            <input type="hidden" value="" />
+            <div class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                <div class="input-group-addon">結束時間</div>
+                <input class="form-control" size="16" type="text"  id="end" value="" readonly>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+            </div>
+            <input type="hidden" value="" />
+            <button type="submit" class="btn btn-success" id="chk">檢索</button>
+        </form>
+    </div>
+
+    <div id="table-responsive">
+        <table class="table table-bordered table-hover wd ct">
+            <tr class="active text-center">
+                <th class="text-center">訂單序號</th>
+                <th class="text-center">訂單類型</th>
+                <th class="text-center">收件人地址</th>
+                <th class="text-center">省代碼</th>
+                <th class="text-center">市代碼</th>
+                <th class="text-center">區代碼</th>
+                <th class="text-center">運單報文狀態</th>
+                <th class="text-center">下單時間</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-datetimepicker.min.js"></script>
+<!--<script src="js/bootstrap-datetimepicker.zh-CN.js"></script>-->
+<script type="text/javascript">
+    $('.form_datetime').datetimepicker({
+//        language:  'zh-CN',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        forceParse: 0,
+        showMeridian: 1
+    });
+    $('.form_date').datetimepicker({
+//        language:  'zh-CN',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        minView: 2,
+        forceParse: 0
+    });
+    $('.form_time').datetimepicker({
+//        language:  'zh-CN',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 1,
+        minView: 0,
+        maxView: 1,
+        forceParse: 0
+    });
+</script>
+</html>

@@ -10,7 +10,7 @@
             $("#subBtn").on('click',function() {
                 var userName = $("#userName").val();
                 var password = $("#password").val();
-                var myJson = {"username":userName,"password":password};//凭装为一个json对象再发送
+                var myJson = {"username":userName,"password":password};//拼装为一个json对象再发送
                 $.ajax({
                     type:"post",
                     url:"ajax.php",
