@@ -57,7 +57,7 @@
                                                 "<td><input id='area_code' class='form-control input-sm' type='text' placeholder='' value="+result[i].area_code+"></td>"+
                                                 "<td>"+result[i].o_wm_state+"</td>"+
                                                 "<td>"+result[i].o_create_date+"</td>"+
-                                                "<td><button type='button' class='btn btn-success' id='btnSQL'>SQL語句</button></td>"+
+                                                "<td><button type='button' class='btn btn-success' id='btnSQL' onclick='createSql()'>SQL語句</button></td>"+
                                             "</tr>";
 //                                    alert(result[i].o_id);
 //                                    html = html + html;
@@ -107,7 +107,7 @@
             var btnSQL = document.getElementById("btnSQL");
 //            alert(btnSQL);
 //            alert(document.all.province_code);
-            document.document.all.btnSQL.onclick = function() {
+            btnSQL.onclick = function() {
                 alert(dddd);
                 //省代碼
                 var province_code = document.getElementById("province_code").value;
@@ -119,13 +119,38 @@
                 var area_code = document.getElementById("area_code");
 
                 //組裝數劇
-                var data2 = "province_code="+province_code+"city_name="+city_name+"city_code="+city_code+"area_code="+area_code;
+                var data2 = "province_code="+province_code+"&city_name="+city_name+"&city_code="+city_code+"&area_code="+area_code;
                 alert(data2);
             };
             //end生成sql
 
         };
+        //生成sql语句 start
+        function createSql() {
+            //省代碼
+            var province_code = document.getElementById("province_code").value;
+            //市名稱
+            var city_name = document.getElementById("city_name").value;
+            //市代碼
+            var city_code = document.getElementById("city_code").value;
+            //區代碼
+            var area_code = document.getElementById("area_code").value;
 
+            //組裝數劇
+            var data2 = "province_code="+province_code+"&city_name="+city_name+"&city_code="+city_code+"&area_code="+area_code;
+//            alert(data2);
+            Ajax("chkAddr.php",data2,
+                    function(str){
+                        var resSql = eval('('+str+')');
+//                        alert(resSql);
+                        var oresSql = document.getElementById("resSql");
+                        oresSql.innerHTML = resSql.pwd;
+                    },
+                    function(){
+
+                    });
+        }
+        //生成sql语句 end
     </script>
 </head>
 <body>
@@ -150,6 +175,12 @@
         </form>
     </div>
     <!-- 检索省市区代码为空的订单 end-->
+
+    <!-- 显示生成sql语句 start -->
+    <div class="panel panel-info" id="resSql">
+        <!--<div class="panel-heading">Panel heading</div>-->
+    </div>
+    <!-- 显示生成sql语句 end -->
 
     <!-- 查找省市区代码 start -->
     <form class="form-inline wd ct">

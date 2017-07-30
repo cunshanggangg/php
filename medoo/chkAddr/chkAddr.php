@@ -23,6 +23,7 @@ $db = new medoo([
     // [可选]用于连接的driver_option，阅读更多从http://www.php.net/manual/zh/pdo.setattribute.php
     'option'=> [PDO :: ATTR_CASE => PDO :: CASE_NATURAL]
 ]);
+
 //$start = date("Y-m-d 00:00:00");
 //$start = date("2017-07-27 00:00:00");
 //$start = date("2017-07-27");
@@ -57,11 +58,20 @@ if(($_POST['start'] !="") && ($_POST['end']!="")) {
     exit(json_encode($r));
 }
 //搜索省市區代碼
-if($_POST['itemName'] !=="") {
+if($_POST['itemName'] !="") {
     $itemName = $_POST['itemName'];
     $res = $db->select("t_base_citycode",["citycode"],["cityname"=>$itemName]);
     exit(json_encode($res));
 }
+if(($_POST['province_code'] !="") && ($_POST['city_name']!="") && ($_POST['city_code']!="") && ($_POST['area_code']!="")) {
+  $resSql = array('pwd'=>'123456');
+  exit(json_encode($resSql));
+}
+//echo "31231";
+//$resSql = array('pwd'=>'123456');
+//echo "<pre>";
+//echo json_encode($resSql);
+//echo "</pre>";
 //輸出sql語句
 
 //exit("daddd");
