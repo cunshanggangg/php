@@ -13,8 +13,9 @@
     </style>
     <script type="text/javascript">
         window.onload = function() {
+            //start檢索省市區代碼為空的訂單
             var chk = document.getElementById("chk");
-            var myForm = document.getElementById("myForm").submit;
+//            var myForm = document.getElementById("myForm").submit;
             chk.onclick = function() {
 //                alert("dd");
                 var start = document.getElementById("start").value;
@@ -25,58 +26,112 @@
                 var oDateEnd = new Date(end);
 //                alert(oDateStart<oDateEnd);
                 //比較開始時間與結束時間
-                if((start == '' || end == '') || (oDateStart>oDateEnd)) {
+                if((start == '' || end == '') || (oDateStart>=oDateEnd)) {
                     alert("請正確填寫！");
                 }else{
                     var data = "start="+start+"&end="+end;
 //                    alert(data);
-                    var url = "http://localhost/php/medoo/chkAddr/chkAddr.php?t="+new Date().getTime();
-                    alert(url);
+//                    data += "t=" + Math.random();
+                    var url = "chkAddr.php";
+//                    var url = "http://localhost/php/medoo/chkAddr/chkAddr.php";
+                    //alert(url);
                     Ajax(url,data,
                             function(str){
-                                var result;
-                                result = eval('('+str+')');
-                                alert(result);
+//                                var result;
+//                                alert(str);
+                                var result = eval('('+str+')');//解析json數組
+                                if(result == "") {
+                                    alert("沒有找到相應的數據！");
+                                    return;//終止程序
+                                }
+//                                var result = JSON.parse(str);//解析json數組
+//                                alert(result[0].o_rec_addr);
+                                var html="<tr class='active text-center'><th class='text-center'>訂單序號</th><th class='text-center'>訂單類型</th><th class='text-center'>收件人地址</th><th class='text-center'>省代碼</th><th class='text-center'>市名稱</th><th class='text-center'>市代碼</th><th class='text-center'>區代碼</th><th class='text-center'>運單報文狀態</th> <th class='text-center'>下單時間</th><th>按鈕</th></th></tr>";
+                                for(var i in result){
+                                    html += "<tr><td><input size='60' id='o_id' class='form-control input-sm' type='text' readonly placeholder='' value="+result[i].o_id+"></td>"+
+                                                "<td>"+result[i].o_ot_id+"</td>"+
+                                                "<td>"+result[i].o_rec_addr+"</td>"+
+                                                "<td><input id='province_code' class='form-control input-sm' type='text' placeholder='' value="+result[i].province_code+"></td>"+
+                                                "<td><input id='city_name' class='form-control input-sm' type='text' placeholder='' value=''></td>"+
+                                                "<td><input id='city_code' class='form-control input-sm' type='text' placeholder='' value="+result[i].city_code+"></td>"+
+                                                "<td><input id='area_code' class='form-control input-sm' type='text' placeholder='' value="+result[i].area_code+"></td>"+
+                                                "<td>"+result[i].o_wm_state+"</td>"+
+                                                "<td>"+result[i].o_create_date+"</td>"+
+                                                "<td><button type='button' class='btn btn-success' id='btnSQL'>SQL語句</button></td>"+
+                                            "</tr>";
+//                                    alert(result[i].o_id);
+//                                    html = html + html;
+//                                    alert(html);
+                                }
+                                var tb = document.getElementById("myTb");
+//                                alert(html);
+                                tb.innerHTML = html;
                             },
                             function(msg){
                                 alert(msg);
 //                                alert("失敗了！");
                     });
                 }
+            };
+            //end
+            //start查找省市區代碼
+            var sea = document.getElementById("sea");
+//            alert(sea);
+            sea.onclick = function () {
+                var itemName = document.getElementById("itemName").value;
+                var data1 = "itemName="+itemName;
+                if(itemName == "") {
+                    alert("請輸入內容!");
+                }else{
+                    Ajax("chkAddr.php",data1,
+                            function(str){
+//                                alert(str);
+                                var r = eval('('+str+')');
+                                if(r == "") {
+                                    alert("沒有相關結果!");
+                                } else {
+                                    var itemRes = document.getElementById("itemRes");
+//                                alert(r[0].citycode);
+                                    itemRes.value = r[0].citycode;
+                                }
 
-            }
+                            },
+                            function(){
+
+                            });
+                }
+            };
+            //end查找省市區代碼
+
+            //start生成sql
+            var btnSQL = document.getElementById("btnSQL");
+//            alert(btnSQL);
+//            alert(document.all.province_code);
+            document.document.all.btnSQL.onclick = function() {
+                alert(dddd);
+                //省代碼
+                var province_code = document.getElementById("province_code").value;
+                //市名稱
+                var city_name = document.getElementById("city_name").value;
+                //市代碼
+                var city_code = document.getElementById("city_code");
+                //區代碼
+                var area_code = document.getElementById("area_code");
+
+                //組裝數劇
+                var data2 = "province_code="+province_code+"city_name="+city_name+"city_code="+city_code+"area_code="+area_code;
+                alert(data2);
+            };
+            //end生成sql
 
         };
-        function Ajax(url,data,fnSucc,fnFaild) {
-            //1.创建ajax对象
-            if(window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
-                var oAjax=new XMLHttpRequest();
-            }else{// code for IE6, IE5
-                var oAjax=new ActiveXObject("Microsoft.XMLHTTP");
-            }
-            oAjax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-            //2.链接服务器（打开服务器的连接）
-            //open(方法，文件名，异步传输)
-            // oAjax.open('GET',url,true);
-            oAjax.open('POST',url,true);
-            //3.发送
-            oAjax.send(data);
-            //4.接收返回
-            oAjax.onreadystatechange=function() {
-                if (oAjax.readyState==4) {
-                    if(oAjax.status==200) {
-                        fnSucc(oAjax.responseText);
-                    }else{
-                        fnFaild(oAjax.status);
-                    }
-                };
-            };
-        }
+
     </script>
 </head>
 <body>
+    <!-- 检索省市区代码为空的订单 start-->
     <div class="container">
-        <form class="form-inline wd ct mg" id="myForm" method="post">
+        <form class="form-inline wd ct mg" id="myForm" action="" method="post">
             <div class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
                 <div class="input-group-addon">開始時間</div>
                 <input class="form-control" size="16" type="text" id="start" value="" readonly>
@@ -91,12 +146,30 @@
                 <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
             </div>
             <input type="hidden" value="" />
-            <button type="submit" class="btn btn-success" id="chk">檢索</button>
+            <button type="button" class="btn btn-success" id="chk">檢索</button>
         </form>
     </div>
+    <!-- 检索省市区代码为空的订单 end-->
 
+    <!-- 查找省市区代码 start -->
+    <form class="form-inline wd ct">
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-addon">省市區名稱</div>
+                <input type="text" class="form-control" id="itemName" placeholder="">
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" id="sea">搜索</button>
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-addon">搜索結果</div>
+                <input type="text" class="form-control" id="itemRes" value="" placeholder="">
+            </div>
+        </div>
+    </form>
+    <!-- 查找省市区代码 end -->
     <div id="table-responsive">
-        <table class="table table-bordered table-hover wd ct">
+        <table class="table table-bordered table-hover wd ct" id="myTb">
             <tr class="active text-center">
                 <th class="text-center">訂單序號</th>
                 <th class="text-center">訂單類型</th>
@@ -111,9 +184,9 @@
                 <td>1</td>
                 <td>2</td>
                 <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
+                <td><input class="form-control input-sm" type="text" placeholder=""></td>
+                <td><input class="form-control input-sm" type="text" placeholder=""></td>
+                <td><input class="form-control input-sm" type="text" placeholder=""></td>
                 <td>7</td>
                 <td>8</td>
             </tr>
@@ -144,6 +217,7 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap-datetimepicker.min.js"></script>
+<script src="js/ajax.js"></script>
 <!--<script src="js/bootstrap-datetimepicker.zh-CN.js"></script>-->
 <script type="text/javascript">
     $('.form_datetime').datetimepicker({
