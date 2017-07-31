@@ -17,6 +17,15 @@
             //start檢索省市區代碼為空的訂單
             var chk = document.getElementById("chk");
 //            var myForm = document.getElementById("myForm").submit;
+            var oStart = document.getElementById("start");
+            var oEnd = document.getElementById("end");
+            var d = new Date();
+            var sTime;
+            var eTime;
+            sTime = d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate();
+            eTime = d.getFullYear()+"-"+(d.getMonth()+1)+"-"+(d.getDate()+1);
+            oStart.value = sTime;
+            oEnd.value = eTime;
             chk.onclick = function() {
 //                alert("dd");
                 var start = document.getElementById("start").value;
