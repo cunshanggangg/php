@@ -31,3 +31,67 @@ function Ajax(url,data,fnSucc,fnFaild) {
         };
     };
 }
+
+//獲取父節點的兄弟節點 start
+function siblings(elm) {
+    var r = [];
+    var p = elm.parentNode.children;
+    for(var i =0,pl= p.length;i<pl;i++) {
+        if(p[i] !== elm) r.push(p[i]);
+    }
+    return r;
+}
+//獲取父節點的兄弟節點 end
+
+//删除左右两端的空格 start
+function trim(str){
+    return str.replace(/(^\s*)|(\s*$)/g,"");
+}
+//删除左右两端的空格 end
+
+//生成sql语句 start
+function createSql(obj) {
+//            alert(1231);
+//            alert(obj);
+//            var oNode = obj.parentNode.childNodes;//獲得子節點
+//            var oNode = obj.parentNode.firstChild.nodeName;//結點的名稱:BUTTON
+//            var oNode = obj.parentNode.firstChild.nodeType;//結點的類型：1：元素節點
+//            var oNode = obj.parentNode.previousSibling.previousSibling.previousSibling.firstChild.value;
+//            alert(oNode);
+    var oNode = obj.parentNode;
+    var oInput = siblings(oNode);
+//            alert(oInput.length);
+//            for(var i=0;i<rs.length;i++) {
+//                rs[i].
+//            }
+//            alert(oInput[0].firstChild.value);
+//            alert(oInput[3].firstChild.value);
+//            alert(oInput[4].firstChild.value);
+//            alert(oInput[5].firstChild.value);
+//            alert(oInput[6].firstChild.value);
+    //訂單編號
+    var o_id = trim(oInput[0].firstChild.value);
+    //省代碼
+    var province_code = trim(oInput[3].firstChild.value);
+    //市名稱
+    var city_name = trim(oInput[4].firstChild.value);
+    //市代碼
+    var city_code = trim(oInput[5].firstChild.value);
+    //區代碼
+    var area_code = trim(oInput[6].firstChild.value);
+
+    //組裝數劇
+    var data2 = "o_id="+o_id+"&province_code="+province_code+"&city_name="+city_name+"&city_code="+city_code+"&area_code="+area_code;
+//            alert(data2);
+    Ajax("chkAddr.php",data2,
+        function(str){
+            var resSql = eval('('+str+')');
+//                        alert(resSql);
+            var oresSql = document.getElementById("resSql");
+            oresSql.innerHTML = resSql[0]+"<br />"+resSql[1]+"<br />"+resSql[2];
+        },
+        function(){
+
+        });
+}
+//生成sql语句 end

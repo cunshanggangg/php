@@ -1,0 +1,16 @@
+[2017-07-31 14:21:57]
+UPDATE tb_order SET province_code = '410000',city_code = '410100',area_code = '410183' WHERE o_id = '100047201707271121190197';
+UPDATE tb_express_order SET el_d_province_code = '410000', el_d_city = '郑州市', el_d_city_code = '410100', el_d_area_code = '410183' WHERE el_order_id = '100047201707271121190197';
+UPDATE tb_entry_log SET el_rec_provinces = '410000' WHERE el_order_id = '100047201707271121190197';
+[2017-07-31 14:40:09]
+UPDATE tb_order SET province_code = '410000',city_code = '410100',area_code = '410183' WHERE o_id = '100047201707271121190197';
+UPDATE tb_express_order SET el_d_province_code = '410000', el_d_city = '郑州市', el_d_city_code = '410100', el_d_area_code = '410183' WHERE el_order_id = '100047201707271121190197';
+UPDATE tb_entry_log SET el_rec_provinces = '410000' WHERE el_order_id = '100047201707271121190197';
+[2017-07-31 14:43:21]
+UPDATE tb_order SET province_code = '410000',city_code = '410100',area_code = '410183' WHERE o_id = '100047201707271121190197';
+UPDATE tb_express_order SET el_d_province_code = '410000',el_d_city = '郑州市',el_d_city_code = '410100',el_d_area_code = '410183' WHERE el_order_id = '100047201707271121190197';
+UPDATE tb_entry_log SET el_rec_provinces = '410000' WHERE el_order_id = '100047201707271121190197';
+[2017-07-31 14:55:56]
+UPDATE tb_order SET province_code = '410000',city_code = '410100',area_code = '410183' WHERE o_id = '100047201707271121190197';
+UPDATE tb_express_order SET el_d_province_code = '410000',el_d_city = '郑州市',el_d_city_code = '410100',el_d_area_code = '410183' WHERE el_order_id = '100047201707271121190197';
+UPDATE tb_entry_log SET el_rec_provinces = '410000' WHERE el_order_id = '100047201707271121190197';

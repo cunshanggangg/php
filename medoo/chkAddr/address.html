@@ -9,6 +9,7 @@
         .wd{width:80%;}
         .ct{margin:0 auto;}
         .mg{margin:20px 0;}
+        .fs{font-size:20px;color:orangered;}
         /*#myModal{display:none;}*/
     </style>
     <script type="text/javascript">
@@ -48,16 +49,16 @@
 //                                alert(result[0].o_rec_addr);
                                 var html="<tr class='active text-center'><th class='text-center'>訂單序號</th><th class='text-center'>訂單類型</th><th class='text-center'>收件人地址</th><th class='text-center'>省代碼</th><th class='text-center'>市名稱</th><th class='text-center'>市代碼</th><th class='text-center'>區代碼</th><th class='text-center'>運單報文狀態</th> <th class='text-center'>下單時間</th><th>按鈕</th></th></tr>";
                                 for(var i in result){
-                                    html += "<tr><td><input size='60' id='o_id' class='form-control input-sm' type='text' readonly placeholder='' value="+result[i].o_id+"></td>"+
+                                    html += "<tr><td><input size='60' class='form-control input-sm' type='text' readonly placeholder='' value="+result[i].o_id+"></td>"+
                                                 "<td>"+result[i].o_ot_id+"</td>"+
                                                 "<td>"+result[i].o_rec_addr+"</td>"+
-                                                "<td><input id='province_code' class='form-control input-sm' type='text' placeholder='' value="+result[i].province_code+"></td>"+
-                                                "<td><input id='city_name' class='form-control input-sm' type='text' placeholder='' value=''></td>"+
-                                                "<td><input id='city_code' class='form-control input-sm' type='text' placeholder='' value="+result[i].city_code+"></td>"+
-                                                "<td><input id='area_code' class='form-control input-sm' type='text' placeholder='' value="+result[i].area_code+"></td>"+
+                                                "<td><input class='form-control input-sm' type='text' placeholder='' value="+result[i].province_code+"></td>"+
+                                                "<td><input class='form-control input-sm' type='text' placeholder='' value=''></td>"+
+                                                "<td><input class='form-control input-sm' type='text' placeholder='' value="+result[i].city_code+"></td>"+
+                                                "<td><input class='form-control input-sm' type='text' placeholder='' value="+result[i].area_code+"></td>"+
                                                 "<td>"+result[i].o_wm_state+"</td>"+
                                                 "<td>"+result[i].o_create_date+"</td>"+
-                                                "<td><button type='button' class='btn btn-success' id='btnSQL' onclick='createSql()'>SQL語句</button></td>"+
+                                                "<td><button type='button' class='btn btn-info' onclick='createSql(this)'>SQL語句</button></td>"+
                                             "</tr>";
 //                                    alert(result[i].o_id);
 //                                    html = html + html;
@@ -78,7 +79,7 @@
             var sea = document.getElementById("sea");
 //            alert(sea);
             sea.onclick = function () {
-                var itemName = document.getElementById("itemName").value;
+                var itemName = trim(document.getElementById("itemName").value);
                 var data1 = "itemName="+itemName;
                 if(itemName == "") {
                     alert("請輸入內容!");
@@ -102,61 +103,13 @@
                 }
             };
             //end查找省市區代碼
-
-            //start生成sql
-            var btnSQL = document.getElementById("btnSQL");
-//            alert(btnSQL);
-//            alert(document.all.province_code);
-            btnSQL.onclick = function() {
-                alert(dddd);
-                //省代碼
-                var province_code = document.getElementById("province_code").value;
-                //市名稱
-                var city_name = document.getElementById("city_name").value;
-                //市代碼
-                var city_code = document.getElementById("city_code");
-                //區代碼
-                var area_code = document.getElementById("area_code");
-
-                //組裝數劇
-                var data2 = "province_code="+province_code+"&city_name="+city_name+"&city_code="+city_code+"&area_code="+area_code;
-                alert(data2);
-            };
-            //end生成sql
-
         };
-        //生成sql语句 start
-        function createSql() {
-            //省代碼
-            var province_code = document.getElementById("province_code").value;
-            //市名稱
-            var city_name = document.getElementById("city_name").value;
-            //市代碼
-            var city_code = document.getElementById("city_code").value;
-            //區代碼
-            var area_code = document.getElementById("area_code").value;
-
-            //組裝數劇
-            var data2 = "province_code="+province_code+"&city_name="+city_name+"&city_code="+city_code+"&area_code="+area_code;
-//            alert(data2);
-            Ajax("chkAddr.php",data2,
-                    function(str){
-                        var resSql = eval('('+str+')');
-//                        alert(resSql);
-                        var oresSql = document.getElementById("resSql");
-                        oresSql.innerHTML = resSql.pwd;
-                    },
-                    function(){
-
-                    });
-        }
-        //生成sql语句 end
     </script>
 </head>
 <body>
     <!-- 检索省市区代码为空的订单 start-->
     <div class="container">
-        <form class="form-inline wd ct mg" id="myForm" action="" method="post">
+        <form class="form-inline wd ct mg" style="margin-left:100px;" id="myForm" action="" method="post">
             <div class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
                 <div class="input-group-addon">開始時間</div>
                 <input class="form-control" size="16" type="text" id="start" value="" readonly>
@@ -177,70 +130,72 @@
     <!-- 检索省市区代码为空的订单 end-->
 
     <!-- 显示生成sql语句 start -->
-    <div class="panel panel-info" id="resSql">
+    <div class="panel panel-primary wd ct fs" id="resSql">
         <!--<div class="panel-heading">Panel heading</div>-->
     </div>
     <!-- 显示生成sql语句 end -->
 
     <!-- 查找省市区代码 start -->
-    <form class="form-inline wd ct">
-        <div class="form-group">
-            <div class="input-group">
-                <div class="input-group-addon">省市區名稱</div>
-                <input type="text" class="form-control" id="itemName" placeholder="">
+    <div class="container wd ct">
+        <form class="form-inline mg" style="margin-left:250px;">
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon">省市區名稱</div>
+                    <input type="text" class="form-control" id="itemName" placeholder="">
+                </div>
             </div>
-        </div>
-        <button type="button" class="btn btn-primary" id="sea">搜索</button>
-        <div class="form-group">
-            <div class="input-group">
-                <div class="input-group-addon">搜索結果</div>
-                <input type="text" class="form-control" id="itemRes" value="" placeholder="">
+            <button type="button" class="btn btn-primary" id="sea">搜索</button>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon">搜索結果</div>
+                    <input type="text" class="form-control" id="itemRes" value="" placeholder="" readonly>
+                </div>
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
     <!-- 查找省市区代码 end -->
     <div id="table-responsive">
         <table class="table table-bordered table-hover wd ct" id="myTb">
-            <tr class="active text-center">
-                <th class="text-center">訂單序號</th>
-                <th class="text-center">訂單類型</th>
-                <th class="text-center">收件人地址</th>
-                <th class="text-center">省代碼</th>
-                <th class="text-center">市代碼</th>
-                <th class="text-center">區代碼</th>
-                <th class="text-center">運單報文狀態</th>
-                <th class="text-center">下單時間</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td><input class="form-control input-sm" type="text" placeholder=""></td>
-                <td><input class="form-control input-sm" type="text" placeholder=""></td>
-                <td><input class="form-control input-sm" type="text" placeholder=""></td>
-                <td>7</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-            </tr>
+            <!--<tr class="active text-center">-->
+                <!--<th class="text-center">訂單序號</th>-->
+                <!--<th class="text-center">訂單類型</th>-->
+                <!--<th class="text-center">收件人地址</th>-->
+                <!--<th class="text-center">省代碼</th>-->
+                <!--<th class="text-center">市代碼</th>-->
+                <!--<th class="text-center">區代碼</th>-->
+                <!--<th class="text-center">運單報文狀態</th>-->
+                <!--<th class="text-center">下單時間</th>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td>1</td>-->
+                <!--<td>2</td>-->
+                <!--<td>3</td>-->
+                <!--<td><input class="form-control input-sm" type="text" placeholder=""></td>-->
+                <!--<td><input class="form-control input-sm" type="text" placeholder=""></td>-->
+                <!--<td><input class="form-control input-sm" type="text" placeholder=""></td>-->
+                <!--<td>7</td>-->
+                <!--<td>8</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td>1</td>-->
+                <!--<td>2</td>-->
+                <!--<td>3</td>-->
+                <!--<td>4</td>-->
+                <!--<td>5</td>-->
+                <!--<td>6</td>-->
+                <!--<td>7</td>-->
+                <!--<td>8</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td>1</td>-->
+                <!--<td>2</td>-->
+                <!--<td>3</td>-->
+                <!--<td>4</td>-->
+                <!--<td>5</td>-->
+                <!--<td>6</td>-->
+                <!--<td>7</td>-->
+                <!--<td>8</td>-->
+            <!--</tr>-->
         </table>
     </div>
 
