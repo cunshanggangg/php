@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jsonp的简单使用</title>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.ajax({
+//                url: 'http://localhost/php/jquery/jsonp/jspon.php',
+                url: 'http://192.168.17.39/csg/jsonp.php',
+                dataType: 'jsonp',
+                data: {name: 'Super man'},
+                jsonp: false,
+                jsonpCallback:success_jsonCallback
+//                success: function(response) {
+//                    $("body").html('<h1>' + response.message + '</h1>');
+////                    console.log(response.message);
+////                    alert(response.message);
+////                    success_jsonCallback(response);
+//                }
+            });
+
+            function success_jsonCallback(data) {
+                console.log(2312);
+//                console.log(data);
+//                console.log(data.message);
+//                alert(data.message);
+
+//                alert(data.success);
+//                alert(obj.message);
+//                $.each(data.success, function (i,item) {
+//                    $("body").append('<h1>' + data.message + '</h1>');
+//                });
+            }
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

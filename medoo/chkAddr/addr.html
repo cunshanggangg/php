@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>檢驗地址</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+    <style>
+        .wd{width:80%;}
+        .ct{margin:0 auto;}
+        .mg{margin:20px 0;}
+        .fs{font-size:20px;color:orangered;}
+        /*#myModal{display:none;}*/
+    </style>
+</head>
+<body>
+    <!-- 检索省市区代码为空的订单 start-->
+    <div class="container">
+        <form class="form-inline wd ct mg" style="margin-left:100px;" id="myForm" action="" method="post">
+            <div class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                <div class="input-group-addon">開始時間</div>
+                <input class="form-control" size="16" type="text" id="start" value="" readonly>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+            </div>
+            <input type="hidden" value="" />
+            <div class="input-group date form_date col-md-5" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                <div class="input-group-addon">結束時間</div>
+                <input class="form-control" size="16" type="text"  id="end" value="" readonly>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+            </div>
+            <input type="hidden" value="" />
+            <button type="button" class="btn btn-success" id="chk">檢索</button>
+        </form>
+    </div>
+    <!-- 检索省市区代码为空的订单 end-->
+
+    <!-- 显示生成sql语句 start -->
+    <div class="panel panel-primary wd ct fs" id="resSql">
+        <!--<div class="panel-heading">Panel heading</div>-->
+    </div>
+    <!-- 显示生成sql语句 end -->
+
+    <!-- 查找省市区代码 start -->
+    <div class="container wd ct">
+        <form class="form-inline mg" style="margin-left:250px;">
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon">省市區名稱</div>
+                    <input type="text" class="form-control" id="itemName" placeholder="">
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary" id="sea">搜索</button>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon">搜索結果</div>
+                    <input type="text" class="form-control" id="itemRes" value="" placeholder="" readonly>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- 查找省市区代码 end -->
+    <div id="table-responsive">
+        <table class="table table-bordered table-hover wd ct" id="myTb">
+            <!--<tr class="active text-center">-->
+                <!--<th class="text-center">訂單序號</th>-->
+                <!--<th class="text-center">訂單類型</th>-->
+                <!--<th class="text-center">收件人地址</th>-->
+                <!--<th class="text-center">省代碼</th>-->
+                <!--<th class="text-center">市代碼</th>-->
+                <!--<th class="text-center">區代碼</th>-->
+                <!--<th class="text-center">運單報文狀態</th>-->
+                <!--<th class="text-center">下單時間</th>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td>1</td>-->
+                <!--<td>2</td>-->
+                <!--<td>3</td>-->
+                <!--<td><input class="form-control input-sm" type="text" placeholder=""></td>-->
+                <!--<td><input class="form-control input-sm" type="text" placeholder=""></td>-->
+                <!--<td><input class="form-control input-sm" type="text" placeholder=""></td>-->
+                <!--<td>7</td>-->
+                <!--<td>8</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td>1</td>-->
+                <!--<td>2</td>-->
+                <!--<td>3</td>-->
+                <!--<td>4</td>-->
+                <!--<td>5</td>-->
+                <!--<td>6</td>-->
+                <!--<td>7</td>-->
+                <!--<td>8</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td>1</td>-->
+                <!--<td>2</td>-->
+                <!--<td>3</td>-->
+                <!--<td>4</td>-->
+                <!--<td>5</td>-->
+                <!--<td>6</td>-->
+                <!--<td>7</td>-->
+                <!--<td>8</td>-->
+            <!--</tr>-->
+        </table>
+    </div>
+
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-datetimepicker.min.js"></script>
+<script src="js/ajax.js"></script>
+<!--<script src="js/bootstrap-datetimepicker.zh-CN.js"></script>-->
+<script type="text/javascript">
+    $('.form_datetime').datetimepicker({
+//        language:  'zh-CN',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        forceParse: 0,
+        showMeridian: 1
+    });
+    $('.form_date').datetimepicker({
+//        language:  'zh-CN',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        minView: 2,
+        forceParse: 0
+    });
+    $('.form_time').datetimepicker({
+//        language:  'zh-CN',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 1,
+        minView: 0,
+        maxView: 1,
+        forceParse: 0
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+//        alert(89);
+        //检索结果 start
+        $("#chk").on('click',function () {
+//            alert(123456);
+            var start = $("#start").val();
+//            alert(start);
+            var end = $("#end").val();
+            if((start=="" || end=="") || (start>=end) ) {
+                alert("请正确输入!");
+            }else{
+                $.ajax({
+                    type:"POST",
+                    url:"addr.php",
+                    data:"start="+start+"&end="+end,
+                    //成功之后 start
+                    success:function(msg) {
+//                        alert("Data Saved:"+msg);
+//                        var result = eval("("+msg+")");//js原生态的
+                        var result = $.parseJSON(msg);//jQuery封装好的
+                        if(result==""){
+                            alert("没有找到相应的结果!");
+                            return;
+                        }
+                        //拼接字符串
+                        var html="<tr class='active text-center'><th class='text-center'>訂單序號</th><th class='text-center'>訂單類型</th><th class='text-center'>收件人地址</th><th class='text-center'>省代碼</th><th class='text-center'>市名稱</th><th class='text-center'>市代碼</th><th class='text-center'>區代碼</th><th class='text-center'>運單報文狀態</th> <th class='text-center'>下單時間</th><th>按鈕</th></th></tr>";
+                        for(var i in result){
+                            html += "<tr><td><input size='60' class='form-control input-sm' type='text' readonly placeholder='' value="+result[i].o_id+"></td>"+
+                                    "<td>"+result[i].o_ot_id+"</td>"+
+                                    "<td>"+result[i].o_rec_addr+"</td>"+
+                                    "<td><input class='form-control input-sm' type='text' placeholder='' value="+result[i].province_code+"></td>"+
+                                    "<td><input class='form-control input-sm' type='text' placeholder='' value=''></td>"+
+                                    "<td><input class='form-control input-sm' type='text' placeholder='' value="+result[i].city_code+"></td>"+
+                                    "<td><input class='form-control input-sm' type='text' placeholder='' value="+result[i].area_code+"></td>"+
+                                    "<td>"+result[i].o_wm_state+"</td>"+
+                                    "<td>"+result[i].o_create_date+"</td>"+
+                                    "<td><button type='button' class='btn btn-info' onclick='createSql(this)'>SQL語句</button></td>"+
+                                    "</tr>";
+//                                    alert(result[i].o_id);
+//                                    html = html + html;
+//                                    alert(html);
+                        }
+//                        var tb = $("#myTb");
+//                                console.log(html);
+//                        $("#myTb").innerHTML = html;//在jQuery里不起作用
+                        $("#myTb")[0].innerHTML = html;//起作用并且样式正常显示
+//                        $("#myTb").append(html);//样式不能正常显示
+//                        $("#myTb").html(html);//样式不能正常显示
+                    }
+                    //成功之后 end
+
+//                    //complete完成之后 start
+//                    complete:function(XMLHttpRequest,textStatus) {
+//                        alert(XMLHttpRequest.status);
+//                        alert(XMLHttpRequest.readyState);
+//                        alert(textStatus);
+//                    }
+                    //complete完成之后 start
+
+                });
+            }
+        });
+        //检索结果 end
+    });
+</script>
+</html>
