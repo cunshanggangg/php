@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jsonp1的简单使用</title>
+    <!--<script src="../js/jquery-3.2.1.min.js"></script>-->
+    <script type="text/javascript">
+        function jsonpCallback(result) {
+            alert(result.a);
+//            console.log(result);
+//            alert(result.message);
+//            alert(result.b);
+//            alert(result.c);
+//            for(var i in result) {
+//                alert(i+":"+result[i]);//循环输出a:1,b:2,etc.
+//            }
+        }
+    </script>
+    <script type="text/javascript" src="http://192.168.17.39/csg/jsonp.php?callback=jsonpCallback"></script>
+</head>
+<body>
+</body>
+</html>

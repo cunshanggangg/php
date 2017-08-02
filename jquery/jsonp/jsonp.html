@@ -7,48 +7,44 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $.ajax({
-                url: 'http://localhost/php/jquery/jsonp/jspon.php',
-//                url: 'http://192.168.17.39/csg/jsonp.php',
-                dataType: 'jsonp',
-                data: {name: 'Super man'},
-                jsonp: false,
-                jsonpCallback: success_jsonCallback
+//                url: 'http://localhost/php/jquery/jsonp/jspon.php',
+                data:{name:'Super man'},
+                dataType:'jsonp', // tried json
+                url:'http://192.168.17.39/csg/jsonp.php',
+                type:'GET',
+                jsonp:'callback' ,// tried true
+                jsonpCallback:'success_jsonCallback'
+                //共有两种响应的方式，要么用success,要么用新建的回调函数。
 //                success: function(response) {
-//                    $("body").html('<h1>' + response.message + '</h1>');
+//                    $("body").html('<h1>' + response.a + '</h1>');
 ////                    console.log(response.message);
 ////                    alert(response.message);
-////                    success_jsonCallback(response);
 //                }
             });
 
-//            function success_jsonCallback(data) {
-//                console.log(2312);
-//                alert(data);
-////                alert(status);
-////                console.log(data);
-////                console.log(data.message);
-////                alert(data.message);
-//
-////                alert(data.success);
-////                alert(obj.message);
-////                $.each(data.success, function (i,item) {
-////                    $("body").append('<h1>' + data.message + '</h1>');
-////                });
-//            }
         });
 
-//        window.success_jsonCallback=function(data) {
+        //3种方法的不同写法
+        // 1
+        window.success_jsonCallback=function(data) {
 //            console.log(data.name);
-//        }
+        $("body").append('<h1>' + data.message + '</h1>');
+        };
 
-        function success_jsonCallback(data) {
-//            console.log(data);
-            alert(data);
-            console.log(321345646);
-//            alert(4546546);
-            var result = eval("("+data+")");
-            alert(result[0].message);
-        }
+
+        // 2
+//        var success_jsonCallback = function(saveData) {
+//            console.log(saveData);
+//            if (saveData == null) {
+//                alert("DATA IS UNDEFINED!");  // displays every time
+//            }
+//            alert("Success is " + saveData.message);  // 'Success is undefined'
+//        };
+
+//        // 3
+//        function success_jsonCallback(data) {
+//            alert(data.message);
+//        }
     </script>
 </head>
 <body>
