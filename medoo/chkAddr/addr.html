@@ -51,7 +51,7 @@
                     <input type="text" class="form-control" id="itemName" placeholder="">
                 </div>
             </div>
-            <button type="button" class="btn btn-primary" id="sea">搜索</button>
+            <button type="button" class="btn btn-primary" id="search">搜索</button>
             <div class="form-group">
                 <div class="input-group">
                     <div class="input-group-addon">搜索結果</div>
@@ -148,7 +148,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
 //        alert(89);
-        //检索结果 start
+        //----------------------- 检索结果 start --------------------------------------
         $("#chk").on('click',function () {
 //            alert(123456);
             var start = $("#start").val();
@@ -182,7 +182,7 @@
                                     "<td><input class='form-control input-sm' type='text' placeholder='' value="+result[i].area_code+"></td>"+
                                     "<td>"+result[i].o_wm_state+"</td>"+
                                     "<td>"+result[i].o_create_date+"</td>"+
-                                    "<td><button type='button' class='btn btn-info' onclick='createSql(this)'>SQL語句</button></td>"+
+                                    "<td><button type='button' class='btn btn-info' value='4654' onclick='createSql(this)'>SQL語句</button></td>"+
                                     "</tr>";
 //                                    alert(result[i].o_id);
 //                                    html = html + html;
@@ -208,7 +208,78 @@
                 });
             }
         });
-        //检索结果 end
+        //-------------------------- 检索结果 end --------------------------------
+        //--------------------------- 搜索省市区代码 start ------------------------
+        $("#search").on("click",function(){
+            var itemName = $("#itemName").val();
+//            alert(itemName);
+            //判断是否为空和是否为中文
+            var reg = /^[\u4e00-\u9fa5]+$/;//正则表达式，注：后面的字符串不能出现双引号 "/.../" 或者 '/.../'
+            if((itemName=="") || (!reg.test(itemName))) {
+                alert("请正确输入!");
+            }else{
+                $.ajax({
+                    type:"POST",
+                    url: "addr.php",
+                    data:"itemName="+itemName,
+                    success:function(str){
+//                        alert(str);
+                        var res = $.parseJSON(str);
+//                        alert(res[0].citycode);
+                        //将结果放到文本框里
+                        $("#itemRes").val(res[0].citycode);
+                    }
+                });
+            }
+        });
+        //--------------------------- 搜索省市区代码 end --------------------------
     });
+
+    function createSql(obj) {
+//        alert(123424);
+//        alert(obj);
+//            alert(64654646);
+//            alert(obj.val());
+//            alert(obj.parentNode.prevAll());
+//            alert(obj.parent());
+//            alert($(this).siblings());
+//            alert($(this).parent("td").length);
+        var oNode = obj.parentNode;
+//        alert(oNode.children);
+        var oInput = siblings(oNode);
+//        alert(oInput.length);
+        var o_id = oInput[0].firstChild.value;
+        var province_code = oInput[3].firstChild.value;
+        var city_name = oInput[4].firstChild.value;
+        var city_code = oInput[5].firstChild.value;
+        var area_code = oInput[6].firstChild.value;
+        var data2;
+        data2 = "o_id="+o_id+"&province_code="+province_code+"&city_name="+city_name+"&city_code="+city_code+"&area_code="+area_code;
+//        return data2;
+        $(document).ready(function(){
+            $.ajax({
+                type:"POST",
+                url:"addr.php",
+                data:data2,
+                success:function(msg) {
+//                    var res = eval("("+msg+")");
+                    var res = $.parseJSON(msg);
+//                    alert(res);
+                    $("#resSql").html(res[0]+"<br />"+res[1]+"<br />"+res[2]);
+                }
+            });
+        });
+    }
+
+    function siblings(obj) {
+        var r = [];
+        var ipt = obj.parentNode.children;
+        for(var i=0;i<ipt.length;i++) {
+            if(ipt[i] !== obj) {
+                r.push(ipt[i]);
+            }
+        }
+        return r;
+    }
 </script>
 </html>
