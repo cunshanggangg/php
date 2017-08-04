@@ -64,5 +64,6 @@ array_shift($data);
 //echo "</pre>";
 foreach($data as $k=>$v) {
     echo "'".$v['B']."'".",";
+//    echo $v['A'].",";
 }
 ?>
