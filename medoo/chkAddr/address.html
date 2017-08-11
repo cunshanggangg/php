@@ -13,6 +13,10 @@
         /*#myModal{display:none;}*/
     </style>
     <script type="text/javascript">
+        function pageNum(n) {
+            alert(n);
+//            alert(n.innerText);
+        }
         window.onload = function() {
             //start檢索省市區代碼為空的訂單
             var chk = document.getElementById("chk");
@@ -73,6 +77,17 @@
 //                                    html = html + html;
 //                                    alert(html);
                                 }
+//                                console.log(result.length);
+//                                console.log(Math.ceil(result.length/3));
+                                var pageTotal = Math.ceil(result.length/3);
+//                                 var html1 ="";
+                                html += "<nav aria-label='Page navigation'><ul class='pagination'>";
+                                for(var j=1;j<=pageTotal;j++) {
+                                    html += "<li><a href='javascript:pageNum("+j+")'>"+j+"</a></li>";
+//                                    html1 += 'aa';
+                                }
+                                html += "</ul></nav>";
+//                                alert(html1);
                                 var tb = document.getElementById("myTb");
 //                                alert(html);
                                 tb.innerHTML = html;
