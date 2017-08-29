@@ -1,0 +1,1 @@
+D:\www\php\php.exe D:\www\htdocs\php\scheduledTask\windows\mytask.php
