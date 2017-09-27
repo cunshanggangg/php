@@ -8,7 +8,7 @@
 error_reporting(0);
 require_once '../class/medoo.php';
 date_default_timezone_set('PRC');
-///*
+/*
 $db = new medoo([
     //必需
     'database_type'=>'mysql',
@@ -24,7 +24,23 @@ $db = new medoo([
     // [可选]用于连接的driver_option，阅读更多从http://www.php.net/manual/zh/pdo.setattribute.php
     'option'=> [PDO :: ATTR_CASE => PDO :: CASE_NATURAL]
 ]);
-//*/
+*/
+
+$db = new medoo([
+    //必需
+    'database_type'=>'mysql',
+    'database_name'=>'o2oclms',      //数据库名称
+    'server'=>'rdsjxo3wd4voprxkrdw15public.mysql.rds.aliyuncs.com',       //数据库连接地址
+    'username'=>'wuliu',  //用户名
+    'password'=>'20150929WUliu',  //密码
+    'charset'=>'utf8',            //数据库编码
+    // [可选的] 数据库连接端口
+    'port'=> 3629, //
+    // [可选]表前缀
+//    'prefix'=>'tb_',
+    // [可选]用于连接的driver_option，阅读更多从http://www.php.net/manual/zh/pdo.setattribute.php
+    'option'=> [PDO :: ATTR_CASE => PDO :: CASE_NATURAL]
+]);
 
 //$start = date("Y-m-d 00:00:00");
 //$start = date("2017-07-27 00:00:00");
