@@ -7,7 +7,7 @@
  */
 
 $str = '26+9';
-$preg = "/(\d+)([+-])(\d+)/i";
+$preg = "/(\d+)([+-])(\d+)/i";//i:忽略大小写
 preg_match_all($preg,$str,$match);
 echo "<pre>";
 print_r($match);
