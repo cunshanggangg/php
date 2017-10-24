@@ -61,9 +61,9 @@
                                 }
 //                                var result = JSON.parse(str);//解析json數組
 //                                alert(result[0].o_rec_addr);
-                                var html="<tr class='active text-center'><th class='text-center'>訂單序號</th><th class='text-center'>訂單類型</th><th class='text-center'>收件人地址</th><th class='text-center'>省代碼</th><th class='text-center'>市名稱</th><th class='text-center'>市代碼</th><th class='text-center'>區代碼</th><th class='text-center'>運單報文狀態</th> <th class='text-center'>支付時間</th><th>按鈕</th></th></tr>";
+                                var html="<tr class='active text-center'><th width='230' class='text-center'>訂單序號</th><th class='text-center'>訂單類型</th><th class='text-center'>收件人地址</th><th class='text-center'>省代碼</th><th class='text-center'>市名稱</th><th class='text-center'>市代碼</th><th class='text-center'>區代碼</th><th class='text-center'>運單報文狀態</th> <th class='text-center'>支付時間</th><th>按鈕</th></th></tr>";
                                 for(var i in result){
-                                    html += "<tr><td><input size='60' class='form-control input-sm' type='text' readonly placeholder='' value="+result[i].o_id+"></td>"+
+                                    html += "<tr><td><input size='20' class='form-control input-sm' type='text' readonly placeholder='' value="+result[i].o_id+"></td>"+
                                                 "<td>"+result[i].o_ot_id+"</td>"+
                                                 "<td>"+result[i].o_rec_addr+"</td>"+
                                                 "<td><input class='form-control input-sm' type='text' placeholder='' value="+result[i].province_code+"></td>"+
