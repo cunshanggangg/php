@@ -7,18 +7,18 @@
  */
 require_once 'class/medoo.php';
 //$str = file_get_contents("http://www.fakeaddressgenerator.com/World_more/china_address_generator");
-$str = file_get_contents("data/china.txt");
+$str = file_get_contents("data/american.txt");
 //echo $str;
 //$preg = "/value='(.*?)'/";//可以使用
-//$preg = "|value='(.*)'|isU";//可以使用
+$preg = "|value='(.*)'|isU";//可以使用
 //$preg = "<input type=\"text\" class='no-style' value='(.*?)'>";
 //$preg = "<input type=\"text\" class=\"no-style\" style=\"width:100%;\" value=\"(.*?)\">";
-$preg = "((<input type=\"text\" class='no-style' value='(.*?)'/>)|(<input type=\"text\" class='no-style' style='width:100%;' value='(.*?)'/>))";
+//$preg = "((<input type=\"text\" class='no-style' value='(.*?)'/>)|(<input type=\"text\" class='no-style' value='(.*?)' style='width:100%'/>))";
 //$preg = "<input type=\"text\" class='no-style' style='width:100%;' value='(.*?)'/>";
 preg_match_all($preg,$str,$match);
-//echo "<pre>";
-//print_r($match);
-//echo "</pre>";
+echo "<pre>";
+print_r($match);
+echo "</pre>";exit;
 //echo "<pre>";
 //print_r(strip_tags($match[0][0]));
 //echo "</pre>";

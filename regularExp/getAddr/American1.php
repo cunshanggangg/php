@@ -6,7 +6,8 @@
  * Time: 17:11
  */
 require_once 'class/medoo.php';
-$szUrl = "http://www.fakeaddressgenerator.com/World_more/china_address_generator";
+error_reporting(0);
+$szUrl = "http://www.fakeaddressgenerator.com/World/us_address_generator";
 $UserAgent = 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; .NET CLR 3.5.21022; .NET CLR 1.0.3705; .NET CLR 1.1.4322)';
 $header = forgeHeader();
 $curl = curl_init();
@@ -36,103 +37,27 @@ echo $address;
 file_put_contents("data/american1.txt",$address.PHP_EOL,FILE_APPEND);
 */
 
-$preg = "((<input type=\"text\" class='no-style' value='(.*?)'/>)|(<input type=\"text\" class='no-style' style='width:100%;' value='(.*?)'/>))";
+//$preg = "((<input type=\"text\" class='no-style' value='(.*?)'/>)|(<input type=\"text\" class='no-style' style='width:100%;' value='(.*?)'/>))";
 //$preg = "<input type=\"text\" class='no-style' style='width:100%;' value='(.*?)'/>";
+$preg = "|value='(.*)'|isU";//可以使用
 preg_match_all($preg,$data,$match);
 //echo "<pre>";
 //print_r($match);
-//echo "</pre>";
-//echo "<pre>";
-//print_r(strip_tags($match[0][0]));
-//echo "</pre>";
+//echo "</pre>";exit;
 
-//将需要的字符组成一个新的数组
-//echo "<pre>";
-//print_r($match[2]);
-//echo "</pre>";
-//echo "<hr>";
-$r = array();
-$r = $match[2];
-$r[7] = $match[4][7];
-$r[8] = $match[4][8];
-$r[9] = $match[4][9];
-$r[11] = $match[4][11];
-//echo "<pre>";
-//print_r($r);
-//echo "</pre>";
-//echo "<hr>";
-//去掉空格&nbsp;
-//echo str_replace("&nbsp;","",$r[0]);
-//echo $r[0];
-foreach ($r as $k=>$v) {
-    $r[$k] = trim(str_replace("&nbsp;","",$r[$k]));
-//    if($k==8 ||$k=10) {
-//        $preg =;
-//    }
-}
-//echo "<pre>";
-//print_r($r);
-//echo "</pre>";
-//echo $r[8];
 
-//--------------------- 获取英文地址start ---------------------------------
-//$preg1 = "/[\x{4e00}-\x{9fa5}]{1,}/u";
-//$preg1 = "/[^\x{4e00}-\x{9fa5}]+/u";//^取反：除去中文以外的任何字符，^[]以什么开头，$：结束。
-//成都市-青羊区(Trans:ChengDu - QingYang District)
-//将以上字符去除中文和()
-$preg1 = "/Trans:(.*)\)$/";
-//preg_match_all($preg1,str_replace('-','',$r[8]),$m);
-preg_match_all($preg1,$r[9],$m);
 
-//echo "<pre>";
-//print_r($m);
-//echo "</pre>";
-//英文分割字符
-$res = explode('-',$m[1][0]);
-$res[0] = $res[0].' City';//加上市
-//echo "<pre>";
-//print_r($res);
-//echo "</pre>";
-//获取省份的拼音
-preg_match_all($preg1,$r[11],$m3);
-//echo "<pre>";
-//print_r($m3);
-//echo "</pre>";
-$m3[1][0] = $m3[1][0].' Province';
-//echo $m3[1][0];
-//组装成英文地址
-$en_address = $r[8].','.$res[1].','.$res[0].','.$m3[1][0];
-//echo $en_address;
-//--------------------- 获取英文地址end ----------------------------------
-
-//---------------------- 获取中文地址start --------------------------------
-$preg2 = "/[\x{4e00}-\x{9fa5}]{1,}/u";
-preg_match_all($preg2,$r[9],$m2);
-//echo "<pre>";
-//print_r($m2);
-//echo "</pre>";
-//获取省份的中文名称
-preg_match_all($preg2,$r[11],$m4);
-//echo "<pre>";
-//print_r($m4);
-//echo "</pre>";
-//组装中文地址
-$cn_address = $m4[0][0].$m2[0][0].$m2[0][1].$r[7];
-//echo $cn_address;
-//--------------------- 获取中文地址end  ----------------------------------
 //重新组装地址
 $address = array();
-$address['name'] = $r[0];
-$address['gender'] = $r[3];
-$address['birthday'] = $r[5];
-$address['id_card'] = $r[6];
-$address['post_code'] = $r[10];
-$address['phone'] = $r[12];
-$address['cn_address'] = $cn_address;
-$address['en_address'] = $en_address;
-echo "<pre>";
-print_r($address);
-echo "</pre>";//exit;
+$address['name'] = str_replace("&nbsp;"," ",$match[1][0]);
+$address['gender'] = $match[1][1];
+$address['birthday'] = $match[1][4];
+$address['phone'] = $match[1][11];
+$address['post_code'] = $match[1][10];
+$address['address'] = $match[1][6].','.$match[1][7].','.$match[1][8].' '.$match[1][10];
+//echo "<pre>";
+//print_r($address);
+//echo "</pre>";exit;
 //echo $cn_address;
 $db = new medoo([
     //必需
@@ -149,8 +74,20 @@ $db = new medoo([
     // [可选]用于连接的driver_option，阅读更多从http://www.php.net/manual/zh/pdo.setattribute.php
     'option'=> [PDO :: ATTR_CASE => PDO :: CASE_NATURAL]
 ]);
-$db->insert("tp_address",$address);
-echo "<script>window.location.reload();</script>";
+//if(!empty($address['name']) && !empty($address['gender']) && !empty($address['birthday']) && !empty($address['post_code']) && !empty($address['phone']) && !empty($address['address'])) {
+//    echo "<pre>";
+//    print_r($address);
+//    echo "</pre>";
+//    $db->insert("tp_us_address",$address);
+//}
+echo "<pre>";
+print_r($address);
+echo "</pre>";
+$n = $db->insert("tp_us_address",$address);
+if($n >= 0) {
+    echo "<script>window.location.reload();</script>";
+}
+
 
 //伪造请求头
 function forgeHeader() {
