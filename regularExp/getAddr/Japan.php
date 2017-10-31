@@ -2,12 +2,12 @@
 /**
  * Created by PhpStorm.
  * User: Administrator
- * Date: 2017/10/25
- * Time: 17:11
+ * Date: 2017/10/30
+ * Time: 11:05
  */
 require_once 'class/medoo.php';
 error_reporting(0);
-$szUrl = "http://www.fakeaddressgenerator.com/World/us_address_generator";
+$szUrl = "http://www.fakeaddressgenerator.com/World_more/Japan_address_generator";
 $UserAgent = 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; .NET CLR 3.5.21022; .NET CLR 1.0.3705; .NET CLR 1.1.4322)';
 $header = forgeHeader();
 $curl = curl_init();
@@ -49,12 +49,13 @@ preg_match_all($preg,$data,$match);
 
 //重新组装地址
 $address = array();
-$address['name'] = str_replace("&nbsp;"," ",$match[1][0]);
-$address['gender'] = $match[1][1];
-$address['birthday'] = $match[1][4];
-$address['phone'] = $match[1][11];
-$address['post_code'] = $match[1][10];
-$address['address'] = $match[1][6].','.$match[1][7].','.$match[1][8].' '.$match[1][10];
+//$address['name'] = str_replace("&nbsp;"," ",$match[1][0]);
+$address['name'] = $match[1][1].' '.$match[1][2];
+$address['gender'] = $match[1][4];
+$address['birthday'] = $match[1][5];
+$address['phone'] = $match[1][10];
+$address['post_code'] = $match[1][9];
+$address['address'] = $match[1][8];
 //echo "<pre>";
 //print_r($address);
 //echo "</pre>";exit;
@@ -83,7 +84,7 @@ $db = new medoo([
 echo "<pre>";
 print_r($address);
 echo "</pre>";
-$n = $db->insert("tp_us_address",$address);
+$n = $db->insert("tp_japan_address",$address);
 if($n >= 0) {
     sleep(10);
     echo "<script>window.location.reload();</script>";
