@@ -62,7 +62,7 @@ foreach ($r as $k=>$v) {
             $mod = 0;
             break;
         case 2:
-            $mod = 'x';
+            $mod = 'X';//如果是小写x，则会出错
             break;
         case 3:
             $mod = 9;
