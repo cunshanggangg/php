@@ -42,8 +42,13 @@ class C extends B
         echo "implement the abstract_func2 in class A \n";
     }
 }
-$obj = new C();
-$obj::abstract_func1();
-$obj::abstract_func2();
-echo "<hr>";
-$obj->my_print();
+//$obj = new C();
+//$obj::abstract_func1();
+//$obj::abstract_func2();
+
+//echo "<hr>";
+//$obj->my_print();
+//抽象类不用实例化
+echo "<pre>";
+C::abstract_func1();
+echo "</pre>";
