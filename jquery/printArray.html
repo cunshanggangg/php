@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打印数组</title>
+    <script type="text/javascript">
+        //打印数组
+        function print_array(arr) {
+            for(var key in arr) {
+                if(typeof(arr[key]) == 'array' || typeof(arr[key]) == 'object') {//递归调用
+                    print_array(arr[key]);
+                }else{
+                    document.write(key + ' = ' + arr[key] + '<br>');
+                }
+            }
+        }
+
+        //打印对象
+        function print_object(obj) {
+            var description = "";
+            for(var i in obj) {
+                var property = obj[i];
+                description+=i+" = "+property+"\n";
+            }
+//            alert(description);
+            document.write(description);
+        }
+
+        window.onload = function() {
+            var arr = new Array(0,1,2,3,4,new Array('dog','cat','lion'));
+            print_array(arr);
+            var obj = {"name":"yaoMing","gender":"male","height":"2.26m"};
+//            var obj = {"name":"yaoMing","gender":"male","height":"2.26m","others":{"name":"liNa"}};
+// 报错：name = yaoMing gender = male height = 2.26m others = [object Object]
+//            alert(typeof(obj));
+            document.write("<br />");
+            print_object(obj);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
