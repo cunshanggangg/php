@@ -1120,4 +1120,5 @@ class medoo
 		return $output;
 	}
 }
+
 ?>
