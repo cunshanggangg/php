@@ -1121,9 +1121,9 @@ class medoo
 $GLOBALS['database'] = new medoo([
     //必需
     'database_type'=>'mysql',
-    'database_name'=>'wechat',      //数据库名称
-    'server'=>'localhost',       //数据库连接地址
-    'username'=>'root',  //用户名
+    'database_name'=>'',      //数据库名称
+    'server'=>'',       //数据库连接地址
+    'username'=>'',  //用户名
     'password'=>'',  //密码
     'charset'=>'utf8',            //数据库编码
     // [可选的] 数据库连接端口
