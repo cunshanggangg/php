@@ -14,7 +14,7 @@
  * @brief 
  *  
  **/
-
+//http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer
 define("CURL_TIMEOUT",   10); 
 define("URL",            "http://api.fanyi.baidu.com/api/trans/vip/translate"); 
 define("APP_ID",         ""); //替换为您的APPID
