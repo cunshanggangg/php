@@ -16,7 +16,7 @@
  **/
 //http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer
 define("CURL_TIMEOUT",   10); 
-define("URL",            "http://api.fanyi.baidu.com/api/trans/vip/translate"); 
+define("URL",            "http://api.fanyi.baidu.com/api/trans/vip/translate");
 define("APP_ID",         ""); //替换为您的APPID
 define("SEC_KEY",        "");//替换为您的密钥
 $query = "我正在用百度翻译的接口进行测试";
