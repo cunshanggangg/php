@@ -48,6 +48,7 @@ echo "<pre>";
 print_r($first);
 echo "</pre>";
 */
+/*
 //第n个获取信息的人
 $fromUsername = "yaoMing";
 $match[2] = 3;
@@ -95,3 +96,41 @@ if($chk_res) {
         $contentStr = "http://39.108.108.194/weChat/app/undercover/show.php?keyword=".urlencode($spy[0]['folk'])."&time=".urlencode($join_time);
     }
 }
+*/
+/*
+$join_time = date("Y-m-d h:i:s");
+$count = $database->count("undercover","*");
+$rand = rand(1,$count);
+$spy = $database->select("undercover","*",["id"=>"$rand"]);
+echo "<pre>";
+print_r($spy);
+echo "</pre>";
+$role_name =  $spy[0]['spy'];
+$u_id = $spy[0]['id'];
+$match[2] = 11;
+$luck_number = rand(1,$match[2]);
+$database->insert("player",["wxname"=>"yaoming","role"=>0,"role_name"=>"$role_name","u_id"=>"$u_id","time"=>"$join_time","order"=>1]);
+*/
+//AND的用法
+$wxname = "2222";
+$uid = "72";
+$r = $database->select("player","*",array("AND"=>array("wxname"=>"$wxname","u_id"=>"$uid")));
+//echo "<pre>";
+//print_r(empty($r));
+//echo "</pre>";
+if(empty($r)) {
+  echo "为空";
+}else{
+    echo "不为空";
+}
+////$r = $database->select("player","*");
+//
+//echo "<pre>";
+//print_r($r);
+//echo "</pre>";
+//order limit 的使用
+//$uid = 72;
+//$last_order_id = $database->select("player","*",array("u_id"=>"$uid","ORDER"=>["id"=>"DESC"],"LIMIT"=>"1"));
+//echo "<pre>";
+//print_r($last_order_id);
+//echo "</pre>";
