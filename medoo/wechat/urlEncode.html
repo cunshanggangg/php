@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js解码</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            var str = "2018-01-30+02%3A10%3A39";
+//            var deStr = decodeURI(str);
+            var deStr = decodeURIComponent(str);
+//            console.log();
+            alert(deStr.replace("+"," "));
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
