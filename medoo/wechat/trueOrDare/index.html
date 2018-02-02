@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>css酷炫文字特效 - 代码库</title>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+<style type="text/css">
+	.long-shadow, .medium-shadow {
+		border: none;
+		-o-text-overflow: clip;
+		text-overflow: clip;
+	}
+	.long-shadow {
+		-webkit-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;
+		text-shadow: 3px 3px 0 #4C6A92, 4px 4px 0 #4C6A92, 5px 5px 0 #4C6A92, 6px 6px 0 #4C6A92, 7px 7px 0 #4C6A92, 8px 8px 0 #4C6A92, 9px 9px 0 #4C6A92, 10px 10px 0 #4C6A92, 11px 11px 0 #4C6A92, 12px 12px 0 #4C6A92, 13px 13px 0 #4C6A92, 14px 14px 0 #4C6A92, 15px 15px 0 #4C6A92, 16px 16px 0 #4C6A92, 17px 17px 0 #4C6A92, 18px 18px 0 #4C6A92, 19px 19px 0 #4C6A92, 20px 20px 0 #4C6A92;
+	}
+	h1 .animateTitle1 {
+		font-size: 10vh;
+		letter-spacing: 2.7vh;
+		color: #FFF;
+		padding: 1em 0;
+	}
+	h4{ font-size:34px; font-weight:bold;}.text-danger{ color:#000000}
+</style>
+<script type="text/javascript">
+        $(document).ready(function () {
+//            alert(11111);
+            var oContent = $("#content");
+			var oTitle = $("#title");
+            var result = getValue();
+//            console.log(result);
+//            alert(oContent);
+//            alert(result.id);
+//            alert(result.type);
+            var id = result.id;
+            var type = result.type;
+            $.ajax({
+                type:"POST",
+                url:"todData.php",
+                data:"type="+type+"&id="+id,
+                success:function(msg){
+//                    alert("ddddddddd");
+//                    alert(msg);
+                    var res_data = eval("("+msg+")");
+//                    alert(res_data[0].content);
+                    var title;
+                    var html;
+                    var data_type = res_data[0].type;//返回的数据类型是string,如果是数字不是整型
+//                    alert(data_type);
+                    switch (data_type) {
+                        case "1"://如果不是整型的，必须要加双引号""
+                            title = "True or Dare Audio";
+//                            alert(title);
+                            break;
+//                        default:
+                    }
+//                    if(data_type == 1) {
+//                        title = "True or Dare Audio";
+//                        alert(title);
+//                    }
+//                    alert(title);
+
+//                    html = "<h3>"+title+"<h3>";
+//					oTitle.html(title);
+                    content = res_data[0].content;
+//                    oContent.html(content);
+                }
+
+
+            });
+        });
+        function getValue(url){
+            //首先获取地址
+            var url = url || window.location.href;
+            //获取传值
+            var arr = url.split("?");
+            //判断是否有传值
+            if(arr.length == 1){
+                return null;
+            }
+            //获取get传值的个数
+            var value_arr = arr[1].split("&");
+            //循环生成返回的对象
+            var obj = {};
+            for(var i = 0; i < value_arr.length; i++){
+                var key_val = value_arr[i].split("=");
+                obj[key_val[0]]=key_val[1];
+            }
+            return obj;
+        }
+    </script>
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<h2 id="title"></h2>
+		<div class="well"><h4 class="demo2 text-danger" id="content"></h4></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/dist/animatext.min.js"></script>
+<script type="text/javascript">
+	$('.animateTitle1').animatext({
+		speed: 300,
+		effect: 'flipInY',
+		reverse: false
+	  });
+	$(".demo1").animatext();
+	$(".demo2").animatext({speed: 150,
+		effect: 'flipInX',
+		infinite: true
+	});
+	$(".demo3").animatext({speed: 150,
+		mode: "words",
+		effect: 'swing',
+		infinite: true
+	});
+	$(".demo4").animatext({speed: 150,
+		effect: 'bounceIn',
+		reverse: true,
+		infinite: true
+	});
+	$(".demo5").animatext({speed: 150,
+		effect: 'tada',
+		random: true,
+		infinite: true
+	});
+</script>
+
+</body>
+</html>
