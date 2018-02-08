@@ -39,3 +39,7 @@ preg_match_all($regx,$str,$m);
 //echo "<pre>";
 //print_r();
 //echo "</pre>";
+$r = $database->select("constellation","*");
+echo "<pre>";
+print_r($r);
+echo "</pre>";
