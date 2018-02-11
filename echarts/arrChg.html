@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js数组操作</title>
+</head>
+<body>
+<script type="text/javascript">
+    //将一个数组的值作为索引，另外一个数组作为值，生成新的数组
+    /*
+    var arr = ['one','two','three','four','five','six'];
+    var arr1 = [6,5,4,3,2,1];
+    var arr2 = [];
+    for(var i=0;i<arr.length;i++) {
+        arr2[arr[i]] = arr1[i];
+    }
+    console.log(arr2);
+    */
+    var arrData = [];
+    var arrIndex = ["name","value"];
+    var arrVal = ['order_1','1'];
+    arrData[0][arrIndex[0]] = arrVal[0];
+//    arrData[0]['value'] = '1';
+
+//    arrData[1]['name'] = 'order_2';
+//    arrData[1]['value'] = '2';
+//    arrData[0][arrIndex[0]] = arrData[0][arrIndex[0]].replace("order_","");
+    console.log(arrData);
+</script>
+</body>
+</html>
