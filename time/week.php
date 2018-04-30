@@ -18,3 +18,6 @@ echo strtotime(date('Y-m-d', strtotime('this week')));
 echo "<hr>";
 //获取当前周的最后一天的时间戳
 echo strtotime(date('Y-m-d', strtotime('this week + 6 days')));
+//获取星期几
+echo "<hr>";
+echo date('w','1524999600');
