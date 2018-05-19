@@ -31,3 +31,14 @@ echo "<hr>";
 echo $_SESSION['name'];
 
 //总结：session还是原来的session，只是保存的位置不一样，一个是磁盘上文件，一个是memcache
+
+
+
+
+
+
+
+
+
+
+
