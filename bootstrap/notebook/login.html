@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--以移动设备为优先，user-scalable=no禁止用户缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <style type="text/css" media="screen">
+    </style>
+</head>
+<body>
+<!--做表单，行可以省，只写列-->
+<div class="container" style="backround:#e6e6e6">
+
+    <form class="form-horizontal">  <!--响应式表单-->
+        <div class="form-group">
+            <label for="username" class="col-md-2">账号</label>
+            <!--input标签里面不可以直接写列-->
+            <div class="col-md-10"><!--输入框的宽度随着列宽变化-->
+                <input type="text" name="username" id="username" class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="pwd" class="col-md-2">密码</label>
+            <div class="col-md-10"><!--输入框的宽度随着列宽变化-->
+                <input type="text" name="pwd" id="pwd"  class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group">  <!--非响应式表单-->
+            <label for="tel" class="col-md-2">手机</label>
+            <div class="col-md-10">
+                <input type="text" name="tel" id="tel" class="form-contorl">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="username1" class="col-md-2 col-sm-2 col-xs-2 text-right"><span class="glyphicon glyphicon-user"></span> </label>
+            <div class="col-md-10 col-sm-10 col-xs-10"><!--输入框的宽度随着列宽变化-->
+                <input type="text" name="username1" id="username1" class="form-contorl
+                        ">
+            </div>
+        </div>
+
+        <div class="form-group">  <!--以移动为优先,响应式-->
+            <label for="pwd1" class="col-md-2 col-sm-2 col-xs-2 text-right"><span class="glyphicon glyphicon-lock"></span></label>
+            <div class="col-md-10 col-sm-10 col-xs-10"><!--输入框的宽度随着列宽变化-->
+                <input type="text" name="pwd1" id="pwd1" clas="form-contorl">
+            </div>
+        </div>
+        <p>输入框不能使用栅格系统，给div，span这类标签加栅格改变输入框的宽度</p>
+        <p>.form-horizontal 给表单加from</p>
+    </form>
+    <!-- 有按钮效果的标签，<input type="button" value="按钮">或者<button>按钮</button>或者链接加按钮样式<a href="#">内容</a>-->
+</div>
+</body>
+</html>
