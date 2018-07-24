@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取头像和昵称</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+
+            var targetUA = isWeChat()
+            var cookieAvaliable = checkCookie()
+            var loginStatus = getCookie('loginStatus')
+            if(loginStatus == 2) loginStatus = false // 强制重新登录
+            if(targetUA && cookieAvaliable && !loginStatus){
+                // 以此来判断登录状态，若服务端出现问题，那么这里在关闭浏览器前不会尝试重新登录，避免无法进入直播间
+                setCookie('loginStatus', '1')
+                var url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx5327a142a141f649&redirect_uri=http%3A%2F%2Fnow.3g.cn%2Flogin%2Fnlive%2Factive&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect'
+                // var url = 'http://192.168.171.47:3167/nlive/wechat?code=061n0LTe1YHgUt0rbFRe1A6ZTe1n0LTf'
+                window.location.href = url
+            }
+
+            function isWeChat () {
+                var ua = window.navigator.userAgent.toLowerCase()
+                if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+                    return true
+                }else{
+                    return false
+                }
+            }
+
+            function checkCookie () {
+                var flag = window.navigator.cookieEnabled
+                if(!flag) return false
+                var value = '1'
+                setCookie('ct', value)
+                var ct = getCookie('ct')
+                if(ct !== value) return false
+                return true
+            }
+
+            function setCookie (name, value, minute) {
+                var cookie = name + "="+ escape (value)
+                if(minute){
+                    var exp = new Date()
+                    exp.setTime(exp.getTime() + minute*60*1000)
+                    cookie += ";expires=" + exp.toGMTString()
+                }
+                document.cookie = cookie
+            }
+
+            function getCookie (name) {
+                var arr = document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"))
+                if(arr != null) return unescape(arr[2])
+                return null
+            }
+
+            function delCookie (name) {
+                var exp = new Date()
+                exp.setTime(exp.getTime() - 1)
+                var cval=getCookie(name)
+                if(cval!=null) document.cookie= name + "="+cval+";expires="+exp.toGMTString()
+            }
+
+        })()
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
