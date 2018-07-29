@@ -11,3 +11,4 @@ $c = '';
 //$a = $c ?? $b;
 $a = $c ? $c : $b;
 echo $a;
+//make a test
