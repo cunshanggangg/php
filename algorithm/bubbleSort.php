@@ -29,4 +29,4 @@ $arr = array(5,2,8,12,7,3,10);
 $r = bubbleSort($arr);
 echo "<pre>";
 print_r($r);
-echo "</pre
+echo "</pre>";
