@@ -22,12 +22,7 @@ foreach ($match[2] as $k => $v) {
         $imgArr[$k] = $v;
     }
 }
-if (count($imgArr) >2) {
-    $result = array_slice($imgArr,0,3);
-} else {
-    $result = $imgArr;
-}
-
+$result = array_slice($imgArr,0,3);
 $msgData = implode(",",$result);
 echo $msgData;
 
