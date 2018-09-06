@@ -21,3 +21,5 @@ echo strtotime(date('ymd'));
 echo "<hr>";
 //获取明天凌晨的时间戳
 echo strtotime(date("Ymd",strtotime("+1 days")));
+echo "<hr>";
+echo strtotime('2018-08-29');
